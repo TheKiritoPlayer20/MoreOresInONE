@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:topaz"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:topaz_block",
+        "count": 1
+    },
+    "group": "topazblocks"
+}

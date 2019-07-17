@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[26,)"
+issueTrackerURL="https://github.com/TheKiritoPlayer20/Forge-Mods/issues"
+#displayURL="http://example.com/"
+#logoFile=""
+
+[[mods]]
+modId="moreoresinone"
+version="${file.jarVersion}"
+displayName="More Ores in ONE"
+#updateJSONURL="http://myurl.me/"
+
+
+credits="Textures by: TheLuigiplayer, Code by: KiritoGames20"
+authors="KiritoGames20 & TheLuigiplayer"
+description='''
+The More Ores in ONE mod. It adds Ores in the Overworld, in the Nether and the End.
+Disclaimer: Make sure to download this mod from Curseforge or Planetminecraft.
+'''
+
+
+[[dependencies.moreoresinone]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[26,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.moreoresinone]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.2, 1.14.3]"
+    ordering="NONE"
+    side="BOTH"

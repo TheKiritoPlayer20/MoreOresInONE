@@ -1,0 +1,17 @@
+{
+  "block.moreoresinone.ruby_ore" : "Rubin Erz",
+  "block.moreoresinone.ruby_block" : "Rubin Block",
+  "item.moreoresinone.ruby" : "Rubin",
+  "block.moreoresinone.sapphire_ore" : "Saphir Erz",
+  "block.moreoresinone.sapphire_block" : "Saphir Block",
+  "item.moreoresinone.sapphire" : "Saphir",
+  "block.moreoresinone.topaz_ore" : "Topas Erz",
+  "block.moreoresinone.topaz_block" : "Topas Erz",
+  "item.moreoresinone.topaz" : "Topaz",
+  "block.moreoresinone.amethyst_ore" : "Amethyst Erz",
+  "block.moreoresinone.amethyst_block" : "Amethyst Block",
+  "item.moreoresinone.amethyst" : "Amethyst",
+  "itemGroup.moi_overworld" : "MOI Overworld",
+  "itemGroup.moi_nether" : "MOI Nether",
+  "itemGroup.moi_end" : "MOI End"
+}
