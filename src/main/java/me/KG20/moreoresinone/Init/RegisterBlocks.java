@@ -8,6 +8,7 @@ import me.KG20.moreoresinone.Blocks.OverworldOres;
 import me.KG20.moreoresinone.Items.ItemFromBlock;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.block.Block;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -19,13 +20,13 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class RegisterBlocks {
 
     public static final Block rubyOre = new OverworldOres();
-    public static final Block rubyBlock = new ItemBlocks();
+    public static final Block rubyBlock = new ItemBlocks(MaterialColor.RED);
     public static final Block sapphireOre = new OverworldOres();
-    public static final Block sapphireBlock = new ItemBlocks();
+    public static final Block sapphireBlock = new ItemBlocks(MaterialColor.BLUE);
     public static final Block topazOre = new NetherOres();
-    public static final Block topazBlock = new ItemBlocks();
+    public static final Block topazBlock = new ItemBlocks(MaterialColor.ADOBE);
     public static final Block amethystOre = new EndOres();
-    public static final Block amethystBlock = new ItemBlocks();
+    public static final Block amethystBlock = new ItemBlocks(MaterialColor.PURPLE_TERRACOTTA);
 
     @SubscribeEvent
     public static void register(Register<Block> event) {

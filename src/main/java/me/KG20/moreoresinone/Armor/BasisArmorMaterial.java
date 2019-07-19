@@ -1,5 +1,6 @@
 package me.KG20.moreoresinone.Armor;
 
+import me.KG20.moreoresinone.Init.RegisterItems;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.block.Blocks;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -16,7 +17,10 @@ import java.util.function.Supplier;
 
 public class BasisArmorMaterial {
 
-
+    public final static IArmorMaterial ruby = new ArmorMaterial(Constants.modid + ":ruby",33, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F,() -> Ingredient.fromItems(RegisterItems.ruby));
+    public final static IArmorMaterial sapphire = new ArmorMaterial(Constants.modid + ":sapphire", 33, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F,() -> Ingredient.fromItems(RegisterItems.sapphire));
+    public final static IArmorMaterial topaz = new ArmorMaterial(Constants.modid + ":topaz", 35, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5F,() -> Ingredient.fromItems(RegisterItems.topaz));
+    public final static IArmorMaterial amethyst = new ArmorMaterial(Constants.modid + ":amethyst",40, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3F,() -> Ingredient.fromItems(RegisterItems.amethyst));
 
     private static class ArmorMaterial implements IArmorMaterial{
 
@@ -25,6 +29,9 @@ public class BasisArmorMaterial {
         private final int maxDamageFactor;
         private final int[] damageReductionAmountArray;
         private final int enchantability;
+        private final SoundEvent soundEvent;
+        private final float toughness;
+        private final LazyLoadBase<Ingredient> repairMaterial;
 
         public ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> supplier) {
             this.name = name;
@@ -35,11 +42,6 @@ public class BasisArmorMaterial {
             this.toughness = toughness;
             this.repairMaterial = new LazyLoadBase<Ingredient>(supplier);
         }
-
-        private final SoundEvent soundEvent;
-        private final float toughness;
-        private final LazyLoadBase<Ingredient> repairMaterial;
-
 
         @Override
         public int getDurability(EquipmentSlotType slotIn) {
