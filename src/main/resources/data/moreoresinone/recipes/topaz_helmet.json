@@ -1,0 +1,17 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:topaz"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:topaz_helmet"
+    },
+    "group": "topaz_armor"
+}

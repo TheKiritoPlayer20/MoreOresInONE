@@ -15,24 +15,18 @@ public class MoreOresInONE
 
     private static CommonProxy proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
-
     public MoreOresInONE(){
         FMLJavaModLoadingContext.get().getModEventBus().register(this);
         proxy.construct();
     }
 
-
-
     @SubscribeEvent
     public void setup(FMLCommonSetupEvent event){
         proxy.setup();
-
     }
 
     @SubscribeEvent
     public void ready(FMLLoadCompleteEvent event){
         proxy.complete();
     }
-
-
 }
