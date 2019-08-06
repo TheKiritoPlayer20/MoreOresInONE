@@ -1,14 +1,14 @@
 {
-  "parent": "minecraft:end/root",
+  "parent": "moreoresinone:moreoresinone/root",
   "display": {
     "icon": {
-      "item": "moreoresinone:amethyst"
+      "item": "moreoresinone:topaz"
     },
     "title": {
-      "translate": "advancements.end.find_amethyst.title"
+      "translate": "advancements.moreoresinone.find_topaz.title"
     },
     "description": {
-      "translate": "advancements.end.find_amethyst.description"
+      "translate": "advancements.moreoresinone.find_topaz.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,12 +16,12 @@
     "hidden": false
   },
 "criteria": {
-    "amethyst": {
+    "topaz": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "moreoresinone:amethyst"
+            "item": "moreoresinone:topaz"
           }
         ]
       }
@@ -29,7 +29,7 @@
   },
   "requirements": [
     [
-      "amethyst"
+      "topaz"
     ]
   ]
 }
