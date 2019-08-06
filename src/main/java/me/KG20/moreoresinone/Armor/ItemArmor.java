@@ -1,8 +1,6 @@
 package me.KG20.moreoresinone.Armor;
 
-import me.KG20.moreoresinone.Init.CreativeTabs;
 import me.KG20.moreoresinone.Init.RegisterArmor;
-import me.KG20.moreoresinone.Init.RegisterItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;

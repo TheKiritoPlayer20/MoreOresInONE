@@ -1,6 +1,5 @@
 package me.KG20.moreoresinone.Init;
 
-import com.mojang.datafixers.kinds.Const;
 import me.KG20.moreoresinone.Blocks.EndOres;
 import me.KG20.moreoresinone.Blocks.ItemBlocks;
 import me.KG20.moreoresinone.Blocks.NetherOres;

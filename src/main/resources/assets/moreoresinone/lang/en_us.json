@@ -53,5 +53,7 @@
   "item.moreoresinone.amethyst_boots" : "Amethyst Boots",
   "itemGroup.moi_overworld" : "MOI Overworld",
   "itemGroup.moi_nether" : "MOI Nether",
-  "itemGroup.moi_end" : "MOI End"
+  "itemGroup.moi_end" : "MOI End",
+  "advancements.end.find_amethyst.title": "The Last Ore!",
+  "advancements.end.find_amethyst.description": "Find and destroy an amethyst ore!"
 }

@@ -2,7 +2,6 @@ package me.KG20.moreoresinone.Init;
 
 import me.KG20.moreoresinone.Armor.BasisArmorMaterial;
 import me.KG20.moreoresinone.Armor.ItemArmor;
-import me.KG20.moreoresinone.Items.OreItems;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;

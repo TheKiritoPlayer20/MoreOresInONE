@@ -1,6 +1,5 @@
 package me.KG20.moreoresinone.Tools;
 
-import me.KG20.moreoresinone.Init.CreativeTabs;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.SwordItem;
 

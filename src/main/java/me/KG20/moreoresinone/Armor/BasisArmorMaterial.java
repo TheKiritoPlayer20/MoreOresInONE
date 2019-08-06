@@ -2,10 +2,8 @@ package me.KG20.moreoresinone.Armor;
 
 import me.KG20.moreoresinone.Init.RegisterItems;
 import me.KG20.moreoresinone.Main.Constants;
-import net.minecraft.block.Blocks;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyLoadBase;
 import net.minecraft.util.SoundEvent;

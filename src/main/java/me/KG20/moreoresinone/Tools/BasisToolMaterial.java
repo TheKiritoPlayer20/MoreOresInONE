@@ -2,13 +2,10 @@ package me.KG20.moreoresinone.Tools;
 
 
 import me.KG20.moreoresinone.Init.RegisterItems;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyLoadBase;
 
-import javax.tools.Tool;
 import java.util.function.Supplier;
 
 public class BasisToolMaterial {

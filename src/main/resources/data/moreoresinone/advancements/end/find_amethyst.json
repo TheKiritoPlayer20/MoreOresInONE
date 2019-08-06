@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:end/root",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:amethyst"
+    },
+    "title": {
+      "translate": "advancements.end.find_amethyst.title"
+    },
+    "description": {
+      "translate": "advancements.end.find_amethyst.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+    "amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:amethyst"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amethyst"
+    ]
+  ]
+}

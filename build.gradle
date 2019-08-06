@@ -13,8 +13,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
-group = 'me.KiritoGames20.moreoresinone' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = '1.14.4_1.0'
+group = 'me.kg20.moreoresinone' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'moreoresinone'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
@@ -31,7 +31,7 @@ minecraft {
     // accessTransformer = file('build/resources/main/META-INF/accesstransformer.cfg')
 
     // Default run configurations.
-    // These can be tweaked, removed, or duplicated as needed.
+    // These can be tweaked, rvemoved, or duplicated as needed.
     runs {
         client {
             workingDirectory project.file('run')
@@ -59,7 +59,7 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.14.4-28.0.1'
+    minecraft 'net.minecraftforge:forge:1.14.4-28.0.40'
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"

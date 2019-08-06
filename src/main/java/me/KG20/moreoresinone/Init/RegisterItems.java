@@ -1,12 +1,7 @@
 package me.KG20.moreoresinone.Init;
 
-import com.mojang.datafixers.kinds.Const;
-import me.KG20.moreoresinone.Armor.BasisArmorMaterial;
-import me.KG20.moreoresinone.Armor.ItemArmor;
 import me.KG20.moreoresinone.Items.OreItems;
 import me.KG20.moreoresinone.Main.Constants;
-import me.KG20.moreoresinone.Tools.*;
-import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

@@ -1,0 +1,35 @@
+{
+  "parent": "moreoresinone:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moreoresinone:amethyst_axe"
+    ]
+  },
+  "criteria": {
+    "has_ingrediens": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:amethyst"
+          },
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moreoresinone:amethyst_axe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingrediens",
+      "has_the_recipe"
+    ]
+  ]
+}

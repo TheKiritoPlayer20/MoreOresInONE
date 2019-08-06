@@ -53,5 +53,7 @@
   "item.moreoresinone.amethyst_boots" : "Amethyststiefel",
   "itemGroup.moi_overworld" : "MOI Overworld",
   "itemGroup.moi_nether" : "MOI Nether",
-  "itemGroup.moi_end" : "MOI End"
+  "itemGroup.moi_end" : "MOI End",
+  "advancements.end.find_amethyst.title": "Das letzte Erz!",
+  "advancements.end.find_amethyst.description": "Finde und zerstöre Amethyst Erz!"
 }

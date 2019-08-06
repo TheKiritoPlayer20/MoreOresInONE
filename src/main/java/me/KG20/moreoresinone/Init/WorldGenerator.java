@@ -3,8 +3,6 @@ package me.KG20.moreoresinone.Init;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
-import net.minecraft.world.biome.NetherBiome;
-import net.minecraft.world.biome.PlainsBiome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.GenerationStage.Decoration;
 import net.minecraft.world.gen.feature.ReplaceBlockConfig;
@@ -14,8 +12,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
-import static net.minecraft.world.gen.feature.OreFeatureConfig.FillerBlockType.NETHERRACK;
-import static net.minecraft.world.gen.feature.OreFeatureConfig.FillerBlockType.NATURAL_STONE;
+
 import static net.minecraft.world.gen.placement.Placement.COUNT_RANGE;
 
 
