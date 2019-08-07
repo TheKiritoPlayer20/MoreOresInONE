@@ -1,3 +1,16 @@
+---
+name: Translation
+about: Translate More Ores in ONE
+title: "[TRANSLATION]"
+labels: Translation
+assignees: KiritoGames20
+
+---
+
+Language: [Language]
+
+To translate: just replace the old names, e.g to rename the "block.moreoresinone.ruby_ore" replace "Ruby Ore" with the translation and so on.
+
 {
   "block.moreoresinone.ruby_ore" : "Ruby Ore",
   "block.moreoresinone.ruby_block" : "Block of Ruby",

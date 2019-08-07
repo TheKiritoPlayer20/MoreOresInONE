@@ -1,0 +1,90 @@
+{
+  "parent": "moreoresinone:moreoresinone/find_sapphire",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:sapphire_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.sapphire_tools.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.sapphire_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+  "sapphire_pickaxe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:sapphire_pickaxe"
+        }
+      ]
+    }
+  },
+  "sapphire_axe": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:sapphire_axe"
+        }
+      ]
+    }
+  },
+  "sapphire_shovel": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:sapphire_shovel"
+        }
+      ]
+    }
+  },
+  "sapphire_sword": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:sapphire_sword"
+        }
+      ]
+    }
+  },
+  "sapphire_hoe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:sapphire_hoe"
+        }
+      ]
+    }
+  },
+  "sapphire_sickle": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:sapphire_sickle"
+        }
+      ]
+    }
+  }
+},
+  "requirements": [
+    [
+      "sapphire_pickaxe",
+      "sapphire_axe",
+      "sapphire_shovel",
+      "sapphire_sword",
+      "sapphire_sickle",
+      "sapphire_hoe"
+    ]
+  ]
+}
