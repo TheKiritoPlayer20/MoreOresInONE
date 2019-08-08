@@ -23,13 +23,13 @@ public class Sickle extends Item {
             int by = pos.getY();
             int bz = pos.getZ();
 
-            if (world.getBlockState(pos).getMaterial() == Material.PLANTS || world.getBlockState(pos).getMaterial() == Material.TALL_PLANTS || world.getBlockState(pos).getMaterial() == Material.OCEAN_PLANT){
+            if (world.getBlockState(pos).getMaterial() == Material.PLANTS || world.getBlockState(pos).getMaterial() == Material.TALL_PLANTS || world.getBlockState(pos).getMaterial() == Material.OCEAN_PLANT || world.getBlockState(pos).getMaterial() == Material.SEA_GRASS){
                 for (int x = -1; x < 2; x++) {
                     for (int z = -1; z < 2; z++) {
 
                         BlockPos newBlockPos = new BlockPos(bx + x, by, bz + z);
 
-                        if (world.getBlockState(newBlockPos).getMaterial() == Material.PLANTS || world.getBlockState(newBlockPos).getMaterial() == Material.TALL_PLANTS || world.getBlockState(newBlockPos).getMaterial() == Material.OCEAN_PLANT) {
+                        if (world.getBlockState(newBlockPos).getMaterial() == Material.PLANTS || world.getBlockState(newBlockPos).getMaterial() == Material.TALL_PLANTS || world.getBlockState(newBlockPos).getMaterial() == Material.OCEAN_PLANT || world.getBlockState(newBlockPos).getMaterial() == Material.SEA_GRASS) {
                             world.destroyBlock(newBlockPos, true);
                         }
 
