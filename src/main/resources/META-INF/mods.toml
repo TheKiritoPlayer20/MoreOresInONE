@@ -8,7 +8,7 @@ logoFile="moione_logo.png"
 modId="moreoresinone"
 version="${file.jarVersion}"
 displayName="More Ores in ONE"
-#updateJSONURL="http://myurl.me/"
+updateJSONURL="https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/update/update.json"
 
 
 credits="Textures by: TheLuigiplayer, Code by: KiritoGames20"
