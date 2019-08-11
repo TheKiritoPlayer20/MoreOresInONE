@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "moreoresinone:amethyst_ore"
-  },
-  "result": "moreoresinone:amethyst",
-  "experience": 1.0,
-  "cookingtime": 200
-}

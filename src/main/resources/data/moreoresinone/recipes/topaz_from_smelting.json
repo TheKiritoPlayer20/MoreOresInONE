@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "moreoresinone:topaz_ore"
-  },
-  "result": "moreoresinone:topaz",
-  "experience": 1.0,
-  "cookingtime": 200
-}
