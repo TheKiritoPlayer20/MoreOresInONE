@@ -1,4 +1,4 @@
-Build: 1.1b
+Build: 1.1b - Mon Aug 12 13:24 GMT 2019
 	Updated "updateJSONURL" in "mods.toml".
 	Added tags for all gems and ores.
 	Added french translation. Made by MrEzral.
