@@ -1,6 +1,7 @@
 Build: 1.1b
 	Added update.json
 	Added tags for all gems, and ores.
+	Added france translation. Made by MrEzral.
 	
 =========
 Build: 1.1
