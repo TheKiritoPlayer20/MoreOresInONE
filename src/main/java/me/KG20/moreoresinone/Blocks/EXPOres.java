@@ -14,9 +14,9 @@ import net.minecraftforge.common.ToolType;
 import javax.annotation.Nullable;
 import java.util.Random;
 
-public class XPOres  extends Block {
+public class EXPOres extends Block {
 
-    public XPOres(MaterialColor color){
+    public EXPOres(MaterialColor color){
         super(Properties.create(Material.ROCK, color).hardnessAndResistance(3.0F, 3.0F).sound(SoundType.STONE));
     }
 
@@ -35,7 +35,7 @@ public class XPOres  extends Block {
     public int getExpDrop(BlockState state, IWorldReader world, BlockPos pos, int fortune, int silktouch) {
         Random random = new Random();
         if(silktouch == 0){
-            if(state.getBlock() == RegisterBlocks.overworldXPOre){
+            if(state.getBlock() == RegisterBlocks.overworldEXPOre){
                 if(fortune != 0) {
                     if (random.nextInt(101) >= 50) {
                         return 20 * fortune * 3;
@@ -46,7 +46,7 @@ public class XPOres  extends Block {
                     return 20;
                 }
 
-            }else if(state.getBlock() == RegisterBlocks.netherXPOre) {
+            }else if(state.getBlock() == RegisterBlocks.netherEXPOre) {
                 if(fortune != 0) {
                     if (random.nextInt(100) >= 50) {
                         return 30 * fortune * 3;
@@ -56,7 +56,7 @@ public class XPOres  extends Block {
                 }else{
                     return random.nextInt(5) + 5;
                 }
-            }else if(state.getBlock() == RegisterBlocks.endXPOre){
+            }else if(state.getBlock() == RegisterBlocks.endEXPOre){
                 if(fortune != 0) {
                     if (random.nextInt(100) >= 50) {
                         return 40 * fortune * 3;

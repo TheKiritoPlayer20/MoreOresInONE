@@ -23,9 +23,9 @@ public class RegisterBlocks {
     public static final Block topazBlock = new ItemBlocks(MaterialColor.ADOBE);
     public static final Block amethystOre = new EndOres();
     public static final Block amethystBlock = new ItemBlocks(MaterialColor.PURPLE_TERRACOTTA);
-    public static final Block overworldXPOre = new XPOres(MaterialColor.STONE);
-    public static final Block netherXPOre = new XPOres(MaterialColor.NETHERRACK);
-    public static final Block endXPOre = new XPOres(MaterialColor.SAND);
+    public static final Block overworldEXPOre = new EXPOres(MaterialColor.STONE);
+    public static final Block netherEXPOre = new EXPOres(MaterialColor.NETHERRACK);
+    public static final Block endEXPOre = new EXPOres(MaterialColor.SAND);
 
     @SubscribeEvent
     public static void register(Register<Block> event) {
@@ -47,10 +47,10 @@ public class RegisterBlocks {
         amethystBlock.setRegistryName(Constants.modid, "amethyst_block");
         registry.registerAll(amethystOre,amethystBlock);
 
-        overworldXPOre.setRegistryName(Constants.modid, "overworld_xp_ore");
-        netherXPOre.setRegistryName(Constants.modid, "nether_xp_ore");
-        endXPOre.setRegistryName(Constants.modid, "end_xp_ore");
-        registry.registerAll(overworldXPOre,netherXPOre,endXPOre);
+        overworldEXPOre.setRegistryName(Constants.modid, "overworld_exp_ore");
+        netherEXPOre.setRegistryName(Constants.modid, "nether_exp_ore");
+        endEXPOre.setRegistryName(Constants.modid, "end_exp_ore");
+        registry.registerAll(overworldEXPOre,netherEXPOre,endEXPOre);
 
     }
 
@@ -70,13 +70,9 @@ public class RegisterBlocks {
         registry.register(new ItemFromBlock(amethystOre, new Item.Properties().group(CreativeTabs.end)));
         registry.register(new ItemFromBlock(amethystBlock, new Item.Properties().group(CreativeTabs.end)));
 
-        registry.register(new ItemFromBlock(overworldXPOre, new Item.Properties().group(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(netherXPOre, new Item.Properties().group(CreativeTabs.nether)));
-        registry.register(new ItemFromBlock(endXPOre, new Item.Properties().group(CreativeTabs.end)));
-
+        registry.register(new ItemFromBlock(overworldEXPOre, new Item.Properties().group(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(netherEXPOre, new Item.Properties().group(CreativeTabs.nether)));
+        registry.register(new ItemFromBlock(endEXPOre, new Item.Properties().group(CreativeTabs.end)));
     }
-
-
-
-    }
+}
 

@@ -1,6 +1,6 @@
 {
   "parent" : "block/cube_all",
   "textures" : {
-    "all": "moreoresinone:blocks/end_xp_ore"
+    "all": "moreoresinone:blocks/end_exp_ore"
   }
 }
