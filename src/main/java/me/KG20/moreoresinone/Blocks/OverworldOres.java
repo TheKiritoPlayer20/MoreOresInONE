@@ -1,5 +1,6 @@
 package me.KG20.moreoresinone.Blocks;
 
+import me.KG20.moreoresinone.Init.RegisterBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
@@ -33,6 +34,6 @@ public class OverworldOres extends Block {
 
     @Override
     public int getExpDrop(BlockState state, IWorldReader world, BlockPos pos, int fortune, int silktouch) {
-        return silktouch == 0 ? 7 : 0;
+       return silktouch == 0 ? 7 : 0;
     }
 }

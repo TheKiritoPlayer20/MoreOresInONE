@@ -1,0 +1,6 @@
+{
+  "parent" : "block/cube_all",
+  "textures" : {
+    "all": "moreoresinone:blocks/overworld_xp_ore"
+  }
+}

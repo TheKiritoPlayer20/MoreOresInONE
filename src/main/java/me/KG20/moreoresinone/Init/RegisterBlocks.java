@@ -1,9 +1,6 @@
 package me.KG20.moreoresinone.Init;
 
-import me.KG20.moreoresinone.Blocks.EndOres;
-import me.KG20.moreoresinone.Blocks.ItemBlocks;
-import me.KG20.moreoresinone.Blocks.NetherOres;
-import me.KG20.moreoresinone.Blocks.OverworldOres;
+import me.KG20.moreoresinone.Blocks.*;
 import me.KG20.moreoresinone.Items.ItemFromBlock;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.block.Block;
@@ -26,6 +23,9 @@ public class RegisterBlocks {
     public static final Block topazBlock = new ItemBlocks(MaterialColor.ADOBE);
     public static final Block amethystOre = new EndOres();
     public static final Block amethystBlock = new ItemBlocks(MaterialColor.PURPLE_TERRACOTTA);
+    public static final Block overworldXPOre = new XPOres(MaterialColor.STONE);
+    public static final Block netherXPOre = new XPOres(MaterialColor.NETHERRACK);
+    public static final Block endXPOre = new XPOres(MaterialColor.SAND);
 
     @SubscribeEvent
     public static void register(Register<Block> event) {
@@ -47,6 +47,11 @@ public class RegisterBlocks {
         amethystBlock.setRegistryName(Constants.modid, "amethyst_block");
         registry.registerAll(amethystOre,amethystBlock);
 
+        overworldXPOre.setRegistryName(Constants.modid, "overworld_xp_ore");
+        netherXPOre.setRegistryName(Constants.modid, "nether_xp_ore");
+        endXPOre.setRegistryName(Constants.modid, "end_xp_ore");
+        registry.registerAll(overworldXPOre,netherXPOre,endXPOre);
+
     }
 
     @SubscribeEvent
@@ -64,6 +69,10 @@ public class RegisterBlocks {
 
         registry.register(new ItemFromBlock(amethystOre, new Item.Properties().group(CreativeTabs.end)));
         registry.register(new ItemFromBlock(amethystBlock, new Item.Properties().group(CreativeTabs.end)));
+
+        registry.register(new ItemFromBlock(overworldXPOre, new Item.Properties().group(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(netherXPOre, new Item.Properties().group(CreativeTabs.nether)));
+        registry.register(new ItemFromBlock(endXPOre, new Item.Properties().group(CreativeTabs.end)));
 
     }
 
