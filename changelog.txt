@@ -1,3 +1,7 @@
+Build: 1.2 - Tue Aug 13 12:59:20 GMT 2019
+	Added Experience Ore.
+	
+=========
 Build: 1.1b - Mon Aug 12 13:24 GMT 2019
 	Updated "updateJSONURL" in "mods.toml".
 	Added tags for all gems and ores.
