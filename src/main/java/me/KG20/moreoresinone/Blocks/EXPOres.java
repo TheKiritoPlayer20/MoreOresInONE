@@ -38,33 +38,45 @@ public class EXPOres extends Block {
             if(state.getBlock() == RegisterBlocks.overworldEXPOre){
                 if(fortune != 0) {
                     if (random.nextInt(101) >= 50) {
-                        return 20 * fortune * 3;
+                        return (MathHelper.nextInt(random, 10, 20) * fortune) /2;
                     }else{
                         return 1;
                     }
                 }else{
-                    return 20;
+                    if (random.nextInt(100) >= 50) {
+                        return MathHelper.nextInt(random, 10, 20);
+                    }else{
+                        return 1;
+                    }
                 }
 
             }else if(state.getBlock() == RegisterBlocks.netherEXPOre) {
                 if(fortune != 0) {
                     if (random.nextInt(100) >= 50) {
-                        return 30 * fortune * 3;
+                        return (MathHelper.nextInt(random, 20, 30) * fortune) /2;
                     }else{
                         return 1;
                     }
                 }else{
-                    return random.nextInt(5) + 5;
+                    if (random.nextInt(100) >= 50) {
+                        return MathHelper.nextInt(random, 20, 30);
+                    }else{
+                        return 1;
+                    }
                 }
             }else if(state.getBlock() == RegisterBlocks.endEXPOre){
                 if(fortune != 0) {
                     if (random.nextInt(100) >= 50) {
-                        return 40 * fortune * 3;
+                        return (MathHelper.nextInt(random, 30, 40) * fortune) /2;
                     }else{
                         return 1;
                     }
                 }else{
-                    return random.nextInt(5) + 5;
+                    if (random.nextInt(100) >= 50) {
+                        return MathHelper.nextInt(random, 30, 40);
+                    }else{
+                        return 1;
+                    }
                 }
             }else{
                 return 0;

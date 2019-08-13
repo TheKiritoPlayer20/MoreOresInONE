@@ -21,6 +21,8 @@ public class WorldGenerator {
     //countIn, minHeightIn, maxHeightBaseIn, maxHeightIn
     private static final CountRangeConfig topzazOre = new CountRangeConfig(20, 0, 0, 128);
     private static final int topazOreVeinSize = 4;
+    private static final CountRangeConfig experienceOre = new CountRangeConfig(4, 0, 0, 128);
+    private static final int experienceOreVeinSize = 4;
     private static final CountRangeConfig amethystOre = new CountRangeConfig(10, 0, 0, 128);
     private static final int amethystOreVeinSize = 4;
 
@@ -37,10 +39,14 @@ public class WorldGenerator {
                         new ReplaceBlockConfig(Blocks.STONE.getDefaultState(), RegisterBlocks.sapphireOre.getDefaultState()), Placement.EMERALD_ORE, IPlacementConfig.NO_PLACEMENT_CONFIG));
 
             }
+            biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                    new ReplaceBlockConfig(Blocks.STONE.getDefaultState(), RegisterBlocks.overworldEXPOre.getDefaultState()), Placement.EMERALD_ORE, IPlacementConfig.NO_PLACEMENT_CONFIG));
         });
 
         Biomes.NETHER.addFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Biome.createDecoratedFeature(Feature.ORE,
                 new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize), COUNT_RANGE, topzazOre));
+        Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState()), COUNT_RANGE, experienceOre));
 
         Biomes.THE_END.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
                 new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState()), COUNT_RANGE, amethystOre));
@@ -52,6 +58,17 @@ public class WorldGenerator {
                 new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState()), COUNT_RANGE, amethystOre));
         Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
                 new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState()), COUNT_RANGE, amethystOre));
+
+        Biomes.THE_END.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState()), COUNT_RANGE, experienceOre));
+        Biomes.END_BARRENS.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState()), COUNT_RANGE, experienceOre));
+        Biomes.END_HIGHLANDS.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState()), COUNT_RANGE, experienceOre));
+        Biomes.END_MIDLANDS.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState()), COUNT_RANGE, experienceOre));
+        Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.EMERALD_ORE,
+                new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState()), COUNT_RANGE, experienceOre));
 
     }
 
