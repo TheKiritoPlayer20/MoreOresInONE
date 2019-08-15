@@ -23,9 +23,9 @@ public class RegisterBlocks {
     public static final Block topazBlock = new ItemBlocks(MaterialColor.ADOBE);
     public static final Block amethystOre = new EndOres();
     public static final Block amethystBlock = new ItemBlocks(MaterialColor.PURPLE_TERRACOTTA);
-    public static final Block overworldEXPOre = new EXPOres(MaterialColor.STONE);
-    public static final Block netherEXPOre = new EXPOres(MaterialColor.NETHERRACK);
-    public static final Block endEXPOre = new EXPOres(MaterialColor.SAND);
+    public static final Block overworldEXPOre = new OverworldEXPOre(MaterialColor.STONE);
+    public static final Block netherEXPOre = new NetherEXPOre(MaterialColor.NETHERRACK);
+    public static final Block endEXPOre = new EndEXPOre(MaterialColor.SAND);
 
     @SubscribeEvent
     public static void register(Register<Block> event) {
