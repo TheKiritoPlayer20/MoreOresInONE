@@ -1,6 +1,7 @@
 package me.KG20.moreoresinone.Tools;
 
 
+import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Init.RegisterItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
@@ -10,10 +11,10 @@ import java.util.function.Supplier;
 
 public class BasisToolMaterial {
 
-    public static final IItemTier ruby = new ToolMaterial(3, 1700, 9.5F, 3.5F, 10, () -> Ingredient.fromItems(RegisterItems.ruby));
-    public static final IItemTier sapphire = new ToolMaterial(3, 1700, 9.5F, 3.5F, 10, () -> Ingredient.fromItems(RegisterItems.sapphire));
-    public static final IItemTier topaz = new ToolMaterial(4, 1800,10F, 4F, 12, () -> Ingredient.fromItems(RegisterItems.topaz));
-    public static final IItemTier amethyst = new ToolMaterial(4, 2000, 12F, 4.5F, 15, () -> Ingredient.fromItems(RegisterItems.amethyst));
+    public static final IItemTier ruby = new ToolMaterial(3, Config.durabilitiy_ruby.get(), 9.5F, 3.5F, 10, () -> Ingredient.fromItems(RegisterItems.ruby));
+    public static final IItemTier sapphire = new ToolMaterial(3, Config.durabilitiy_sapphire.get(), 9.5F, 3.5F, 10, () -> Ingredient.fromItems(RegisterItems.sapphire));
+    public static final IItemTier topaz = new ToolMaterial(4, Config.durabilitiy_topaz.get(),10F, 4F, 12, () -> Ingredient.fromItems(RegisterItems.topaz));
+    public static final IItemTier amethyst = new ToolMaterial(4, Config.durabilitiy_amethyst.get(), 12F, 4.5F, 15, () -> Ingredient.fromItems(RegisterItems.amethyst));
 
 
     private static class ToolMaterial implements IItemTier{

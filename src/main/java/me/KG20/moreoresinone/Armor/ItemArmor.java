@@ -1,5 +1,6 @@
 package me.KG20.moreoresinone.Armor;
 
+import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Init.RegisterArmor;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -28,15 +29,17 @@ public class ItemArmor extends ArmorItem {
         ItemArmor topaz_Leggings = RegisterArmor.topazLeggings;
         ItemArmor topaz_Boots = RegisterArmor.topazBoots;
 
-        if(player.getItemStackFromSlot(EquipmentSlotType.FEET).getItem().equals(amethyst_Boots) && player.getItemStackFromSlot(EquipmentSlotType.LEGS).getItem().equals(amethyst_Leggings) &&
-                player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem().equals(amethyst_Chestplate) && player.getItemStackFromSlot(EquipmentSlotType.HEAD).getItem().equals(amethyst_Helmet)) {
-            player.addPotionEffect(new EffectInstance(Effect.get(12), 20, 0));
-            player.addPotionEffect(new EffectInstance(Effect.get(11), 20, 0));
-        }
+        if(Config.enable_statuseffects.get()){
+            if(player.getItemStackFromSlot(EquipmentSlotType.FEET).getItem().equals(amethyst_Boots) && player.getItemStackFromSlot(EquipmentSlotType.LEGS).getItem().equals(amethyst_Leggings) &&
+                    player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem().equals(amethyst_Chestplate) && player.getItemStackFromSlot(EquipmentSlotType.HEAD).getItem().equals(amethyst_Helmet)) {
+                player.addPotionEffect(new EffectInstance(Effect.get(12), 20, 0));
+                player.addPotionEffect(new EffectInstance(Effect.get(11), 20, 0));
+            }
 
-        if(player.getItemStackFromSlot(EquipmentSlotType.FEET).getItem().equals(topaz_Boots) && player.getItemStackFromSlot(EquipmentSlotType.LEGS).getItem().equals(topaz_Leggings) &&
-                player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem().equals(topaz_Chestplate) && player.getItemStackFromSlot(EquipmentSlotType.HEAD).getItem().equals(topaz_Helmet)) {
-            player.addPotionEffect(new EffectInstance(Effect.get(12), 20, 0));
+            if(player.getItemStackFromSlot(EquipmentSlotType.FEET).getItem().equals(topaz_Boots) && player.getItemStackFromSlot(EquipmentSlotType.LEGS).getItem().equals(topaz_Leggings) &&
+                    player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem().equals(topaz_Chestplate) && player.getItemStackFromSlot(EquipmentSlotType.HEAD).getItem().equals(topaz_Helmet)) {
+                player.addPotionEffect(new EffectInstance(Effect.get(12), 20, 0));
+            }
         }
     }
 }

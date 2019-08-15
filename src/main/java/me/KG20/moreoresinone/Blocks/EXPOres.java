@@ -1,5 +1,6 @@
 package me.KG20.moreoresinone.Blocks;
 
+import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Init.RegisterBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -36,44 +37,48 @@ public class EXPOres extends Block {
         Random random = new Random();
         if(silktouch == 0){
             if(state.getBlock() == RegisterBlocks.overworldEXPOre){
-                if(fortune != 0) {
+                System.out.println(Config.enableFortune.get());
+                if(fortune != 0 && Config.enableFortune.get()) {
                     if (random.nextInt(101) >= 50) {
-                        return (MathHelper.nextInt(random, 10, 20) * fortune) /2;
+                        int experience = MathHelper.nextInt(random, Config.min_exp_overworld.get(),Config.max_exp_overworld.get());
+                        return experience + (experience * fortune / 2);
                     }else{
                         return 1;
                     }
                 }else{
                     if (random.nextInt(100) >= 50) {
-                        return MathHelper.nextInt(random, 10, 20);
+                        return MathHelper.nextInt(random, Config.min_exp_overworld.get(),Config.max_exp_overworld.get());
                     }else{
                         return 1;
                     }
                 }
 
             }else if(state.getBlock() == RegisterBlocks.netherEXPOre) {
-                if(fortune != 0) {
+                if(fortune != 0 && Config.enableFortune.get()) {
                     if (random.nextInt(100) >= 50) {
-                        return (MathHelper.nextInt(random, 20, 30) * fortune) /2;
+                        int experience = MathHelper.nextInt(random, Config.min_exp_nether.get(),Config.max_exp_nether.get());
+                        return experience + (experience * fortune / 2);
                     }else{
                         return 1;
                     }
                 }else{
                     if (random.nextInt(100) >= 50) {
-                        return MathHelper.nextInt(random, 20, 30);
+                        return MathHelper.nextInt(random, Config.min_exp_nether.get(),Config.max_exp_nether.get());
                     }else{
                         return 1;
                     }
                 }
             }else if(state.getBlock() == RegisterBlocks.endEXPOre){
-                if(fortune != 0) {
+                if(fortune != 0 && Config.enableFortune.get()) {
                     if (random.nextInt(100) >= 50) {
-                        return (MathHelper.nextInt(random, 30, 40) * fortune) /2;
+                        int experience = MathHelper.nextInt(random, Config.min_exp_end.get(),Config.max_exp_end.get());
+                        return experience + (experience * fortune / 2);
                     }else{
                         return 1;
                     }
                 }else{
                     if (random.nextInt(100) >= 50) {
-                        return MathHelper.nextInt(random, 30, 40);
+                        return MathHelper.nextInt(random, Config.min_exp_end.get(),Config.max_exp_end.get());
                     }else{
                         return 1;
                     }
