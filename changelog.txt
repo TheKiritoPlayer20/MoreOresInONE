@@ -1,4 +1,11 @@
-Build: 1.3 - Tue Fri 16 13:52:56 GMT 2019
+Build: 1.4 - Tue Fri 16 20:08:42 GMT 2019
+	Updated Topaz Armor and Sword, if you hit an entity with the sword you will set it on fire. If a Entity hits you, while you have
+	the full Topaz Armor, it will also be set on fire for 3 secounds(like thorns)(Issue #3)
+	Updated the Mining Speed of the Amethyst Pickaxe. If it has the Efficiency 5 enchantment, it will insta mine Stone & Cobblestone
+        (Issue #2)
+	
+=========
+Build: 1.3b - Tue Fri 16 13:52:56 GMT 2019
 	Fixed a bug where the EXP Ores wouldn't drop Experience Points when mined with the Super Pickaxe from SuperTools.
 	
 =========
