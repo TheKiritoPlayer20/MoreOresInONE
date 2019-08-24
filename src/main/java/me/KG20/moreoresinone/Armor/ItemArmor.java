@@ -2,6 +2,7 @@ package me.KG20.moreoresinone.Armor;
 
 import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Init.RegisterArmor;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -41,5 +42,7 @@ public class ItemArmor extends ArmorItem {
                 player.addPotionEffect(new EffectInstance(Effect.get(12), 20, 0));
             }
         }
+
     }
+
 }

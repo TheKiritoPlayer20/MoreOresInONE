@@ -168,7 +168,7 @@ public class Config {
 
         Builder.pop();
         Builder.push("Amethyst");
-        durabilitiy_amethyst = Builder.comment("Set the Durability of Amethyst Tools(Default: 1700).").defineInRange("durability_amethyst", 2000, 0, 999999999);
+        durabilitiy_amethyst = Builder.comment("Set the Durability of Amethyst Tools(Default: 2000).").defineInRange("durability_amethyst", 2000, 0, 999999999);
         Builder.pop();
         Builder.pop();
 

@@ -1,8 +1,10 @@
 package me.KG20.moreoresinone.Main;
 
 import me.KG20.moreoresinone.Config.MoreOresInOneConfig;
+import me.KG20.moreoresinone.Event.EventHandler;
 import me.KG20.moreoresinone.Proxy.ClientProxy;
 import me.KG20.moreoresinone.Proxy.CommonProxy;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
