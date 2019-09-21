@@ -1,6 +1,7 @@
-Build: 1.5 - Sat Sep 21 18:51:48 GMT 2019
+Build: 1.5 - Sat Sep 21 19:04:32 GMT 2019
 	Added Spanish and Russian language(Thx RushanM for russian translation &  mauriciolanda4 for Spanish translation)
 	Changed the way the Topaz Armor and Sword will trigger events.
+	The Topaz Sword wont set you onfire anymore, if you have fire resistance
 	
 =========
 Build: 1.4 - Fri Aug 16 20:08:42 GMT 2019
