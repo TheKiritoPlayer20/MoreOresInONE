@@ -14,12 +14,4 @@ public class Sword extends SwordItem {
     }
 
 
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        if(stack.getItem().equals(RegisterTools.topazSword)){
-                target.setFire(3);
-        }
-
-        return super.hitEntity(stack, target, attacker);
-    }
 }

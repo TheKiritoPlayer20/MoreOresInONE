@@ -61,17 +61,17 @@ public class EventHandler {
             PlayerEntity player = (PlayerEntity) event.getSource().getTrueSource();
             ItemStack stack = player.getHeldItem(Hand.MAIN_HAND);
 
-            if (stack.getItem().equals(RegisterTools.topazSword)) {
-                if (target instanceof PlayerEntity) {
-                    PlayerEntity playerTarget = (PlayerEntity) event.getEntityLiving();
-                    if (!playerTarget.getActivePotionEffects().toString().contains("effect.minecraft.fire_resistance")) {
-                        if (!playerTarget.isCreative()) {
-                            target.setFire(3);
+            if(RegisterTools.topazSword.equals(stack.getItem())){
+                if(target instanceof PlayerEntity){
+                    PlayerEntity playerTarget = (PlayerEntity)event.getEntityLiving();
+                    if(!playerTarget.getActivePotionEffects().toString().contains("effect.minecraft.fire_resistance")){
+                        if(!playerTarget.isCreative()){
+                            playerTarget.setFire(3);
                         }
                     }
+                }else{
+                    target.setFire(3);
                 }
-            } else {
-                target.setFire(3);
             }
         }
     }
