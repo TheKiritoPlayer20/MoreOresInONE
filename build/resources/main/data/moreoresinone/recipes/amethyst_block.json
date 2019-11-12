@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:amethyst"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:amethyst_block",
+        "count": 1
+    },
+    "group": "amethystblocks"
+}

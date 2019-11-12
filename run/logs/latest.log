@@ -1,0 +1,12 @@
+[01Okt2019 00:04:38.999] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, moreoresinone, --all, --output, H:\Programme und Spiele\GitHub\MoreOresInONE\src\generated\resources, --gameDir, ., --launchTarget, fmluserdevdata, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.10]
+[01Okt2019 00:04:39.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_211 by Oracle Corporation
+[01Okt2019 00:04:39.301] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01Okt2019 00:04:40.034] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevdata' with arguments [--gameDir, ., --mod, moreoresinone, --all, --output, H:\Programme und Spiele\GitHub\MoreOresInONE\src\generated\resources]
+[01Okt2019 00:04:40.733] [main/INFO] [net.minecraftforge.fml.ModLoader/]: Initializing Data Gatherer for mods [moreoresinone]
+[01Okt2019 00:04:51.251] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.10, for MC 1.14.4 with MCP 20190829.143755
+[01Okt2019 00:04:51.251] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.10 Initialized
+[01Okt2019 00:04:52.007] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[01Okt2019 00:04:52.032] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 23 ms
+[01Okt2019 00:04:52.032] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
+[01Okt2019 00:04:52.130] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 97 ms
+[01Okt2019 00:04:52.131] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 122 ms

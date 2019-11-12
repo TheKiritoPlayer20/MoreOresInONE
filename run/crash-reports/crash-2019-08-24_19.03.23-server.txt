@@ -1,0 +1,113 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 24.08.19 19:03
+Description: Ticking player
+
+java.lang.NullPointerException: Ticking player
+	at me.KG20.moreoresinone.Event.EventHandler.LivingHurt(EventHandler.java:56) ~[classes/:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler_2_EventHandler_LivingHurt_LivingHurtEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:80) ~[eventbus-0.10.6-service.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258) ~[eventbus-0.10.6-service.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:330) ~[?:?] {}
+	at net.minecraft.entity.player.PlayerEntity.damageEntity(PlayerEntity.java:951) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.attackEntityFrom(LivingEntity.java:951) ~[?:?] {}
+	at net.minecraft.entity.player.PlayerEntity.attackEntityFrom(PlayerEntity.java:895) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.player.ServerPlayerEntity.attackEntityFrom(ServerPlayerEntity.java:581) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.Entity.baseTick(Entity.java:421) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.baseTick(LivingEntity.java:276) ~[?:?] {}
+	at net.minecraft.entity.Entity.tick(Entity.java:386) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2111) ~[?:?] {}
+	at net.minecraft.entity.player.PlayerEntity.tick(PlayerEntity.java:235) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.player.ServerPlayerEntity.playerTick(ServerPlayerEntity.java:381) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.network.play.ServerPlayNetHandler.tick(ServerPlayNetHandler.java:184) ~[?:?] {}
+	at net.minecraft.network.NetworkManager.tick(NetworkManager.java:245) ~[?:?] {}
+	at net.minecraft.network.NetworkSystem.tick(NetworkSystem.java:148) ~[?:?] {}
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:882) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:800) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118) ~[?:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:646) [?:?] {pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at me.KG20.moreoresinone.Event.EventHandler.LivingHurt(EventHandler.java:56)
+	at net.minecraftforge.eventbus.ASMEventHandler_2_EventHandler_LivingHurt_LivingHurtEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:80)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:330)
+	at net.minecraft.entity.player.PlayerEntity.damageEntity(PlayerEntity.java:951)
+	at net.minecraft.entity.LivingEntity.attackEntityFrom(LivingEntity.java:951)
+	at net.minecraft.entity.player.PlayerEntity.attackEntityFrom(PlayerEntity.java:895)
+	at net.minecraft.entity.player.ServerPlayerEntity.attackEntityFrom(ServerPlayerEntity.java:581)
+	at net.minecraft.entity.Entity.baseTick(Entity.java:421)
+	at net.minecraft.entity.LivingEntity.baseTick(LivingEntity.java:276)
+	at net.minecraft.entity.Entity.tick(Entity.java:386)
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2111)
+	at net.minecraft.entity.player.PlayerEntity.tick(PlayerEntity.java:235)
+
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.entity.player.ServerPlayerEntity)
+	Entity ID: 1
+	Entity Name: Dev
+	Entity's Exact location: -45.73, 8.00, 73.44
+	Entity's Block location: World: (-46,8,73), Chunk: (at 2,0,9 in -3,4; contains blocks -48,0,64 to -33,255,79), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.ServerPlayerEntity.playerTick(ServerPlayerEntity.java:381)
+	at net.minecraft.network.play.ServerPlayNetHandler.tick(ServerPlayNetHandler.java:184)
+	at net.minecraft.network.NetworkManager.tick(NetworkManager.java:245)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@4698b7ba
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.tick(NetworkSystem.java:148)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:882)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:800)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:646)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_211, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 558028984 bytes (532 MB) / 1539309568 bytes (1468 MB) up to 3799515136 bytes (3623 MB)
+	CPUs: 8
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 3.2.0+60+b86c1d4
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-0.10.6-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-0.16.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.0
+	Forge: net.minecraftforge:28.0.45
+	FML Language Providers: 
+		javafml@28.0
+		minecraft@1
+	Mod List: 
+		forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-recomp.jar Forge {forge@28.0.45 DONE}
+		main More Ores in ONE {moreoresinone@NONE DONE}
+		client-extra.jar Minecraft {minecraft@1.14.4 DONE}
+	Player Count: 1 / 8; [ServerPlayerEntity['Dev'/1, l='Test Welt', x=-45.73, y=8.00, z=73.44]]
+	Data Packs: vanilla, mod:moreoresinone, mod:forge
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

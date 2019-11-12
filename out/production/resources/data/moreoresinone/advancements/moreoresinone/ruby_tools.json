@@ -1,0 +1,90 @@
+{
+  "parent": "moreoresinone:moreoresinone/find_ruby",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:ruby_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.ruby_tools.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.ruby_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+  "ruby_pickaxe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:ruby_pickaxe"
+        }
+      ]
+    }
+  },
+  "ruby_axe": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:ruby_axe"
+        }
+      ]
+    }
+  },
+  "ruby_shovel": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:ruby_shovel"
+        }
+      ]
+    }
+  },
+  "ruby_sword": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:ruby_sword"
+        }
+      ]
+    }
+  },
+  "ruby_hoe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:ruby_hoe"
+        }
+      ]
+    }
+  },
+  "ruby_sickle": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:ruby_sickle"
+        }
+      ]
+    }
+  }
+},
+  "requirements": [
+    [
+      "ruby_pickaxe",
+      "ruby_axe",
+      "ruby_shovel",
+      "ruby_sword",
+      "ruby_sickle",
+      "ruby_hoe"
+    ]
+  ]
+}

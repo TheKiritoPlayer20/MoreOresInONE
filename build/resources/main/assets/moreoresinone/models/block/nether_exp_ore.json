@@ -1,0 +1,6 @@
+{
+  "parent" : "block/cube_all",
+  "textures" : {
+    "all": "moreoresinone:blocks/nether_exp_ore"
+  }
+}
