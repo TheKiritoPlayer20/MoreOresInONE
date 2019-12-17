@@ -2,11 +2,634 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0de431b-6c24-46ba-87c3-476929435ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/MoreOresInONEDataGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/BlockTagsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/ItemTagsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/ModTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pl_pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/blockstates/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/de_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/de_de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/es_ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/es_ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/es_es.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/es_es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/ru_ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/block/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/amethyst_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/ruby_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/sapphire_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/models/item/topaz_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/exp.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/exp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/gems/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/items/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/exp.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/exp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/gems/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/items/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/amethyst_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/amethyst_armor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/amethyst_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/amethyst_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/find_topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/ruby_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/ruby_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/sapphire_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/sapphire_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/moreoresinone/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/amethyst_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/amethyst_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/ruby_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/ruby_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/sapphire_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/sapphire_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/topaz_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blasting/topaz_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/blocks/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endarmor/amethyst_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/endtools/amethyst_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/items/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/netherarmor/topaz_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/nethertools/topaz_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/ruby_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/ruby_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/amethyst_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/amethyst_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/ruby_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/ruby_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/sapphire_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/sapphire_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/topaz_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/advancements/recipes/smelting/topaz_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/loot_tables/blocks/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/amethyst_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/ruby_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/sapphire_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/recipes/topaz_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/exp.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/exp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/blocks/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/moreoresinone/tags/items/gems/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Armor/BasisArmorMaterial$ArmorMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Armor/BasisArmorMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Armor/ItemArmor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/EndEXPOre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/EndOres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/ItemBlocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/NetherEXPOre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/NetherOres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/OverworldEXPOre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Blocks/OverworldOres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Config/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Config/MoreOresInOneConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/CreativeTabs/CreativeTabEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/CreativeTabs/CreativeTabNether.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/CreativeTabs/CreativeTabOverworld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Data/MoreOresInONEDataGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Data/Provider/BlockTagsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Data/Provider/ItemTagsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Event/EventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/CreativeTabs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/ModTags$Blocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/ModTags$Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/ModTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/RegisterArmor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/RegisterBlocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/RegisterItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/RegisterTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Init/WorldGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Items/ItemFromBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Items/OreItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Main/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Main/MoreOresInONE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Proxy/ClientProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Proxy/CommonProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/Axe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/BasisToolMaterial$ToolMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/BasisToolMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/Hoe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/Pickaxe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/Shovel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/Sickle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/me/KG20/moreoresinone/Tools/Sword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/.cache/cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/blockstates/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/de_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/de_de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/es_ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/es_ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/es_es.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/es_es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/fr_ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/fr_ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/fr_fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/fr_fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/lang/ru_ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/block/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/amethyst_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/ruby_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/sapphire_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/assets/moreoresinone/models/item/topaz_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/exp.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/exp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/blocks/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/gems/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/forge/tags/items/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/exp.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/exp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/blocks/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/gems/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/minecraft/tags/items/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/amethyst_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/amethyst_armor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/amethyst_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/amethyst_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/find_topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/ruby_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/ruby_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/sapphire_tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/sapphire_tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/moreoresinone/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/amethyst_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/amethyst_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/ruby_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/ruby_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/sapphire_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/sapphire_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/topaz_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blasting/topaz_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/blocks/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endarmor/amethyst_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/endtools/amethyst_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/items/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/netherarmor/topaz_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/nethertools/topaz_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/ruby_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldarmor/sapphire_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/ruby_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/overworldtools/sapphire_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/amethyst_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/amethyst_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/ruby_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/ruby_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/sapphire_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/sapphire_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/topaz_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/advancements/recipes/smelting/topaz_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/amethyst_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/end_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/end_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/nether_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/nether_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/overworld_exp_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/overworld_exp_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/loot_tables/blocks/topaz_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/amethyst_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/ruby_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/sapphire_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_from_blasting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_from_blasting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_from_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_from_smelting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_sickle.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_sickle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/recipes/topaz_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/exp.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/exp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/blocks/ores/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/amethyst.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/ruby.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/ruby.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/sapphire.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/sapphire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/topaz.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/data/moreoresinone/tags/items/gems/topaz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fml.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/forge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forge-client.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/serverconfig/forge-server.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/serverconfig/forge-server.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Welt_1.14.4/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/moreoresinone/tags/blocks/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/moreoresinone/tags/blocks/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/moreoresinone/tags/items/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/moreoresinone/tags/items/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/BasisArmorMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/BasisArmorMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/ItemArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/ItemArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndOres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/ItemBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/ItemBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherEXPOre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherOres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldEXPOre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldOres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/MoreOresInOneConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/MoreOresInOneConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabNether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabNether.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabOverworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabOverworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/MoreOresInONEDataGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/MoreOresInONEDataGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/BlockTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/BlockTagsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/ItemTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/ItemTagsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/CreativeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/CreativeTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/ModTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/WorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/WorldGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/ItemFromBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/ItemFromBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/OreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/OreItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Main/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Main/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Main/MoreOresInONE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Main/MoreOresInONE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Proxy/ClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Proxy/CommonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Proxy/CommonProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/BasisToolMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/BasisToolMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Hoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Hoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Pickaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Pickaxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Shovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Shovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sickle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sickle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.cache/cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/blockstates/amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/blockstates/amethyst_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/blockstates/amethyst_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/blockstates/amethyst_ore.json" afterDir="false" />
@@ -368,14 +991,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/ModTags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="136">
               <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pt_br.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3/forge-1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3-recomp.jar!/assets/forge/lang/pl_pl.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pl_pl.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -410,8 +1056,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/models/block/overworld_xp_ore.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/models/block/nether_xp_ore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/models/block/end_xp_ore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/models/item/overworld_xp_ore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/models/item/nether_xp_ore.json" />
@@ -461,14 +1105,16 @@
         <option value="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/Provider/ItemTagsProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Data/MoreOresInONEDataGeneration.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pt_br.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pl_pl.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-29" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="86" />
+    <option name="y" value="107" />
+    <option name="width" value="1203" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -478,7 +1124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -551,16 +1196,52 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="moreoresinone" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MoreOresInONE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MoreOresInONE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MoreOresInONE" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="MoreOresInONE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.minecraftforge:forge:1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MoreOresInONE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.minecraftforge:forge:1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="forge-1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3-recomp.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MoreOresInONE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.minecraftforge:forge:1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="forge-1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3-recomp.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="forge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MoreOresInONE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: net.minecraftforge:forge:1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="forge-1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3-recomp.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="forge" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -592,7 +1273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.runData">
+  <component name="RunManager" selected="Application.runClient">
     <configuration name="MoreOresInONE [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -671,7 +1352,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -706,19 +1387,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/ores/exp.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/moreoresinone/tags/blocks/ores/exp.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-sources.jar!/net/minecraft/inventory/CraftResultInventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-sources.jar!/net/minecraft/item/SwordItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -911,11 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/fr_fr.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-recomp.jar!/assets/forge/lang/es_ar.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -929,13 +1592,6 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3/forge-1.14.4-28.0.45_mapped_snapshot_20190810-1.14.3-recomp.jar!/assets/forge/lang/es_es.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/es_es.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/es_ar.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -944,9 +1600,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/en_us.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/fr_ca.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java">
@@ -993,6 +1646,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/es_es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" selection-start-line="79" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/fr_fr.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/fr_ca.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -1033,6 +1699,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/ModTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/BasisArmorMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1040,13 +1716,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/ModTags.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pt_br.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3/forge-1.14.4-28.1.10_mapped_snapshot_20190921-1.14.3-recomp.jar!/assets/forge/lang/pl_pl.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/moreoresinone/lang/pl_pl.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
         </state>
       </provider>
     </entry>

@@ -16,6 +16,8 @@
 	fullBoundingBoxLadders = false
 	#Log cascading chunk generation issues during terrain population.
 	logCascadingWorldGeneration = true
+	#Vanilla will treat crafting recipess using empty tags as air, and allow you to craft with nothing in that slot. This changes empty tags to use BARRIER as the item. To prevent crafting with air.
+	treatEmptyTagsAsAir = false
 	#Controls the number threshold at which Packet51 is preferred over Packet52, default and minimum 64, maximum 1024
 	#Range: 64 ~ 1024
 	clumpingThreshold = 64
