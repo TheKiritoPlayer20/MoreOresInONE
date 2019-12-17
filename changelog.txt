@@ -1,7 +1,5 @@
 Build: 1.0 - Tue Dec 17 16:54:25 GMT 2019
 	Added Brazilian Portugese translation (thanks louiswdg)
 	Added Polish translation (thanks torteLxd)
-	Added Chinese Simplified (thanks Aikini)
-	Added Chinese Traditional (thanks Aikini)
 	
 =========
