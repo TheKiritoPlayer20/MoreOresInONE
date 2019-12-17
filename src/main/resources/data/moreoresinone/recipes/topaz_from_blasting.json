@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "moreoresinone:topaz_ore"
+  },
+  "result": "moreoresinone:topaz",
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rr",
+        "sr",
+        "s "
+    ],
+    "key": {
+        "r": {
+            "item": "moreoresinone:ruby"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:ruby_axe",
+        "count": 1
+    },
+    "group": "ruby_tools"
+}

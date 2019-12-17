@@ -1,0 +1,74 @@
+{
+  "parent": "moreoresinone:moreoresinone/find_amethyst",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:amethyst_chestplate"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.amethyst_armor.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.amethyst_armor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "amethyst_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:amethyst_helmet"
+          }
+        ]
+      }
+    },
+    "amethyst_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:amethyst_chestplate"
+          }
+        ]
+      }
+    },
+    "amethyst_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:amethyst_leggings"
+          }
+        ]
+      }
+    },
+    "amethyst_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:amethyst_boots"
+          }
+        ]
+      }
+    }
+  },
+    "requirements": [
+      [
+        "amethyst_helmet"
+      ],
+      [
+        "amethyst_chestplate"
+      ],
+      [
+        "amethyst_leggings"
+      ],
+      [
+        "amethyst_boots"
+      ]
+    ]
+}

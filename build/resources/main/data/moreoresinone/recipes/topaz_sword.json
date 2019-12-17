@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "t",
+        "t",
+        "s"
+    ],
+    "key": {
+        "t": {
+            "item": "moreoresinone:topaz"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:topaz_sword",
+        "count": 1
+    },
+    "group": "topaz_tools"
+}

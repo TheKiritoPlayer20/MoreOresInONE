@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "s ",
+        "s "
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:sapphire"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:sapphire_hoe",
+        "count": 1
+    },
+    "group": "sapphire_tools"
+}

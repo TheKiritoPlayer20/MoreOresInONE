@@ -1,0 +1,17 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:amethyst"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:amethyst_helmet"
+    },
+    "group": "amethyst_armor"
+}

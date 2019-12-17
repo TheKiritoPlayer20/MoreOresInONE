@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aa",
+        "sa",
+        "s "
+    ],
+    "key": {
+        "a": {
+            "item": "moreoresinone:amethyst"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:amethyst_axe",
+        "count": 1
+    },
+    "group": "amethyst_tools"
+}

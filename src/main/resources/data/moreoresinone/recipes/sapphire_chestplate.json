@@ -1,0 +1,17 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:sapphire"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:sapphire_chestplate"
+    },
+    "group": "sapphire_armor"
+}

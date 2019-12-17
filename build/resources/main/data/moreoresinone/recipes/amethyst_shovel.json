@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "a",
+        "s",
+        "s"
+    ],
+    "key": {
+        "a": {
+            "item": "moreoresinone:amethyst"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:amethyst_shovel",
+        "count": 1
+    },
+    "group": "amethyst_tools"
+}

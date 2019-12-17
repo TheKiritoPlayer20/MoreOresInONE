@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "t",
+        "s",
+        "s"
+    ],
+    "key": {
+        "t": {
+            "item": "moreoresinone:topaz"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:topaz_shovel",
+        "count": 1
+    },
+    "group": "topaz_tools"
+}

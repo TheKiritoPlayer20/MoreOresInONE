@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "moreoresinone:amethyst_ore"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.root.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "has_iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_pickaxe"
+    ]
+  ]
+}
