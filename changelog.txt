@@ -1,3 +1,9 @@
+Build: 1.0b - Wed Dec 18 16:14:24 GMT 2019
+	Added chinese traditional translation (thanks Aikini)
+	Added chinese simplified translation (thanks Aikini)
+	
+=========
+
 Build: 1.0 - Tue Dec 17 16:54:25 GMT 2019
 	Added Brazilian Portugese translation (thanks louiswdg)
 	Added Polish translation (thanks torteLxd)
