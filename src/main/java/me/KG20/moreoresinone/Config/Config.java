@@ -5,32 +5,37 @@ import net.minecraftforge.common.ForgeConfigSpec;
 
 public class Config {
 
+    public  static ForgeConfigSpec.ConfigValue<String> string;
 
     //Overworld
     public static ForgeConfigSpec.BooleanValue every_biome;
 
-
     //Ruby
     public static ForgeConfigSpec.BooleanValue generate_ruby;
     public static ForgeConfigSpec.IntValue durabilitiy_ruby;
+    public static ForgeConfigSpec.DoubleValue attackdamage_ruby;
     public static ForgeConfigSpec.IntValue veinsize_ruby;
     public static ForgeConfigSpec.IntValue count_ruby;
     public static ForgeConfigSpec.IntValue minheight_ruby;
     public static ForgeConfigSpec.IntValue maxheight_ruby;
-    //Sapphire
+    public static ForgeConfigSpec.DoubleValue ruby_temperature;
 
+    //Sapphire
     public static ForgeConfigSpec.BooleanValue generate_sapphire;
     public static ForgeConfigSpec.IntValue durabilitiy_sapphire;
+    public static ForgeConfigSpec.DoubleValue attackdamage_sapphire;
     public static ForgeConfigSpec.IntValue veinsize_sapphire;
     public static ForgeConfigSpec.IntValue count_sapphire;
     public static ForgeConfigSpec.IntValue minheight_sapphire;
     public static ForgeConfigSpec.IntValue maxheight_sapphire;
+    public static ForgeConfigSpec.DoubleValue sapphire_temperature;
 
     //Nether
 
     //Topaz
     public static ForgeConfigSpec.BooleanValue generate_topaz;
     public static ForgeConfigSpec.IntValue durabilitiy_topaz;
+    public static ForgeConfigSpec.DoubleValue attackdamage_topaz;
     public static ForgeConfigSpec.IntValue veinsize_topaz;
     public static ForgeConfigSpec.IntValue count_topaz;
     public static ForgeConfigSpec.IntValue minheight_topaz;
@@ -41,6 +46,7 @@ public class Config {
     //Amethyst
     public static ForgeConfigSpec.BooleanValue generate_amethyst;
     public static ForgeConfigSpec.IntValue durabilitiy_amethyst;
+    public static ForgeConfigSpec.DoubleValue attackdamage_amethyst;
     public static ForgeConfigSpec.IntValue count_amethyst;
     public static ForgeConfigSpec.IntValue minheight_amethyst;
     public static ForgeConfigSpec.IntValue maxheight_amethyst;
@@ -68,6 +74,12 @@ public class Config {
 
     //Armor
     public static ForgeConfigSpec.BooleanValue enable_statuseffects;
+
+    //Horse Armor
+    public static ForgeConfigSpec.IntValue ruby_horse_armor;
+    public static ForgeConfigSpec.IntValue sapphire_horse_armor;
+    public static ForgeConfigSpec.IntValue topaz_horse_armor;
+    public static ForgeConfigSpec.IntValue amethyst_horse_armor;
 
     public static void init(ForgeConfigSpec.Builder Builder){
 
@@ -122,6 +134,7 @@ public class Config {
         count_sapphire = Builder.comment("Set the Count of the Sapphire Ore how much can spawn per Chunk (Default: 1).").defineInRange("count_sapphire", 1, 1, 255);
         minheight_sapphire = Builder.comment("Set the Min Height of the Sapphire Ore (Default: 0).").defineInRange("minheight_sapphire", 0, 0, 256);
         maxheight_sapphire = Builder.comment("Set the Max Height of the Sapphire Ore (Default: 16).").defineInRange("maxheight_sapphire", 16, 0, 256);
+        sapphire_temperature = Builder.comment("Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)").defineInRange("sapphire_temperature", 0.2D, -999999999D, 999999999);
 
         Builder.pop();
         Builder.push("Ruby Generation");
@@ -130,6 +143,7 @@ public class Config {
         count_ruby = Builder.comment("Set the Count of the Ruby Ore how much can spawn per Chunk (Default: 1).").defineInRange("count_ruby", 1, 1, 255);
         minheight_ruby = Builder.comment("Set the Min Height of the Ruby Ore (Default: 0).").defineInRange("minheight_ruby", 0, 0, 256);
         maxheight_ruby = Builder.comment("Set the Max  Height of the Ruby Ore (Default: 16).").defineInRange("maxheight_ruby", 16, 0, 256);
+        ruby_temperature = Builder.comment("Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)").defineInRange("sapphire_temperature", 1D, -999999999D, 999999999);
         Builder.pop();
 
         Builder.pop();
@@ -173,9 +187,49 @@ public class Config {
         Builder.pop();
 
         Builder.comment("Config File of the More Ores In ONE mod.");
+
+        Builder.push("Tool Attack Damages");
+        Builder.push("DONT CHANGE THE STRINGS!");
+        string = Builder.define("dontchange", "Base Axe damage: 6");
+        string = Builder.define("dontchange2", "Base Sword damage: 3");
+        string = Builder.define("dontchange3", "Base Shovel damage: 1.5");
+        string = Builder.define("dontchange4", "Base Pickaxe damage: 1");
+        string = Builder.define("dontchange5", "Base Hoe damage: 0");
+        string = Builder.define("dontchange6", "Base Cup damage: 1");
+        string = Builder.define("dontchange7", "To get the damage you want add the base damage of the Tool and the base attack damage of the material.");
+        Builder.pop();
+        Builder.push("Ruby");
+        attackdamage_ruby = Builder.comment("Ruby base attack damage").defineInRange("attackdamage_ruby",3.5,0.0, 999999999);
+        Builder.pop();
+
+        Builder.push("Sapphire");
+        attackdamage_sapphire = Builder.comment("Sapphire base attack damage").defineInRange("attackdamage_sapphire",3.5,0.0, 999999999);
+        Builder.pop();
+
+        Builder.push("Topaz");
+        attackdamage_topaz = Builder.comment("Topaz base attack damage").defineInRange("attackdamage_topaz",4,0.0, 999999999);
+        Builder.pop();
+
+        Builder.push("Amethyst");
+        attackdamage_amethyst = Builder.comment("Amethyst base attack damage").defineInRange("attackdamage_amethyst",4.5,0.0, 999999999);
+        Builder.pop();
+        Builder.pop();
+
+        Builder.push("Horse Armor");
+        Builder.push("Overworld");
+        ruby_horse_armor = Builder.comment("Set the protection value of the ruby horse armor").defineInRange("ruby_horse_armor", 11, 0,999999999);
+        sapphire_horse_armor = Builder.comment("Set the protection value of the sapphire horse armor").defineInRange("sapphire_horse_armor", 11, 0,999999999);
+        Builder.pop();
+        Builder.push("Nether");
+        topaz_horse_armor = Builder.comment("Set the protection value of the topaz horse armor").defineInRange("topaz_horse_armor", 13, 0,999999999);
+        Builder.pop();
+        Builder.push("End");
+        amethyst_horse_armor = Builder.comment("Set the protection value of the amethyst horse armor").defineInRange("amethyst_horse_armor", 18, 0,999999999);
+        Builder.pop();
+        Builder.pop();
+
         Builder.push("Armor");
         Builder.push("Status Effect");
-
         enable_statuseffects = Builder.comment("Enable if full Armor sets should give Potion Effects or not(Default: true).").define("enable_statuseffects", true);
         Builder.pop();
         Builder.pop();

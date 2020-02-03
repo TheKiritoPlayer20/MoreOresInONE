@@ -1,4 +1,4 @@
-version:2225
+version:2230
 autoJump:true
 autoSuggestions:true
 chatColors:true
@@ -21,7 +21,7 @@ toggleSprint:false
 mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
-renderDistance:12
+renderDistance:14
 guiScale:3
 particles:0
 maxFps:120
@@ -57,6 +57,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
+skipMultiplayerWarning:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w

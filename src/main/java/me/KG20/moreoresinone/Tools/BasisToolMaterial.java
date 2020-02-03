@@ -11,10 +11,10 @@ import java.util.function.Supplier;
 
 public class BasisToolMaterial {
 
-    public static final IItemTier ruby = new ToolMaterial(3, Config.durabilitiy_ruby.get(), 9.5F, 3.5F, 10, () -> Ingredient.fromItems(RegisterItems.ruby));
-    public static final IItemTier sapphire = new ToolMaterial(3, Config.durabilitiy_sapphire.get(), 9.5F, 3.5F, 10, () -> Ingredient.fromItems(RegisterItems.sapphire));
-    public static final IItemTier topaz = new ToolMaterial(4, Config.durabilitiy_topaz.get(),10F, 4F, 12, () -> Ingredient.fromItems(RegisterItems.topaz));
-    public static final IItemTier amethyst = new ToolMaterial(4, Config.durabilitiy_amethyst.get(), 24F, 4.5F, 15, () -> Ingredient.fromItems(RegisterItems.amethyst));
+    public static final IItemTier ruby = new ToolMaterial(3, Config.durabilitiy_ruby.get(), 9.5F, Config.attackdamage_ruby.get(), 10, () -> Ingredient.fromItems(RegisterItems.ruby));
+    public static final IItemTier sapphire = new ToolMaterial(3, Config.durabilitiy_sapphire.get(), 9.5F, Config.attackdamage_sapphire.get(), 10, () -> Ingredient.fromItems(RegisterItems.sapphire));
+    public static final IItemTier topaz = new ToolMaterial(4, Config.durabilitiy_topaz.get(),10F, Config.attackdamage_topaz.get(), 12, () -> Ingredient.fromItems(RegisterItems.topaz));
+    public static final IItemTier amethyst = new ToolMaterial(4, Config.durabilitiy_amethyst.get(), 24F, Config.attackdamage_amethyst.get(), 15, () -> Ingredient.fromItems(RegisterItems.amethyst));
 
 
     private static class ToolMaterial implements IItemTier{
@@ -26,11 +26,11 @@ public class BasisToolMaterial {
         private final int enchantability;
         private final LazyValue<Ingredient> repair;
 
-        public ToolMaterial(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> supplier) {
+        public ToolMaterial(int harvestLevel, int maxUses, float efficiency, double attackDamage, int enchantability, Supplier<Ingredient> supplier) {
             this.harvestLevel = harvestLevel;
             this.maxUses = maxUses;
             this.efficiency = efficiency;
-            this.attackDamage = attackDamage;
+            this.attackDamage = (float)attackDamage;
             this.enchantability = enchantability;
             this.repair = new LazyValue<Ingredient>(supplier);
         }

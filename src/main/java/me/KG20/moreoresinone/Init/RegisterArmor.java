@@ -2,9 +2,12 @@ package me.KG20.moreoresinone.Init;
 
 import me.KG20.moreoresinone.Armor.BasisArmorMaterial;
 import me.KG20.moreoresinone.Armor.ItemArmor;
+import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.HorseArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -34,6 +37,11 @@ public class RegisterArmor {
     public static final ItemArmor amethystLeggings = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabs.end));
     public static final ItemArmor amethystBoots = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabs.end));
 
+    public static final HorseArmorItem rubyHorseArmor = new HorseArmorItem(Config.ruby_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/ruby_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.overworld));
+    public static final HorseArmorItem sapphireHorseArmor = new HorseArmorItem(Config.sapphire_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/sapphire_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.overworld));
+    public static final HorseArmorItem topazHorseArmor = new HorseArmorItem(Config.topaz_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/topaz_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.nether));
+    public static final HorseArmorItem amethystHorseArmor = new HorseArmorItem(Config.amethyst_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/amethyst_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.end));
+
     @SubscribeEvent
     public static void register(Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
@@ -62,6 +70,11 @@ public class RegisterArmor {
         amethystBoots.setRegistryName(Constants.modid, "amethyst_boots");
         registry.registerAll(amethystHelmet,amethystChestplate,amethystLeggings,amethystBoots);
 
+        rubyHorseArmor.setRegistryName(Constants.modid, "ruby_horse_armor");
+        sapphireHorseArmor.setRegistryName(Constants.modid, "sapphire_horse_armor");
+        topazHorseArmor.setRegistryName(Constants.modid, "topaz_horse_armor");
+        amethystHorseArmor.setRegistryName(Constants.modid, "amethyst_horse_armor");
+        registry.registerAll(rubyHorseArmor,sapphireHorseArmor,topazHorseArmor,amethystHorseArmor);
 
     }
 

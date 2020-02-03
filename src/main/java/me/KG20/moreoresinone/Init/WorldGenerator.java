@@ -48,14 +48,29 @@ public class WorldGenerator {
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
                 }
             }else{
-                if((biome.getCategory() == Biome.Category.SAVANNA || biome.getCategory() == Biome.Category.DESERT || biome.getCategory() == Biome.Category.MESA || biome.getTempCategory() == Biome.TempCategory.WARM) && Config.generate_ruby.get()){
-                    biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( rubyOre)));
-
-                                    }else if((biome.getCategory() == Biome.Category.TAIGA || biome.getCategory() == Biome.Category.OCEAN || biome.getCategory() == Biome.Category.ICY || biome.getTempCategory() == Biome.TempCategory.COLD) && Config.generate_sapphire.get()) {
-                    biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
+                if(Config.ruby_temperature.get() == 1D){
+                    if((biome.getCategory() == Biome.Category.SAVANNA || biome.getCategory() == Biome.Category.DESERT || biome.getCategory() == Biome.Category.MESA || biome.getTempCategory() == Biome.TempCategory.WARM || biome.getDefaultTemperature() < Config.ruby_temperature.get()) && Config.generate_ruby.get()){
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( rubyOre)));
+                    }
+                }else{
+                    if(biome.getDefaultTemperature() <= Config.ruby_temperature.get()){
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( rubyOre)));
+                    }
                 }
+                if(Config.sapphire_temperature.get() == 0.2D){
+                    if((biome.getCategory() == Biome.Category.TAIGA || biome.getCategory() == Biome.Category.OCEAN || biome.getCategory() == Biome.Category.ICY || biome.getTempCategory() == Biome.TempCategory.COLD || biome.getDefaultTemperature() < Config.sapphire_temperature.get()) && Config.generate_sapphire.get()) {
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
+                    }
+                }else{
+                    if(biome.getDefaultTemperature() <= Config.sapphire_temperature.get()){
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
+                    }
+                }
+
             }
             if(Config.generate_Overworld_EXP_ORE.get()){
                 biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
@@ -97,9 +112,6 @@ public class WorldGenerator {
             Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
                     new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( endexperienceOre)));
         }
-
-
-
     }
 
 }

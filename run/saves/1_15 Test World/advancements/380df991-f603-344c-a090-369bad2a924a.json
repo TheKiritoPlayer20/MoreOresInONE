@@ -1,43 +1,13 @@
 {
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2019-12-17 10:18:50 +0100"
-    },
-    "done": true
-  },
   "moreoresinone:recipes/netherarmor/topaz_chestplate": {
     "criteria": {
       "has_item": "2019-12-17 10:18:07 +0100"
     },
     "done": true
   },
-  "moreoresinone:recipes/endarmor/amethyst_helmet": {
-    "criteria": {
-      "has_item": "2019-12-17 10:18:09 +0100"
-    },
-    "done": true
-  },
-  "moreoresinone:moreoresinone/amethyst_tools": {
-    "criteria": {
-      "amethyst_pickaxe": "2019-12-17 10:17:49 +0100"
-    },
-    "done": true
-  },
   "moreoresinone:recipes/blocks/topaz_block": {
     "criteria": {
       "has_item": "2019-12-17 10:18:07 +0100"
-    },
-    "done": true
-  },
-  "moreoresinone:moreoresinone/ruby_tools": {
-    "criteria": {
-      "ruby_hoe": "2019-12-17 10:17:27 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2019-12-17 10:18:50 +0100"
     },
     "done": true
   },
@@ -53,12 +23,6 @@
     },
     "done": true
   },
-  "moreoresinone:recipes/overworldarmor/ruby_boots": {
-    "criteria": {
-      "has_item": "2019-12-17 10:18:07 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2019-12-17 10:18:50 +0100"
@@ -71,27 +35,9 @@
     },
     "done": true
   },
-  "moreoresinone:recipes/overworldarmor/sapphire_helmet": {
+  "moreoresinone:recipes/items/ruby": {
     "criteria": {
-      "has_item": "2019-12-17 10:18:07 +0100"
-    },
-    "done": true
-  },
-  "moreoresinone:recipes/blocks/sapphire_block": {
-    "criteria": {
-      "has_item": "2019-12-17 10:18:07 +0100"
-    },
-    "done": true
-  },
-  "moreoresinone:moreoresinone/find_sapphire": {
-    "criteria": {
-      "sapphire": "2019-12-17 10:18:07 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2019-12-17 10:18:50 +0100"
+      "has_block": "2019-12-25 01:46:37 +0100"
     },
     "done": true
   },
@@ -101,15 +47,9 @@
     },
     "done": true
   },
-  "moreoresinone:moreoresinone/find_amethyst": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "amethyst": "2019-12-17 10:18:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+      "get_stone": "2019-12-17 10:18:50 +0100"
     },
     "done": true
   },
@@ -125,29 +65,16 @@
     },
     "done": true
   },
-  "moreoresinone:recipes/blocks/ruby_block": {
-    "criteria": {
-      "has_item": "2019-12-17 10:18:07 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2019-12-17 10:17:12 +0100"
+      "minecraft:forest": "2019-12-18 14:48:00 +0100",
+      "minecraft:taiga": "2019-12-17 10:17:12 +0100",
+      "minecraft:giant_tree_taiga": "2019-12-18 14:50:14 +0100",
+      "minecraft:taiga_hills": "2019-12-18 14:50:46 +0100",
+      "minecraft:river": "2019-12-18 14:48:08 +0100",
+      "minecraft:wooded_hills": "2019-12-18 14:48:56 +0100"
     },
     "done": false
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2019-12-17 10:18:50 +0100"
-    },
-    "done": true
-  },
-  "moreoresinone:recipes/endarmor/amethyst_boots": {
-    "criteria": {
-      "has_item": "2019-12-17 10:18:09 +0100"
-    },
-    "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
@@ -173,6 +100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2019-12-18 14:48:13 +0100"
+    },
+    "done": true
+  },
   "moreoresinone:moreoresinone/sapphire_tools": {
     "criteria": {
       "sapphire_pickaxe": "2019-12-17 10:17:42 +0100"
@@ -191,21 +124,15 @@
     },
     "done": true
   },
-  "moreoresinone:moreoresinone/topaz_pickaxe": {
-    "criteria": {
-      "topaz_pickaxe": "2019-12-17 10:17:45 +0100"
-    },
-    "done": true
-  },
   "moreoresinone:recipes/netherarmor/topaz_boots": {
     "criteria": {
       "has_item": "2019-12-17 10:18:07 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_pickaxe": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+      "in_water": "2019-12-18 14:48:13 +0100"
     },
     "done": true
   },
@@ -227,13 +154,7 @@
     },
     "done": true
   },
-  "moreoresinone:recipes/endarmor/amethyst_leggings": {
-    "criteria": {
-      "has_item": "2019-12-17 10:18:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_axe": {
+  "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2019-12-17 10:18:50 +0100"
     },
@@ -245,15 +166,21 @@
     },
     "done": true
   },
-  "moreoresinone:recipes/overworldarmor/ruby_helmet": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_item": "2019-12-17 10:18:07 +0100"
+      "in_water": "2019-12-18 14:48:13 +0100"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2019-12-17 10:18:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2019-12-18 14:48:13 +0100"
     },
     "done": true
   },
@@ -269,5 +196,143 @@
     },
     "done": true
   },
-  "DataVersion": 2225
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/amethyst_tools": {
+    "criteria": {
+      "amethyst_pickaxe": "2019-12-17 10:17:49 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/endarmor/amethyst_helmet": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:09 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/ruby_tools": {
+    "criteria": {
+      "ruby_hoe": "2019-12-17 10:17:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2019-12-18 14:48:13 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/overworldarmor/ruby_boots": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:07 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/overworldarmor/sapphire_helmet": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:07 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/blocks/sapphire_block": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:07 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/find_sapphire": {
+    "criteria": {
+      "sapphire": "2019-12-17 10:18:07 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/items/topaz": {
+    "criteria": {
+      "has_block": "2019-12-25 01:46:33 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/items/sapphire": {
+    "criteria": {
+      "has_block": "2019-12-25 01:46:38 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/find_amethyst": {
+    "criteria": {
+      "amethyst": "2019-12-17 10:18:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/blocks/ruby_block": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/endarmor/amethyst_boots": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:09 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/topaz_pickaxe": {
+    "criteria": {
+      "topaz_pickaxe": "2019-12-17 10:17:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2019-12-18 14:48:13 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/endarmor/amethyst_leggings": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2019-12-17 10:18:50 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/items/amethyst": {
+    "criteria": {
+      "has_block": "2019-12-25 01:46:34 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:recipes/overworldarmor/ruby_helmet": {
+    "criteria": {
+      "has_item": "2019-12-17 10:18:07 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2230
 }
