@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Build: 1.15.1-30.0.7 - Wed Dec 18 02:11:01 GMT 2019
 	tterrag:
 		Fix MainMenuScreen patch
@@ -11,6 +12,18 @@ Build: 1.15.1-30.0.7 - Wed Dec 18 02:11:01 GMT 2019
 		- Enable linear filtering on logo rendering by default
 		  - Can be disabled with the "logoBlur" mods.toml property
 
+=======
+Build: 1.0b - Wed Dec 18 16:14:24 GMT 2019
+	Added chinese traditional translation (thanks Aikini)
+	Added chinese simplified translation (thanks Aikini)
+	
+=========
+
+Build: 1.0 - Tue Dec 17 16:54:25 GMT 2019
+	Added Brazilian Portugese translation (thanks louiswdg)
+	Added Polish translation (thanks torteLxd)
+	
+>>>>>>> 072ceb7fd532b15b112b08d64dc002b4fb5bbf2c
 =========
 Build: 1.15.1-30.0.5 - Wed Dec 18 01:03:20 GMT 2019
 	ichttt:
