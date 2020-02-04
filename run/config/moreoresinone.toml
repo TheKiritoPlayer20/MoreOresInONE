@@ -151,6 +151,26 @@
 			#Range: 0 ~ 128
 			minheight_amethyst = 0
 
+["Horse Armor"]
+
+	["Horse Armor".Nether]
+		#Set the protection value of the topaz horse armor
+		#Range: 0 ~ 999999999
+		topaz_horse_armor = 13
+
+	["Horse Armor".Overworld]
+		#Set the protection value of the ruby horse armor
+		#Range: 0 ~ 999999999
+		ruby_horse_armor = 11
+		#Set the protection value of the sapphire horse armor
+		#Range: 0 ~ 999999999
+		sapphire_horse_armor = 11
+
+	["Horse Armor".End]
+		#Set the protection value of the amethyst horse armor
+		#Range: 0 ~ 999999999
+		amethyst_horse_armor = 18
+
 #Config File of the More Ores In ONE mod.
 ["Tool Attack Damages"]
 
