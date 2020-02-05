@@ -64,6 +64,9 @@ To translate: just replace the old names, e.g to rename the "block.moreoresinone
   "item.moreoresinone.amethyst_chestplate" : "Amethyst Chestplate",
   "item.moreoresinone.amethyst_leggings" : "Amethyst Leggings",
   "item.moreoresinone.amethyst_boots" : "Amethyst Boots",
+  "block.moreoresinone.overworld_exp_ore" : "Experience Ore",
+  "block.moreoresinone.nether_exp_ore" : "Experience Ore",
+  "block.moreoresinone.end_exp_ore" : "Experience Ore",
   "itemGroup.moi_overworld" : "MOI Overworld",
   "itemGroup.moi_nether" : "MOI Nether",
   "itemGroup.moi_end" : "MOI End",
@@ -86,5 +89,9 @@ To translate: just replace the old names, e.g to rename the "block.moreoresinone
   "advancements.moreoresinone.amethyst_tools.title": "Amethyst Tools",
   "advancements.moreoresinone.amethyst_tools.description": "Craft any Amethyst Tool.",
   "advancements.moreoresinone.amethyst_armor.title": "Amethyst Armor",
-  "advancements.moreoresinone.amethyst_armor.description": "Craft all Amethyst Armor pieces"
+  "advancements.moreoresinone.amethyst_armor.description": "Craft all Amethyst Armor pieces",
+  "item.moreoresinone.ruby_horse_armor" : "Ruby Horse Armor",
+  "item.moreoresinone.sapphire_horse_armor" : "Sapphire Horse Armor",
+  "item.moreoresinone.topaz_horse_armor" : "Topaz Horse Armor",
+  "item.moreoresinone.amethyst_horse_armor" : "Amethyst Horse Armor"
 }
