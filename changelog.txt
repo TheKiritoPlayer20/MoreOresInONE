@@ -6,9 +6,7 @@ Build: 1.1 - Fri Feb 07 21:53:39 GMT 2020
 	Added Config option for Damages Values of every weapon
 	Support for 1.15.2 and above
 	Horse Armor can be crafted.
-	Changed Maximum amount of topaz from 20 to 12
-	
-=========
+	Changed Default maximum amount of topaz from 20 to 12
 
 =========
 Build: 1.0b - Wed Dec 18 16:14:24 GMT 2019
