@@ -5,6 +5,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
+import net.minecraft.world.biome.provider.BiomeProvider;
+import net.minecraft.world.biome.provider.BiomeProviderType;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.GenerationStage.Decoration;
 import net.minecraft.world.gen.feature.ReplaceBlockConfig;
@@ -40,77 +42,83 @@ public class WorldGenerator {
 
             if(Config.every_biome.get()){
                 if(Config.generate_ruby.get()){
-                    biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( rubyOre)));
+                    biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).withPlacement(Placement.COUNT_RANGE.configure(rubyOre)));
                 }
                 if(Config.generate_sapphire.get()){
-                    biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
+                    biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( sapphireOre)));
                 }
             }else{
                 if(Config.ruby_temperature.get() == 1D){
                     if((biome.getCategory() == Biome.Category.SAVANNA || biome.getCategory() == Biome.Category.DESERT || biome.getCategory() == Biome.Category.MESA || biome.getTempCategory() == Biome.TempCategory.WARM || biome.getDefaultTemperature() < Config.ruby_temperature.get()) && Config.generate_ruby.get()){
-                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( rubyOre)));
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( rubyOre)));
                     }
                 }else{
                     if(biome.getDefaultTemperature() <= Config.ruby_temperature.get()){
-                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( rubyOre)));
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.rubyOre.getDefaultState(), rubyOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( rubyOre)));
                     }
                 }
                 if(Config.sapphire_temperature.get() == 0.2D){
                     if((biome.getCategory() == Biome.Category.TAIGA || biome.getCategory() == Biome.Category.OCEAN || biome.getCategory() == Biome.Category.ICY || biome.getTempCategory() == Biome.TempCategory.COLD || biome.getDefaultTemperature() < Config.sapphire_temperature.get()) && Config.generate_sapphire.get()) {
-                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( sapphireOre)));
                     }
                 }else{
                     if(biome.getDefaultTemperature() <= Config.sapphire_temperature.get()){
-                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( sapphireOre)));
+                        biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                                new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegisterBlocks.sapphireOre.getDefaultState(), sapphireOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( sapphireOre)));
                     }
                 }
 
             }
             if(Config.generate_Overworld_EXP_ORE.get()){
-                biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                        new ReplaceBlockConfig(Blocks.STONE.getDefaultState(), RegisterBlocks.overworldEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( overworldexperienceOre)));
+                biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                        new ReplaceBlockConfig(Blocks.STONE.getDefaultState(), RegisterBlocks.overworldEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( overworldexperienceOre)));
+            }
+
+            if(Config.generate_topaz.get()){
+                if(biome.getCategory().equals(Biome.Category.NETHER)){
+                    Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));
+                }
+
+            }
+            if(Config.generate_Nether_EXP_ORE.get()){
+                if(biome.getCategory().equals(Biome.Category.NETHER)){
+                    Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                            new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( netherexperienceOre)));
+                }
+
             }
 
         });
-        if(Config.generate_topaz.get()){
-            Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
-                    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( topazOre)));
-        }
-        if(Config.generate_Nether_EXP_ORE.get()){
-            Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( netherexperienceOre)));
-        }
-
 
         if(Config.generate_amethyst.get()){
-            Biomes.THE_END.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( amethystOre)));
-            Biomes.END_BARRENS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( amethystOre)));
-            Biomes.END_HIGHLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( amethystOre)));
-            Biomes.END_MIDLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( amethystOre)));
-            Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( amethystOre)));
+            Biomes.THE_END.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( amethystOre)));
+            Biomes.END_BARRENS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( amethystOre)));
+            Biomes.END_HIGHLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( amethystOre)));
+            Biomes.END_MIDLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( amethystOre)));
+            Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.amethystOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( amethystOre)));
         }
         if(Config.generate_End_EXP_ORE.get()){
-            Biomes.THE_END.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( endexperienceOre)));
-            Biomes.END_BARRENS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( endexperienceOre)));
-            Biomes.END_HIGHLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( endexperienceOre)));
-            Biomes.END_MIDLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( endexperienceOre)));
-            Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.func_225566_b_(
-                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).func_227228_a_( Placement.COUNT_RANGE.func_227446_a_( endexperienceOre)));
+            Biomes.THE_END.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( endexperienceOre)));
+            Biomes.END_BARRENS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( endexperienceOre)));
+            Biomes.END_HIGHLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( endexperienceOre)));
+            Biomes.END_MIDLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( endexperienceOre)));
+            Biomes.SMALL_END_ISLANDS.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    new ReplaceBlockConfig(Blocks.END_STONE.getDefaultState(), RegisterBlocks.endEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( endexperienceOre)));
         }
     }
 

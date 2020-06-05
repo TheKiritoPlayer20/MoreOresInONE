@@ -1,5 +1,6 @@
 package me.KG20.moreoresinone.Armor;
 
+import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Init.RegisterItems;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -14,11 +15,11 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import java.util.function.Supplier;
 
 public class BasisArmorMaterial {
-
-    public final static IArmorMaterial ruby = new ArmorMaterial(Constants.modid + ":ruby",33, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F,() -> Ingredient.fromItems(RegisterItems.ruby));
-    public final static IArmorMaterial sapphire = new ArmorMaterial(Constants.modid + ":sapphire", 33, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F,() -> Ingredient.fromItems(RegisterItems.sapphire));
-    public final static IArmorMaterial topaz = new ArmorMaterial(Constants.modid + ":topaz", 35, new int[]{3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5F,() -> Ingredient.fromItems(RegisterItems.topaz));
-    public final static IArmorMaterial amethyst = new ArmorMaterial(Constants.modid + ":amethyst",40, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3F,() -> Ingredient.fromItems(RegisterItems.amethyst));
+                                                                                                                        //Boots,Leggings,Chestplate,Helmet
+    public final static IArmorMaterial ruby = new ArmorMaterial(Constants.modid + ":ruby",33, new int[]{Config.ruby_boots_protection.get(), Config.ruby_leggings_protection.get(), Config.ruby_chestplate_protection.get(), Config.ruby_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.ruby_toughness.get(),() -> Ingredient.fromItems(RegisterItems.ruby));
+    public final static IArmorMaterial sapphire = new ArmorMaterial(Constants.modid + ":sapphire", 33, new int[]{Config.sapphire_boots_protection.get(), Config.sapphire_leggings_protection.get(), Config.sapphire_chestplate_protection.get(), Config.sapphire_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.sapphire_toughness.get(),() -> Ingredient.fromItems(RegisterItems.sapphire));
+    public final static IArmorMaterial topaz = new ArmorMaterial(Constants.modid + ":topaz", 35, new int[]{Config.topaz_boots_protection.get(), Config.topaz_leggings_protection.get(), Config.topaz_chestplate_protection.get(), Config.topaz_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.topaz_toughness.get(),() -> Ingredient.fromItems(RegisterItems.topaz));
+    public final static IArmorMaterial amethyst = new ArmorMaterial(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),() -> Ingredient.fromItems(RegisterItems.amethyst));
 
     private static class ArmorMaterial implements IArmorMaterial{
 
@@ -31,13 +32,13 @@ public class BasisArmorMaterial {
         private final float toughness;
         private final LazyValue<Ingredient> repairMaterial;
 
-        public ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Supplier<Ingredient> supplier) {
+        public ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, Supplier<Ingredient> supplier) {
             this.name = name;
             this.maxDamageFactor = maxDamageFactor;
             this.damageReductionAmountArray = damageReductionAmountArray;
             this.enchantability = enchantability;
             this.soundEvent = soundEvent;
-            this.toughness = toughness;
+            this.toughness = (float)toughness;
             this.repairMaterial = new LazyValue<Ingredient>(supplier);
         }
 

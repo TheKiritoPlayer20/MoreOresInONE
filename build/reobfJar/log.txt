@@ -1,9 +1,9 @@
-Args: "--in-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\libs\MoreOresInONE-1.1.jar", "--out-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar\output.jar", "--srg-in", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\libs\MoreOresInONE-1.2.jar", "--out-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar\output.jar", "--srg-in", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.0.1_mapped_snapshot_20190719-1.14.3\forge-1.15.2-31.0.1_mapped_snapshot_20190719-1.14.3-recomp.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.0.1_mapped_snapshot_20190719-1.14.3\forge-1.15.2-31.0.1_mapped_snapshot_20190719-1.14.3-launcher.jar
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.1.43_mapped_snapshot_20200225-1.15.1\forge-1.15.2-31.1.43_mapped_snapshot_20200225-1.15.1-recomp.jar
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.1.43_mapped_snapshot_20200225-1.15.1\forge-1.15.2-31.1.43_mapped_snapshot_20200225-1.15.1-launcher.jar
 Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.0.0-milestone.1\8a802eab77fd5232dea42ad3de36b104a55e60bf\accesstransformers-2.0.0-milestone.1-shadowed.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.0.4\7e484d734393278c318af389f7a5435192ae6d5e\accesstransformers-2.0.4-shadowed.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\2.0.0-milestone.1\ef0e4a7c15c8eadb7e94233ee7b1d7b98841c752\eventbus-2.0.0-milestone.1-service.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\2.0.0-milestone.1\610df322bd810fff462b9fed9d3faa8a4ab4b37f\coremods-2.0.0-milestone.1.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\2.0.0-milestone.1\fbfcafacae7a5adaf23c34a0ed08ac5b54d4c79\forgespi-2.0.0-milestone.1.jar
@@ -11,7 +11,7 @@ Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlaunche
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.0.0-milestone.4\f402f7938bc347745b6c4106c04f3763ff300c77\modlauncher-5.0.0-milestone.4-api.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.9\d1e1ba354a40b5703340b5cb02fdca489cff3646\mergetool-1.0.9-api.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20190719-1.14.3\mcp_snapshot-20190719-1.14.3.zip
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20200225-1.15.1\mcp_snapshot-20200225-1.15.1.zip
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\7.2\ca2954e8d92a05bacc28ff465b25c70e0f512497\asm-commons-7.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\7.2\b6e6abe057f23630113f4167c34bda7086691258\asm-analysis-7.2.jar

@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "moreoresinone:ruby",
+            "item_h": "moreoresinone:ruby"
+        },
+        {
+            "item": "minecraft:diamond_horse_armor",
+            "item_h": "minecraft:diamond_horse_armor"
+        }
+    ],
+    "result": {
+        "item": "moreoresinone:ruby_horse_armor",
+        "count": 1
+    }
+}

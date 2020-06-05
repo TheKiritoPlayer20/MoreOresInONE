@@ -76,5 +76,9 @@
   "advancements.moreoresinone.amethyst_tools.title": "Amethyst Tools",
   "advancements.moreoresinone.amethyst_tools.description": "Craft any Amethyst Tool.",
   "advancements.moreoresinone.amethyst_armor.title": "Amethyst Armor",
-  "advancements.moreoresinone.amethyst_armor.description": "Craft all Amethyst Armor pieces"
+  "advancements.moreoresinone.amethyst_armor.description": "Craft all Amethyst Armor pieces",
+  "item.moreoresinone.ruby_horse_armor" : "Ruby Horse Armor",
+  "item.moreoresinone.sapphire_horse_armor" : "Sapphire Horse Armor",
+  "item.moreoresinone.topaz_horse_armor" : "Topaz Horse Armor",
+  "item.moreoresinone.amethyst_horse_armor" : "Amethyst Horse Armor"
 }

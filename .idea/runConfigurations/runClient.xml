@@ -6,7 +6,7 @@
       <env name="MOD_CLASSES" value="moreoresinone%%H:\Programme und Spiele\GitHub\MoreOresInONE\build\resources\main;moreoresinone%%H:\Programme und Spiele\GitHub\MoreOresInONE\build\classes\java\main" />
       <env name="MCP_MAPPINGS" value="snapshot_20190719-1.14.3" />
       <env name="MCP_VERSION" value="20200122.131323" />
-      <env name="FORGE_VERSION" value="31.0.1" />
+      <env name="FORGE_VERSION" value="31.1.1" />
       <env name="assetIndex" value="1.15" />
       <env name="assetDirectory" value="C:\Users\spam1\.gradle\caches\forge_gradle\assets" />
       <env name="nativesDirectory" value="H:\Programme und Spiele\GitHub\MoreOresInONE\build\natives" />

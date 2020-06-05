@@ -75,6 +75,34 @@ public class Config {
     //Armor
     public static ForgeConfigSpec.BooleanValue enable_statuseffects;
 
+    //Ruby
+    public static ForgeConfigSpec.IntValue ruby_helmet_protection;
+    public static ForgeConfigSpec.IntValue ruby_chestplate_protection;
+    public static ForgeConfigSpec.IntValue ruby_leggings_protection;
+    public static ForgeConfigSpec.IntValue ruby_boots_protection;
+    public static ForgeConfigSpec.DoubleValue ruby_toughness;
+
+    //Sapphire
+    public static ForgeConfigSpec.IntValue sapphire_helmet_protection;
+    public static ForgeConfigSpec.IntValue sapphire_chestplate_protection;
+    public static ForgeConfigSpec.IntValue sapphire_leggings_protection;
+    public static ForgeConfigSpec.IntValue sapphire_boots_protection;
+    public static ForgeConfigSpec.DoubleValue sapphire_toughness;
+
+    //Topaz
+    public static ForgeConfigSpec.IntValue topaz_helmet_protection;
+    public static ForgeConfigSpec.IntValue topaz_chestplate_protection;
+    public static ForgeConfigSpec.IntValue topaz_leggings_protection;
+    public static ForgeConfigSpec.IntValue topaz_boots_protection;
+    public static ForgeConfigSpec.DoubleValue topaz_toughness;
+
+    //Amethyst
+    public static ForgeConfigSpec.IntValue amethyst_helmet_protection;
+    public static ForgeConfigSpec.IntValue amethyst_chestplate_protection;
+    public static ForgeConfigSpec.IntValue amethyst_leggings_protection;
+    public static ForgeConfigSpec.IntValue amethyst_boots_protection;
+    public static ForgeConfigSpec.DoubleValue amethyst_toughness;
+
     //Horse Armor
     public static ForgeConfigSpec.IntValue ruby_horse_armor;
     public static ForgeConfigSpec.IntValue sapphire_horse_armor;
@@ -143,7 +171,7 @@ public class Config {
         count_ruby = Builder.comment("Set the Count of the Ruby Ore how much can spawn per Chunk (Default: 1).").defineInRange("count_ruby", 1, 1, 255);
         minheight_ruby = Builder.comment("Set the Min Height of the Ruby Ore (Default: 0).").defineInRange("minheight_ruby", 0, 0, 256);
         maxheight_ruby = Builder.comment("Set the Max  Height of the Ruby Ore (Default: 16).").defineInRange("maxheight_ruby", 16, 0, 256);
-        ruby_temperature = Builder.comment("Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)").defineInRange("sapphire_temperature", 1D, -999999999D, 999999999);
+        ruby_temperature = Builder.comment("Set the Temperature of the biome in which the Ruby Ore should generate(The temperature of the biome is equal and below)(Default: 1.0F)").defineInRange("ruby_temperature", 1D, -999999999D, 999999999);
         Builder.pop();
 
         Builder.pop();
@@ -151,7 +179,7 @@ public class Config {
         Builder.push("Topaz Generation");
         generate_topaz = Builder.comment("Enable the Generation of Topaz Ore (Default: true).").define("generate_topaz", true);
         veinsize_topaz = Builder.comment("Set the Vein Size of the Topaz Ore (Default: 4).").defineInRange("veinsize_topaz", 4, 4, 255);
-        count_topaz = Builder.comment("Set the Count of the Topaz Ore how much can spawn per Chunk (Default: 20).").defineInRange("count_topaz", 20, 1, 255);
+        count_topaz = Builder.comment("Set the Count of the Topaz Ore how much can spawn per Chunk (Default: 12).").defineInRange("count_topaz", 12, 1, 255);
         minheight_topaz = Builder.comment("Set the Min Height of the Topaz Ore (Default: 0).").defineInRange("minheight_topaz", 0, 0, 128);
         maxheight_topaz = Builder.comment("Set the Max Height of the Topaz Ore (Default: 128).").defineInRange("maxheight_topaz", 128, 0, 128);
         Builder.pop();
@@ -231,6 +259,34 @@ public class Config {
         Builder.push("Armor");
         Builder.push("Status Effect");
         enable_statuseffects = Builder.comment("Enable if full Armor sets should give Potion Effects or not(Default: true).").define("enable_statuseffects", true);
+        Builder.pop();
+        Builder.push("Ruby");
+        ruby_helmet_protection = Builder.comment("Set the protection value of the Ruby Helmet").defineInRange("ruby_helmet_protection", 3, 0, 999999999);
+        ruby_chestplate_protection = Builder.comment("Set the protection value of the Ruby Chestplate").defineInRange("ruby_chestplate_protection", 8, 0, 999999999);
+        ruby_leggings_protection = Builder.comment("Set the protection value of the Ruby Leggings").defineInRange("ruby_leggings_protection", 6, 0, 999999999);
+        ruby_boots_protection = Builder.comment("Set the protection value of the Ruby Boots").defineInRange("ruby_boots_protection", 3, 0, 999999999);
+        ruby_toughness = Builder.comment("Set the toughness of the Ruby Armor").defineInRange("ruby_toughness", 2.0, 0, 999999999);
+        Builder.pop();
+        Builder.push("Sapphire");
+        sapphire_helmet_protection = Builder.comment("Set the protection value of the Sapphire Helmet").defineInRange("sapphire_helmet_protection", 3, 0, 999999999);
+        sapphire_chestplate_protection = Builder.comment("Set the protection value of the Sapphire Chestplate").defineInRange("sapphire_chestplate_protection", 8, 0, 999999999);
+        sapphire_leggings_protection = Builder.comment("Set the protection value of the Sapphire Leggings").defineInRange("sapphire_leggings_protection", 6, 0, 999999999);
+        sapphire_boots_protection = Builder.comment("Set the protection value of the Sapphire Boots").defineInRange("sapphire_boots_protection", 3, 0, 999999999);
+        sapphire_toughness = Builder.comment("Set the toughness of the Sapphire Armor").defineInRange("sapphire_toughness", 2.0, 0, 999999999);
+        Builder.pop();
+        Builder.push("Topaz");
+        topaz_helmet_protection = Builder.comment("Set the protection value of the Topaz Helmet").defineInRange("topaz_helmet_protection", 3, 0, 999999999);
+        topaz_chestplate_protection = Builder.comment("Set the protection value of the Topaz Chestplate").defineInRange("topaz_chestplate_protection", 8, 0, 999999999);
+        topaz_leggings_protection = Builder.comment("Set the protection value of the Topaz Leggings").defineInRange("topaz_leggings_protection", 6, 0, 999999999);
+        topaz_boots_protection = Builder.comment("Set the protection value of the Topaz Boots").defineInRange("topaz_boots_protection", 3, 0, 999999999);
+        topaz_toughness = Builder.comment("Set the toughness of the Topaz Armor").defineInRange("topaz_toughness", 2.5, 0, 999999999);
+        Builder.pop();
+        Builder.push("Amethyst");
+        amethyst_helmet_protection = Builder.comment("Set the protection value of the Amethyst Helmet").defineInRange("amethyst_helmet_protection", 3, 0, 999999999);
+        amethyst_chestplate_protection = Builder.comment("Set the protection value of the Amethyst Chestplate").defineInRange("amethyst_chestplate_protection", 8, 0, 999999999);
+        amethyst_leggings_protection = Builder.comment("Set the protection value of the Amethyst Leggings").defineInRange("amethyst_leggings_protection", 6, 0, 999999999);
+        amethyst_boots_protection = Builder.comment("Set the protection value of the Amethyst Boots").defineInRange("amethyst_boots_protection", 3, 0, 999999999);
+        amethyst_toughness = Builder.comment("Set the toughness of the Amethyst Armor").defineInRange("amethyst_toughness", 3.0, 0, 999999999);
         Builder.pop();
         Builder.pop();
 

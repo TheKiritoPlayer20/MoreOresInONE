@@ -22,7 +22,7 @@ Disclaimer: Make sure to download this mod from Curseforge or PlanetMinecraft.
 [[dependencies.moreoresinone]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[31.0.1,)" #mandatory
+    versionRange="[31.1.1, )" #mandatory
     ordering="NONE"
     side="BOTH"
 

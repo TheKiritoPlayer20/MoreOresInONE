@@ -1,9 +1,77 @@
 
 [Armor]
 
+	[Armor.Sapphire]
+		#Set the protection value of the Sapphire Helmet
+		#Range: 0 ~ 999999999
+		sapphire_helmet_protection = 3
+		#Set the toughness of the Sapphire Armor
+		#Range: 0.0 ~ 9.99999999E8
+		sapphire_toughness = 2.0
+		#Set the protection value of the Sapphire Boots
+		#Range: 0 ~ 999999999
+		sapphire_boots_protection = 3
+		#Set the protection value of the Sapphire Chestplate
+		#Range: 0 ~ 999999999
+		sapphire_chestplate_protection = 8
+		#Set the protection value of the Sapphire Leggings
+		#Range: 0 ~ 999999999
+		sapphire_leggings_protection = 6
+
 	[Armor."Status Effect"]
 		#Enable if full Armor sets should give Potion Effects or not(Default: true).
 		enable_statuseffects = true
+
+	[Armor.Ruby]
+		#Set the protection value of the Ruby Boots
+		#Range: 0 ~ 999999999
+		ruby_boots_protection = 3
+		#Set the protection value of the Ruby Helmet
+		#Range: 0 ~ 999999999
+		ruby_helmet_protection = 3
+		#Set the toughness of the Ruby Armor
+		#Range: 0.0 ~ 9.99999999E8
+		ruby_toughness = 2.0
+		#Set the protection value of the Ruby Chestplate
+		#Range: 0 ~ 999999999
+		ruby_chestplate_protection = 8
+		#Set the protection value of the Ruby Leggings
+		#Range: 0 ~ 999999999
+		ruby_leggings_protection = 6
+
+	[Armor.Topaz]
+		#Set the protection value of the Topaz Boots
+		#Range: 0 ~ 999999999
+		topaz_boots_protection = 3
+		#Set the protection value of the Topaz Helmet
+		#Range: 0 ~ 999999999
+		topaz_helmet_protection = 3
+		#Set the toughness of the Topaz Armor
+		#Range: 0.0 ~ 9.99999999E8
+		topaz_toughness = 2.5
+		#Set the protection value of the Topaz Chestplate
+		#Range: 0 ~ 999999999
+		topaz_chestplate_protection = 8
+		#Set the protection value of the Topaz Leggings
+		#Range: 0 ~ 999999999
+		topaz_leggings_protection = 6
+
+	[Armor.Amethyst]
+		#Set the protection value of the Amethyst Chestplate
+		#Range: 0 ~ 999999999
+		amethyst_chestplate_protection = 8
+		#Set the protection value of the Amethyst Helmet
+		#Range: 0 ~ 999999999
+		amethyst_helmet_protection = 3
+		#Set the toughness of the Amethyst Armor
+		#Range: 0.0 ~ 9.99999999E8
+		amethyst_toughness = 3.0
+		#Set the protection value of the Amethyst Leggings
+		#Range: 0 ~ 999999999
+		amethyst_leggings_protection = 6
+		#Set the protection value of the Amethyst Boots
+		#Range: 0 ~ 999999999
+		amethyst_boots_protection = 3
 
 ["Ore Generation"]
 
@@ -90,7 +158,7 @@
 			#Set the Min Height of the Topaz Ore (Default: 0).
 			#Range: 0 ~ 128
 			minheight_topaz = 0
-			#Set the Count of the Topaz Ore how much can spawn per Chunk (Default: 20).
+			#Set the Count of the Topaz Ore how much can spawn per Chunk (Default: 12).
 			#Range: 1 ~ 255
 			count_topaz = 20
 
@@ -120,9 +188,9 @@
 		["Ore Generation".Overworld."Ruby Generation"]
 			#Enable the Generation of Ruby Ore (Default: true).
 			generate_ruby = true
-			#Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)
+			#Set the Temperature of the biome in which the Ruby Ore should generate(The temperature of the biome is equal and below)(Default: 1.0F)
 			#Range: -9.99999999E8 ~ 9.99999999E8
-			sapphire_temperature = 1.0
+			ruby_temperature = 1.0
 			#Set the Vein Size of the Ruby Ore (Default: 8).
 			#Range: 4 ~ 255
 			veinsize_ruby = 8
