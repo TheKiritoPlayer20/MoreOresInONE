@@ -1,24 +1,16 @@
 package me.KG20.moreoresinone.Init;
 
 import me.KG20.moreoresinone.Config.Config;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
-import net.minecraft.world.biome.provider.BiomeProvider;
-import net.minecraft.world.biome.provider.BiomeProviderType;
-import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.GenerationStage.Decoration;
 import net.minecraft.world.gen.feature.ReplaceBlockConfig;
 import net.minecraft.world.gen.placement.CountRangeConfig;
-import net.minecraft.world.gen.placement.IPlacementConfig;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
-
-import static net.minecraft.world.gen.placement.Placement.COUNT_RANGE;
-
 
 public class WorldGenerator {
 
@@ -81,14 +73,33 @@ public class WorldGenerator {
 
             if(Config.generate_topaz.get()){
                 if(biome.getCategory().equals(Biome.Category.NETHER)){
-                    Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                    /*Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));*/
+                    Biomes.field_235250_aA_.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));
+                    Biomes.field_235251_aB_.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));
+                    Biomes.field_235252_ay_.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));
+                    Biomes.field_235253_az_.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));
+                    Biomes.field_235254_j_.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(
+                            new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, RegisterBlocks.topazOre.getDefaultState(), topazOreVeinSize)).withPlacement( Placement.COUNT_RANGE.configure( topazOre)));
+
                 }
 
             }
             if(Config.generate_Nether_EXP_ORE.get()){
                 if(biome.getCategory().equals(Biome.Category.NETHER)){
-                    Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                    Biomes.field_235250_aA_.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                            new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( netherexperienceOre)));
+                    Biomes.field_235251_aB_.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                            new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( netherexperienceOre)));
+                    Biomes.field_235252_ay_.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                            new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( netherexperienceOre)));
+                    Biomes.field_235253_az_.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
+                            new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( netherexperienceOre)));
+                    Biomes.field_235254_j_.addFeature(Decoration.UNDERGROUND_ORES, Feature.EMERALD_ORE.withConfiguration(
                             new ReplaceBlockConfig(Blocks.NETHERRACK.getDefaultState(), RegisterBlocks.netherEXPOre.getDefaultState())).withPlacement( Placement.COUNT_RANGE.configure( netherexperienceOre)));
                 }
 

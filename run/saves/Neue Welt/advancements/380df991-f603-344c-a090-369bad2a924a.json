@@ -1,0 +1,48 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2020-06-26 11:18:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-06-26 11:18:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2020-06-26 11:18:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-06-26 11:18:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2020-06-26 11:18:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2020-06-26 11:17:44 +0200",
+      "minecraft:river": "2020-06-26 11:17:43 +0200",
+      "minecraft:swamp": "2020-06-26 11:12:05 +0200"
+    },
+    "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-06-26 11:18:19 +0200",
+      "minecraft:basalt_deltas": "2020-06-26 11:18:43 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}
