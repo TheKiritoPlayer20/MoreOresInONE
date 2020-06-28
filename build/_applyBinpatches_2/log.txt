@@ -1,15 +1,15 @@
-Args: "--clean", "C:\Users\spam1\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.1-20200625.160719\joined-1.16.1-20200625.160719-srg.jar", "--output", "C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.7\forge-1.16.1-32.0.7-binpatched.jar", "--apply", "C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.7\forge-1.16.1-32.0.7-binpatches.lzma"
+Args: "--clean", "C:\Users\spam1\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.1-20200625.160719\joined-1.16.1-20200625.160719-srg.jar", "--output", "C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24\forge-1.16.1-32.0.24-binpatched.jar", "--apply", "C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24\forge-1.16.1-32.0.24-binpatches.lzma"
 Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.0.12\binarypatcher-1.0.12-fatjar.jar
 WorkDir: H:\Programme und Spiele\GitHub\MoreOresInONE\build\_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\spam1\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.16.1-20200625.160719\joined-1.16.1-20200625.160719-srg.jar
-  Output:    C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.7\forge-1.16.1-32.0.7-binpatched.jar
+  Output:    C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24\forge-1.16.1-32.0.24-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.7\forge-1.16.1-32.0.7-binpatches.lzma
-Loading patches file: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.7\forge-1.16.1-32.0.7-binpatches.lzma
+  Patches:   C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24\forge-1.16.1-32.0.24-binpatches.lzma
+Loading patches file: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24\forge-1.16.1-32.0.24-binpatches.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 27fccb26 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -964,6 +964,8 @@ Loading patches file: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 6ac58161 Exists: true
   Reading patch net.minecraft.entity.ai.attributes.Attribute.binpatch
     Checksum: 5e2faa69 Exists: true
+  Reading patch net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes.binpatch
+    Checksum: d4baf750 Exists: true
   Reading patch net.minecraft.entity.ai.brain.memory.MemoryModuleType.binpatch
     Checksum: ca762ebd Exists: true
   Reading patch net.minecraft.entity.ai.brain.schedule.Activity.binpatch
@@ -1776,6 +1778,8 @@ Loading patches file: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: c2338e84 Exists: true
   Reading patch net.minecraft.network.play.client.CClickWindowPacket.binpatch
     Checksum: 1dabebe4 Exists: true
+  Reading patch net.minecraft.network.play.client.CClientSettingsPacket.binpatch
+    Checksum: 6b80efc1 Exists: true
   Reading patch net.minecraft.network.play.client.CCreativeInventoryActionPacket.binpatch
     Checksum: 46c21b5c Exists: true
   Reading patch net.minecraft.network.play.client.CCustomPayloadPacket.binpatch
@@ -1898,8 +1902,6 @@ Loading patches file: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: 53ac561 Exists: true
   Reading patch net.minecraft.stats.StatType.binpatch
     Checksum: 500203a Exists: true
-  Reading patch net.minecraft.tags.BlockTags.binpatch
-    Checksum: 73f987e6 Exists: true
   Reading patch net.minecraft.tags.ITag$1.binpatch
     Checksum: 53062add Exists: true
   Reading patch net.minecraft.tags.ITag$Builder.binpatch
@@ -1916,8 +1918,6 @@ Loading patches file: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_
     Checksum: ee95642c Exists: true
   Reading patch net.minecraft.tags.ITag.binpatch
     Checksum: 3e38adfe Exists: true
-  Reading patch net.minecraft.tags.ItemTags.binpatch
-    Checksum: 909239d2 Exists: true
   Reading patch net.minecraft.tags.NetworkTagManager.binpatch
     Checksum: 4c841fa9 Exists: true
   Reading patch net.minecraft.tags.Tag.binpatch
@@ -2552,6 +2552,7 @@ Processing: C:\Users\spam1\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/entity/ai/goal/EatGrassGoal 1/1
   Patching net/minecraft/entity/ai/goal/BreakDoorGoal 1/1
   Patching net/minecraft/entity/ai/brain/task/FarmTask 1/1
+  Patching net/minecraft/entity/ai/attributes/GlobalEntityTypeAttributes 1/1
   Patching net/minecraft/entity/ai/attributes/Attribute 1/1
   Patching net/minecraft/entity/EntitySpawnPlacementRegistry 1/1
   Patching net/minecraft/entity/IShearable 1/1
@@ -2595,8 +2596,6 @@ Processing: C:\Users\spam1\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/tags/ITag 1/1
   Patching net/minecraft/tags/TagRegistry 1/1
   Patching net/minecraft/tags/Tag 1/1
-  Patching net/minecraft/tags/ItemTags 1/1
-  Patching net/minecraft/tags/BlockTags 1/1
   Patching net/minecraft/stats/StatType 1/1
   Patching net/minecraft/util/SoundEvents 1/1
   Patching net/minecraft/util/SoundEvent 1/1
@@ -2972,6 +2971,7 @@ Processing: C:\Users\spam1\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\jo
   Patching net/minecraft/network/play/client/CCreativeInventoryActionPacket 1/1
   Patching net/minecraft/network/play/client/CCustomPayloadPacket 1/1
   Patching net/minecraft/network/play/client/CClickWindowPacket 1/1
+  Patching net/minecraft/network/play/client/CClientSettingsPacket 1/1
   Patching net/minecraft/tags/ITag$TagEntry 1/1
   Patching net/minecraft/tags/ITag$INamedTag 1/1
   Patching net/minecraft/tags/ITag$ITagEntry 1/1
