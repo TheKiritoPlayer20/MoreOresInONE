@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: ''
 labels: enhancement
-assignees: KiritoGames20
+assignees: realKG20
 
 ---
 
