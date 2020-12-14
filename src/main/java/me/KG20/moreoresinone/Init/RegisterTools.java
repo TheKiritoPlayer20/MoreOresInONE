@@ -27,19 +27,26 @@ public class RegisterTools {
     public static final Sword sapphireSword = new Sword(BasisToolMaterial.sapphire, new Item.Properties().group(CreativeTabs.overworld));
     public static final Sickle sapphireSickle = new Sickle(new Item.Properties().group(CreativeTabs.overworld).maxDamage(Config.durabilitiy_sapphire.get()));
 
-    public static final Hoe topazHoe = new Hoe(BasisToolMaterial.topaz,-3, 0.0F, new Item.Properties().group(CreativeTabs.nether));
-    public static final Axe topazAxe = new Axe(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether));
-    public static final Pickaxe topazPickaxe = new Pickaxe(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether));
-    public static final Shovel topazShovel = new Shovel(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether));
-    public static final Sword topazSword = new Sword(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether));
-    public static final Sickle topazSickle = new Sickle(new Item.Properties().group(CreativeTabs.nether).maxDamage(Config.durabilitiy_topaz.get()));
+    public static final Hoe cryoriteHoe = new Hoe(BasisToolMaterial.cryorite,-3, 0.0F, new Item.Properties().group(CreativeTabs.overworld));
+    public static final Axe cryoriteAxe = new Axe(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
+    public static final Pickaxe cryoritePickaxe = new Pickaxe(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
+    public static final Shovel cryoriteShovel = new Shovel(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
+    public static final Sword cryoriteSword = new Sword(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
+    public static final Sickle cryoriteSickle = new Sickle(new Item.Properties().group(CreativeTabs.overworld).maxDamage(Config.durabilitiy_sapphire.get()));
 
-    public static final Hoe amethystHoe = new Hoe(BasisToolMaterial.amethyst,-3, 0.0F, new Item.Properties().group(CreativeTabs.end));
-    public static final Axe amethystAxe = new Axe(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end));
-    public static final Pickaxe amethystPickaxe = new Pickaxe(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end));
-    public static final Shovel amethystShovel = new Shovel(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end));
-    public static final Sword amethystSword = new Sword(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end));
-    public static final Sickle amethystSickle = new Sickle(new Item.Properties().group(CreativeTabs.end).maxDamage(Config.durabilitiy_amethyst.get()));
+    public static final Hoe topazHoe = new Hoe(BasisToolMaterial.topaz,-3, 0.0F, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final Axe topazAxe = new Axe(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final Pickaxe topazPickaxe = new Pickaxe(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final Shovel topazShovel = new Shovel(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final Sword topazSword = new Sword(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final Sickle topazSickle = new Sickle(new Item.Properties().group(CreativeTabs.nether).maxDamage(Config.durabilitiy_topaz.get()).isImmuneToFire());
+
+    public static final Hoe amethystHoe = new Hoe(BasisToolMaterial.amethyst,-3, 0.0F, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final Axe amethystAxe = new Axe(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final Pickaxe amethystPickaxe = new Pickaxe(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final Shovel amethystShovel = new Shovel(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final Sword amethystSword = new Sword(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final Sickle amethystSickle = new Sickle(new Item.Properties().group(CreativeTabs.end).maxDamage(Config.durabilitiy_amethyst.get()).isImmuneToFire());
 
 
     @SubscribeEvent
@@ -61,6 +68,14 @@ public class RegisterTools {
         sapphireSword.setRegistryName(Constants.modid, "sapphire_sword");
         sapphireSickle.setRegistryName(Constants.modid, "sapphire_sickle");
         registry.registerAll(sapphireHoe,sapphireAxe,sapphirePickaxe,sapphireShovel,sapphireSword,sapphireSickle);
+
+        cryoriteHoe.setRegistryName(Constants.modid, "cryorite_hoe");
+        cryoriteAxe.setRegistryName(Constants.modid, "cryorite_axe");
+        cryoritePickaxe.setRegistryName(Constants.modid, "cryorite_pickaxe");
+        cryoriteShovel.setRegistryName(Constants.modid, "cryorite_shovel");
+        cryoriteSword.setRegistryName(Constants.modid, "cryorite_sword");
+        cryoriteSickle.setRegistryName(Constants.modid, "cryorite_sickle");
+        registry.registerAll(cryoriteHoe,cryoriteAxe,cryoritePickaxe,cryoriteShovel,cryoriteSword,cryoriteSickle);
 
         topazHoe.setRegistryName(Constants.modid, "topaz_hoe");
         topazAxe.setRegistryName(Constants.modid, "topaz_axe");

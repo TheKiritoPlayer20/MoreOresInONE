@@ -1,19 +1,19 @@
-Args: "--in-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\libs\MoreOresInONE-1.0.jar", "--out-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar\output.jar", "--srg-in", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\libs\MoreOresInONE-1.1_BETA.jar", "--out-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar\output.jar", "--srg-in", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24_mapped_snapshot_20200514-1.16\forge-1.16.1-32.0.24_mapped_snapshot_20200514-1.16-recomp.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.1-32.0.24_mapped_snapshot_20200514-1.16\forge-1.16.1-32.0.24_mapped_snapshot_20200514-1.16-launcher.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_repo\versions\1.16.1\client-extra.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.1.1\1d1e439ef345ab5fd76df679de70a0c35f03bf4a\accesstransformers-2.1.1-shadowed.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\2.2.0\e663ad1f795b81da8a132c8fde40580b05c2343d\eventbus-2.2.0-service.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\2.0.3\9e3f5323f6a2c3ac04fa27481cbeeb48f89757bd\coremods-2.0.3.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\3.0.0\f950d208c9fa7a1d7700d8a222bd08d4baf90600\forgespi-3.0.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.0\b9caea28c3fd15fd2c971cb41c44855767f7dbc8\modlauncher-5.1.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.0\1033a85fb0f675efa503c3e7d5009c22c215299e\modlauncher-5.1.0-api.jar
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.7_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.7_mapped_snapshot_20201028-1.16.3-recomp.jar
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.7_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.7_mapped_snapshot_20201028-1.16.3-launcher.jar
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_repo\versions\1.16.4\client-extra.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.2.0\43c882f4e7e5648acb14c9de8c2eca5f670d2bd\accesstransformers-2.2.0-shadowed.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\3.0.5\ddaf05a46ff9e4af845e4b6fc914c0b9f98f28c2\eventbus-3.0.5-service.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\3.0.0\fdf3b62a9a1fbd6a0826190d6d9962d9dd4f0340\coremods-3.0.0.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\3.2.0\c6ca4e4e4a0343701407c760e642537b613b543\forgespi-3.2.0.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\8.0.6\70155a85837ebb17d36815ab4d12a3b464963df8\modlauncher-8.0.6.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\8.0.6\5cc4b2ec5be0b92660497a918a66337118b71c78\modlauncher-8.0.6-api.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.9\d1e1ba354a40b5703340b5cb02fdca489cff3646\mergetool-1.0.9-api.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20200514-1.16\mcp_snapshot-20200514-1.16.zip
+Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20201028-1.16.3\mcp_snapshot-20201028-1.16.3.zip
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\7.2\ca2954e8d92a05bacc28ff465b25c70e0f512497\asm-commons-7.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\7.2\a3ae34e57fa8a4040e28247291d0cc3d6b8c7bcf\asm-util-7.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\7.2\b6e6abe057f23630113f4167c34bda7086691258\asm-analysis-7.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\7.2\3a23cc36edaf8fc5a89cb100182758ccb5991487\asm-tree-7.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\7.2\fa637eb67eb7628c915d73762b681ae7ff0b9731\asm-7.2.jar
@@ -28,6 +28,7 @@ Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecrell\termi
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.11.2\6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\log4j-core-2.11.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.11.2\f5e9a2ffca496057d6891a3de65128efc636e26e\log4j-api-2.11.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.2\1cf212283d26f706fd3074318870bebd14d2a9ed\mixin-0.8.2.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
@@ -43,9 +44,9 @@ Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\commons-codec\commo
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.17\c6b7dc51dd44379cc751b7504816006e9be4b1e6\brigadier-1.0.17.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\3.0.25\b3e9ae66d5a69b4aa43d9dbe1e2b2d1401251343\datafixerupper-3.0.25.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\4.0.26\ebd6690f33871ccee9b6132c6480668ee2e35020\datafixerupper-4.0.26.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.6.25\5bd0ce00c1e1f483641f85bccb02d1956dd77ec0\authlib-1.6.25.jar
+Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\2.0.27\cc36c2be8b0de3e200efbb23f0eb2d28055cd98f\authlib-2.0.27.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
 Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
@@ -77,5 +78,5 @@ WorkDir: H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings
-0 packages, 5465 classes, 20931 fields, 37615 methods
+0 packages, 5447 classes, 21481 fields, 38358 methods
 Remapping final jar

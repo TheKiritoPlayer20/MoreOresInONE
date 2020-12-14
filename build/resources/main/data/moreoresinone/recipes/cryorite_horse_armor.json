@@ -1,0 +1,17 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "moreoresinone:cryorite",
+            "item_h": "moreoresinone:cryorite"
+        },
+        {
+            "item": "minecraft:diamond_horse_armor",
+            "item_h": "minecraft:diamond_horse_armor"
+        }
+    ],
+    "result": {
+        "item": "moreoresinone:cryorite_horse_armor",
+        "count": 1
+    }
+}

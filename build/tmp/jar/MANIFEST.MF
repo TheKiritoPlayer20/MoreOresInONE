@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: MoreOresInONE
-Implementation-Version: 1.0
-Specification-Vendor: examplemodsareus
+Implementation-Version: 1.1_BETA
+Specification-Vendor: moreoresinone
 Specification-Title: moreoresinone
-Implementation-Timestamp: 2020-06-28T19:52:21+0200
+Implementation-Timestamp: 2020-12-12T22:08:45+0100
 Specification-Version: 1
-Implementation-Vendor: examplemodsareus
+Implementation-Vendor: moreoresinone
 

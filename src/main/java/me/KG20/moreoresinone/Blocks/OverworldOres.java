@@ -20,6 +20,10 @@ public class OverworldOres extends Block {
         super(Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3F,3F).sound(SoundType.STONE));
     }
 
+    public OverworldOres(Properties properties){
+        super(properties);
+    }
+
 
     @Nullable
     @Override

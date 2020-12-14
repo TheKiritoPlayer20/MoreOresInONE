@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[35,)"
+license="All rights reserved"
 issueTrackerURL="https://github.com/TheKiritoPlayer20/MoreOresInONE/issues"
 #displayURL="http://example.com/"
 logoFile="moione_logo.png"
@@ -22,7 +23,7 @@ Disclaimer: Make sure to download this mod from Curseforge or PlanetMinecraft.
 [[dependencies.moreoresinone]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[31.1.1, )" #mandatory
+    versionRange="[35.0.1,)" #mandatory
     ordering="NONE"
     side="BOTH"
 
@@ -30,6 +31,6 @@ Disclaimer: Make sure to download this mod from Curseforge or PlanetMinecraft.
 [[dependencies.moreoresinone]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2,]"
+    versionRange="[1.16.4,]"
     ordering="NONE"
     side="BOTH"

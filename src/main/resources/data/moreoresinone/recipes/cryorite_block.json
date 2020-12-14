@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:cryorite"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:cryorite_block",
+        "count": 1
+    },
+    "group": "cryorite_blocks"
+}

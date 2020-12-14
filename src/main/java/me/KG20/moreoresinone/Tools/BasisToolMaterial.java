@@ -13,6 +13,7 @@ public class BasisToolMaterial {
 
     public static final IItemTier ruby = new ToolMaterial(3, Config.durabilitiy_ruby.get(), 9.5F, Config.attackdamage_ruby.get(), 10, () -> Ingredient.fromItems(RegisterItems.ruby));
     public static final IItemTier sapphire = new ToolMaterial(3, Config.durabilitiy_sapphire.get(), 9.5F, Config.attackdamage_sapphire.get(), 10, () -> Ingredient.fromItems(RegisterItems.sapphire));
+    public static final IItemTier cryorite = new ToolMaterial(2, Config.durabilitiy_cryorite.get(), 7.0F, Config.attackdamage_cryorite.get(), 15, () -> Ingredient.fromItems(RegisterItems.cryorite));
     public static final IItemTier topaz = new ToolMaterial(4, Config.durabilitiy_topaz.get(),10F, Config.attackdamage_topaz.get(), 12, () -> Ingredient.fromItems(RegisterItems.topaz));
     public static final IItemTier amethyst = new ToolMaterial(4, Config.durabilitiy_amethyst.get(), 24F, Config.attackdamage_amethyst.get(), 15, () -> Ingredient.fromItems(RegisterItems.amethyst));
 

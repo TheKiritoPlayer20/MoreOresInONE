@@ -1,0 +1,17 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:cryorite"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:cryorite_helmet"
+    },
+    "group": "cryorite_armor"
+}

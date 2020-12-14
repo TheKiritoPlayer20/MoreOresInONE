@@ -1,0 +1,35 @@
+{
+  "parent": "moreoresinone:moreoresinone/root",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:cryorite"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.find_cryorite.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.find_cryorite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+    "cryorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:cryorite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cryorite"
+    ]
+  ]
+}

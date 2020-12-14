@@ -19,7 +19,8 @@ public class BasisArmorMaterial {
     public final static IArmorMaterial ruby = new ArmorMaterial(Constants.modid + ":ruby",33, new int[]{Config.ruby_boots_protection.get(), Config.ruby_leggings_protection.get(), Config.ruby_chestplate_protection.get(), Config.ruby_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.ruby_toughness.get(),0.0F, () -> Ingredient.fromItems(RegisterItems.ruby));
     public final static IArmorMaterial sapphire = new ArmorMaterial(Constants.modid + ":sapphire", 33, new int[]{Config.sapphire_boots_protection.get(), Config.sapphire_leggings_protection.get(), Config.sapphire_chestplate_protection.get(), Config.sapphire_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.sapphire_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.sapphire));
     public final static IArmorMaterial topaz = new ArmorMaterial(Constants.modid + ":topaz", 35, new int[]{Config.topaz_boots_protection.get(), Config.topaz_leggings_protection.get(), Config.topaz_chestplate_protection.get(), Config.topaz_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.topaz_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.topaz));
-    public final static IArmorMaterial amethyst = new ArmorMaterial(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.amethyst));
+    public final static IArmorMaterial amethyst = new ArmorMaterial(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),0.1F,() -> Ingredient.fromItems(RegisterItems.amethyst));
+    public final static IArmorMaterial cryorite = new ArmorMaterial(Constants.modid + ":cryorite",17, new int[]{Config.cryorite_boots_protection.get(), Config.cryorite_leggings_protection.get(), Config.cryorite_chestplate_protection.get(), Config.cryorite_helmet_protection.get()}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, Config.cryorite_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.cryorite));
 
     private static class ArmorMaterial implements IArmorMaterial{
 
@@ -30,17 +31,17 @@ public class BasisArmorMaterial {
         private final int enchantability;
         private final SoundEvent soundEvent;
         private final float toughness;
-        private final float field_234660_o_;
+        private final float knockbackResistance;
         private final LazyValue<Ingredient> repairMaterial;
 
-        public ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, float p_i231593_9_, Supplier<Ingredient> supplier) {
+        public ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
             this.name = name;
             this.maxDamageFactor = maxDamageFactor;
             this.damageReductionAmountArray = damageReductionAmountArray;
             this.enchantability = enchantability;
             this.soundEvent = soundEvent;
             this.toughness = (float)toughness;
-            this.field_234660_o_ = p_i231593_9_;
+            this.knockbackResistance = knockbackResistance;
             this.repairMaterial = new LazyValue<Ingredient>(supplier);
         }
 
@@ -81,8 +82,8 @@ public class BasisArmorMaterial {
         }
 
         @Override
-        public float func_230304_f_() {
-            return this.field_234660_o_;
+        public float getKnockbackResistance() {
+            return this.knockbackResistance;
         }
     }
 

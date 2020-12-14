@@ -76,5 +76,9 @@
 "advancements.moreoresinone.amethyst_tools.title": "紫水晶工具",
 "advancements.moreoresinone.amethyst_tools.description": "合成任意紫水晶工具.",
 "advancements.moreoresinone.amethyst_armor.title": "紫水晶护甲",
-"advancements.moreoresinone.amethyst_armor.description": "合成所有紫水晶护甲"
+"advancements.moreoresinone.amethyst_armor.description": "合成所有紫水晶护甲",
+"item.moreoresinone.ruby_horse_armor" : "红宝石马铠",
+"item.moreoresinone.sapphire_horse_armor" : "蓝宝石马铠",
+"item.moreoresinone.topaz_horse_armor" : "托帕石马铠",
+"item.moreoresinone.amethyst_horse_armor" : "紫水晶马铠"
 }

@@ -14,8 +14,9 @@ public class RegisterItems {
 
     public static final OreItems ruby = new OreItems(new Item.Properties().group(CreativeTabs.overworld));
     public static final OreItems sapphire = new OreItems(new Item.Properties().group(CreativeTabs.overworld));
-    public static final OreItems topaz = new OreItems(new Item.Properties().group(CreativeTabs.nether));
-    public static final OreItems amethyst = new OreItems(new Item.Properties().group(CreativeTabs.end));
+    public static final OreItems cryorite = new OreItems(new Item.Properties().group(CreativeTabs.overworld));
+    public static final OreItems topaz = new OreItems(new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final OreItems amethyst = new OreItems(new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
 
 
 
@@ -26,6 +27,8 @@ public class RegisterItems {
         registry.register(ruby);
         sapphire.setRegistryName(Constants.modid, "sapphire");
         registry.register(sapphire);
+        cryorite.setRegistryName(Constants.modid, "cryorite");
+        registry.register(cryorite);
         topaz.setRegistryName(Constants.modid, "topaz");
         registry.register(topaz);
         amethyst.setRegistryName(Constants.modid, "amethyst");

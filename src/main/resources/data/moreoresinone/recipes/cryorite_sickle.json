@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "  #",
+        "/# "
+    ],
+    "key": {
+        "#": {
+            "item": "moreoresinone:cryorite"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "moreoresinone:cryorite_sickle",
+        "count": 1
+    },
+    "group": "cryorite_tools"
+}

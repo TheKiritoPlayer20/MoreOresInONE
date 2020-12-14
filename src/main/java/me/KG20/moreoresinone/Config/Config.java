@@ -1,6 +1,5 @@
 package me.KG20.moreoresinone.Config;
 
-import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 public class Config {
@@ -15,6 +14,7 @@ public class Config {
     public static ForgeConfigSpec.IntValue durabilitiy_ruby;
     public static ForgeConfigSpec.DoubleValue attackdamage_ruby;
     public static ForgeConfigSpec.IntValue veinsize_ruby;
+    public static ForgeConfigSpec.IntValue chance_ruby;
     public static ForgeConfigSpec.IntValue count_ruby;
     public static ForgeConfigSpec.IntValue minheight_ruby;
     public static ForgeConfigSpec.IntValue maxheight_ruby;
@@ -25,10 +25,22 @@ public class Config {
     public static ForgeConfigSpec.IntValue durabilitiy_sapphire;
     public static ForgeConfigSpec.DoubleValue attackdamage_sapphire;
     public static ForgeConfigSpec.IntValue veinsize_sapphire;
-    public static ForgeConfigSpec.IntValue count_sapphire;
+    public static ForgeConfigSpec.IntValue chance_sapphire;
+    public static ForgeConfigSpec.IntValue count_sapphhire;
     public static ForgeConfigSpec.IntValue minheight_sapphire;
     public static ForgeConfigSpec.IntValue maxheight_sapphire;
     public static ForgeConfigSpec.DoubleValue sapphire_temperature;
+
+    //Cryorite
+    public static ForgeConfigSpec.BooleanValue generate_cryorite;
+    public static ForgeConfigSpec.IntValue durabilitiy_cryorite;
+    public static ForgeConfigSpec.DoubleValue attackdamage_cryorite;
+    public static ForgeConfigSpec.IntValue veinsize_cryorite;
+    public static ForgeConfigSpec.IntValue chance_cryorite;
+    public static ForgeConfigSpec.IntValue count_cryorite;
+    public static ForgeConfigSpec.IntValue minheight_cryorite;
+    public static ForgeConfigSpec.IntValue maxheight_cryorite;
+    public static ForgeConfigSpec.DoubleValue cryorite_temperature;
 
     //Nether
 
@@ -37,6 +49,7 @@ public class Config {
     public static ForgeConfigSpec.IntValue durabilitiy_topaz;
     public static ForgeConfigSpec.DoubleValue attackdamage_topaz;
     public static ForgeConfigSpec.IntValue veinsize_topaz;
+    public static ForgeConfigSpec.IntValue chance_topaz;
     public static ForgeConfigSpec.IntValue count_topaz;
     public static ForgeConfigSpec.IntValue minheight_topaz;
     public static ForgeConfigSpec.IntValue maxheight_topaz;
@@ -47,28 +60,48 @@ public class Config {
     public static ForgeConfigSpec.BooleanValue generate_amethyst;
     public static ForgeConfigSpec.IntValue durabilitiy_amethyst;
     public static ForgeConfigSpec.DoubleValue attackdamage_amethyst;
+    public static ForgeConfigSpec.IntValue veinsize_amethyst;
+    public static ForgeConfigSpec.IntValue chance_amethyst;
     public static ForgeConfigSpec.IntValue count_amethyst;
     public static ForgeConfigSpec.IntValue minheight_amethyst;
     public static ForgeConfigSpec.IntValue maxheight_amethyst;
 
     //Experience
-    public static ForgeConfigSpec.BooleanValue generate_Overworld_EXP_ORE;
-    public static ForgeConfigSpec.BooleanValue generate_Nether_EXP_ORE;
-    public static ForgeConfigSpec.BooleanValue generate_End_EXP_ORE;
     public static ForgeConfigSpec.BooleanValue enableFortune;
+
+    //Overworld EXP
+    public static ForgeConfigSpec.BooleanValue generate_Overworld_EXP_ORE;
+    public static ForgeConfigSpec.IntValue veinsize_overworld_experience;
+    public static ForgeConfigSpec.IntValue chance_overworld_experience;
     public static ForgeConfigSpec.IntValue count_overworld_experience;
     public static ForgeConfigSpec.IntValue minheight_overworld_experience;
     public static ForgeConfigSpec.IntValue maxheight_overworld_experience;
+
+    //Nether EXP
+    public static ForgeConfigSpec.BooleanValue generate_Nether_EXP_ORE;
+    public static ForgeConfigSpec.IntValue veinsize_nether_experience;
+    public static ForgeConfigSpec.IntValue chance_nether_experience;
     public static ForgeConfigSpec.IntValue count_nether_experience;
     public static ForgeConfigSpec.IntValue minheight_nether_experience;
     public static ForgeConfigSpec.IntValue maxheight_nether_experience;
+
+    //end EXP
+    public static ForgeConfigSpec.BooleanValue generate_End_EXP_ORE;
+    public static ForgeConfigSpec.IntValue veinsize_end_experience;
+    public static ForgeConfigSpec.IntValue chance_end_experience;
     public static ForgeConfigSpec.IntValue count_end_experience;
     public static ForgeConfigSpec.IntValue minheight_end_experience;
     public static ForgeConfigSpec.IntValue maxheight_end_experience;
+
+    //EXP Points Overworld
     public static ForgeConfigSpec.IntValue min_exp_overworld;
     public static ForgeConfigSpec.IntValue max_exp_overworld;
+
+    //EXP Points Nether
     public static ForgeConfigSpec.IntValue min_exp_nether;
     public static ForgeConfigSpec.IntValue max_exp_nether;
+
+    //EXP Points End
     public static ForgeConfigSpec.IntValue min_exp_end;
     public static ForgeConfigSpec.IntValue max_exp_end;
 
@@ -89,6 +122,13 @@ public class Config {
     public static ForgeConfigSpec.IntValue sapphire_boots_protection;
     public static ForgeConfigSpec.DoubleValue sapphire_toughness;
 
+    //Sapphire
+    public static ForgeConfigSpec.IntValue cryorite_helmet_protection;
+    public static ForgeConfigSpec.IntValue cryorite_chestplate_protection;
+    public static ForgeConfigSpec.IntValue cryorite_leggings_protection;
+    public static ForgeConfigSpec.IntValue cryorite_boots_protection;
+    public static ForgeConfigSpec.DoubleValue cryorite_toughness;
+
     //Topaz
     public static ForgeConfigSpec.IntValue topaz_helmet_protection;
     public static ForgeConfigSpec.IntValue topaz_chestplate_protection;
@@ -106,6 +146,7 @@ public class Config {
     //Horse Armor
     public static ForgeConfigSpec.IntValue ruby_horse_armor;
     public static ForgeConfigSpec.IntValue sapphire_horse_armor;
+    public static ForgeConfigSpec.IntValue cryorite_horse_armor;
     public static ForgeConfigSpec.IntValue topaz_horse_armor;
     public static ForgeConfigSpec.IntValue amethyst_horse_armor;
 
@@ -115,21 +156,27 @@ public class Config {
         Builder.push("Experience");
         Builder.push("Overworld");
         generate_Overworld_EXP_ORE = Builder.comment("Enable the Generation of the Overworld Experience Ore(Default: true).").define("generate_overworld_experience", true);
-        count_overworld_experience = Builder.comment("Set the Count of the Experience Ore how much can spawn per Chunk in the Overworld.(Default: 5)").defineInRange("count_overworld_experience", 5, 1, 255);
+        veinsize_overworld_experience = Builder.comment("Set the Vein Size of the Overworld Experience Ore(Default: 1).").defineInRange("veinsize_overworld_experience", 4, 1, 255);
+        count_overworld_experience = Builder.comment("Set the maximum ammount of the Experience Ore veins in the Overworld (Default: 4)").defineInRange("count_overworld_experience", 5, 1,999999999);
+        chance_overworld_experience = Builder.comment("Set the chance of the Overworld Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_overworld_experience", 1, 1, 999999999);
         minheight_overworld_experience = Builder.comment("Set the Min Height of the Experience Ore in the Overworld (Default: 0).").defineInRange("min_height_overworld_experience", 0, 0, 128);
-        maxheight_overworld_experience = Builder.comment("Set the Max Height of the Experience Ore in the Overworld (Default: 128).").defineInRange("max_height_overworld_experience", 128, 0, 256);
+        maxheight_overworld_experience = Builder.comment("Set the Max Height of the Experience Ore in the Overworld (Default: 128).").defineInRange("max_height_overworld_experience", 128, 1, 256);
         Builder.pop();
 
         Builder.push("Nether");
         generate_Nether_EXP_ORE = Builder.comment("Enable the Generation of the Nether Experience Ore (Default: true).").define("generate_nether_experience", true);
-        count_nether_experience = Builder.comment("Set the Count of the Experience Ore how much can spawn per Chunk in the Nether(Default: 5).").defineInRange("count_nether_experience", 5, 1, 255);
+        veinsize_nether_experience = Builder.comment("Set the Vein Size of the Nether Experience Ore(Default: 4).").defineInRange("veinsize_nether_experience", 4, 1, 255);
+        count_nether_experience = Builder.comment("Set the maximum ammount of the Experience Ore veins in the Nether (Default: 4)").defineInRange("count_nether_experience", 5, 1,999999999);
+        chance_nether_experience = Builder.comment("Set the chance of the Nether Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_nether_experience", 1, 1, 999999999);
         minheight_nether_experience = Builder.comment("Set the Min Height of the Experience Ore in the Nether (Default: 0).").defineInRange("min_height_nether_experience", 0, 0, 128);
         maxheight_nether_experience = Builder.comment("Set the Max Height of the Experience Ore in the Nether (Default: 128).").defineInRange("max_height_nether_experience", 128, 0, 128);
         Builder.pop();
 
         Builder.push("End");
         generate_End_EXP_ORE = Builder.comment("Enable the Generation of the End Experience Ore (Default: true).").define("generate_end_experience", true);
-        count_end_experience = Builder.comment("Set the Count of the Experience Ore how much can spawn per Chunk in  the End (Default: 5).").defineInRange("count_end_experience", 5, 1, 255);
+        veinsize_end_experience = Builder.comment("Set the Vein Size of the End Experience Ore(Default: 4).").defineInRange("veinsize_end_experience", 4, 1, 255);
+        count_end_experience = Builder.comment("Set the maximum ammount of the Experience Ore veins in the End (Default: 4)").defineInRange("count_end_experience", 5, 1,999999999);
+        chance_end_experience = Builder.comment("Set the chance of the End Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_end_experience", 1, 1, 999999999);
         minheight_end_experience = Builder.comment("Set the Min Height of the Experience Ore in  the End (Default: 0).").defineInRange("min_height_end_experience", 0, 0, 128);
         maxheight_end_experience = Builder.comment("Set the Max Height of the Experience Ore in  the End (Default: 128).").defineInRange("max_height_end_experience", 128, 0, 128);
         Builder.pop();
@@ -159,27 +206,40 @@ public class Config {
         Builder.push("Sapphire Generation");
         generate_sapphire = Builder.comment("Enable the Generation of Sapphire Ore (Default: true).").define("generate_sapphire", true);
         veinsize_sapphire = Builder.comment("Set the Vein Size of the Sapphire Ore (Default: 8).").defineInRange("veinsize_sapphire", 8, 4, 255);
-        count_sapphire = Builder.comment("Set the Count of the Sapphire Ore how much can spawn per Chunk (Default: 1).").defineInRange("count_sapphire", 1, 1, 255);
+        chance_sapphire = Builder.comment("Set the chance of the Sapphire Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_sapphire", 1, 1, 100);
+        count_sapphhire = Builder.comment("Set the maximum ammount of the Sapphire ore veins per Chunk (Default: 1).").defineInRange("count_sapphire", 1,0,999999999);
         minheight_sapphire = Builder.comment("Set the Min Height of the Sapphire Ore (Default: 0).").defineInRange("minheight_sapphire", 0, 0, 256);
         maxheight_sapphire = Builder.comment("Set the Max Height of the Sapphire Ore (Default: 16).").defineInRange("maxheight_sapphire", 16, 0, 256);
         sapphire_temperature = Builder.comment("Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)").defineInRange("sapphire_temperature", 0.2D, -999999999D, 999999999);
-
         Builder.pop();
+
         Builder.push("Ruby Generation");
         generate_ruby = Builder.comment("Enable the Generation of Ruby Ore (Default: true).").define("generate_ruby", true);
         veinsize_ruby = Builder.comment("Set the Vein Size of the Ruby Ore (Default: 8).").defineInRange("veinsize_ruby", 8, 4, 255);
-        count_ruby = Builder.comment("Set the Count of the Ruby Ore how much can spawn per Chunk (Default: 1).").defineInRange("count_ruby", 1, 1, 255);
+        chance_ruby = Builder.comment("Set the chance of the Ruby Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_ruby", 1, 1, 255);
+        count_ruby = Builder.comment("Set the maximum ammount of the Ruby ore veins per Chunk (Default: 1).").defineInRange("count_ruby", 1,0,999999999);
         minheight_ruby = Builder.comment("Set the Min Height of the Ruby Ore (Default: 0).").defineInRange("minheight_ruby", 0, 0, 256);
         maxheight_ruby = Builder.comment("Set the Max  Height of the Ruby Ore (Default: 16).").defineInRange("maxheight_ruby", 16, 0, 256);
-        ruby_temperature = Builder.comment("Set the Temperature of the biome in which the Ruby Ore should generate(The temperature of the biome is equal and below)(Default: 1.0F)").defineInRange("ruby_temperature", 1D, -999999999D, 999999999);
+        ruby_temperature = Builder.comment("Set the Temperature of the biome in which the Ruby Ore should generate(The temperature of the biome is equal and above)(Default: 1.0F)").defineInRange("ruby_temperature", 1D, -999999999D, 999999999);
+        Builder.pop();
+
+        Builder.push("Cryorite Generation");
+        generate_cryorite = Builder.comment("Enable the Generation of Cryorite Ore (Default: true).").define("generate_cryorite", true);
+        veinsize_cryorite = Builder.comment("Set the Vein Size of the Cryorite Ore (Default: 4).").defineInRange("veinsize_cryorite", 4, 1, 255);
+        chance_cryorite = Builder.comment("Set the chance of the Cryorite Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_cryorite", 1, 1, 255);
+        count_cryorite = Builder.comment("Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 1).").defineInRange("count_cryorite", 1,0,999999999);
+        minheight_cryorite = Builder.comment("Set the Min Height of the Cryorite Ore (Default: 40).").defineInRange("minheight_cryorite", 40, 0, 256);
+        maxheight_cryorite = Builder.comment("Set the Max  Height of the Cryorite Ore (Default: 100).").defineInRange("maxheight_cryorite", 100, 0, 256);
+        cryorite_temperature = Builder.comment("Set the Temperature of the biome in which the Cryorite Ore should generate(The temperature of the biome is equal and below)(Default: 1.0F)").defineInRange("cryorite_temperature", 0.5D, -999999999D, 999999999);
         Builder.pop();
 
         Builder.pop();
         Builder.push("Nether");
         Builder.push("Topaz Generation");
         generate_topaz = Builder.comment("Enable the Generation of Topaz Ore (Default: true).").define("generate_topaz", true);
-        veinsize_topaz = Builder.comment("Set the Vein Size of the Topaz Ore (Default: 4).").defineInRange("veinsize_topaz", 4, 4, 255);
-        count_topaz = Builder.comment("Set the Count of the Topaz Ore how much can spawn per Chunk (Default: 12).").defineInRange("count_topaz", 12, 1, 255);
+        veinsize_topaz = Builder.comment("Set the Vein Size of the Topaz Ore (Default: 4).").defineInRange("veinsize_topaz", 4, 1, 255);
+        chance_topaz = Builder.comment("Set the chance of the Topaz Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_topaz", 1, 1, 255);
+        count_topaz = Builder.comment("Set the maximum ammount of the Topaz ore veins per Chunk (Default: 1).").defineInRange("count_topaz", 1,0,999999999);
         minheight_topaz = Builder.comment("Set the Min Height of the Topaz Ore (Default: 0).").defineInRange("minheight_topaz", 0, 0, 128);
         maxheight_topaz = Builder.comment("Set the Max Height of the Topaz Ore (Default: 128).").defineInRange("maxheight_topaz", 128, 0, 128);
         Builder.pop();
@@ -188,7 +248,9 @@ public class Config {
         Builder.push("End");
         Builder.push("Amethyst Generation");
         generate_amethyst = Builder.comment("Enable the Generation of Amethyst Ore (Default: true).").define("generate_amethyst", true);
-        count_amethyst = Builder.comment("Set the Count of the Amethyst Ore how much can spawn per Chunk (Default: 10).").defineInRange("count_amethyst", 10, 1, 255);
+        veinsize_amethyst = Builder.comment("Set the Vein Size of the Amethyst Ore(Default: 1).").defineInRange("veinsize_amethyst", 1, 1, 255);
+        chance_amethyst = Builder.comment("Set the chance of the Amethyst Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_amethyst", 1, 1, 255);
+        count_amethyst = Builder.comment("Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 1).").defineInRange("count_amethyst", 1,0,999999999);
         minheight_amethyst = Builder.comment("Set the Min Height of the Amethyst Ore (Default: 0).").defineInRange("minheight_amethyst", 0, 0, 128);
         maxheight_amethyst = Builder.comment("Set the Max Height of the Amethyst Ore (Default: 128).").defineInRange("maxheight_amethyst", 128, 0, 128);
         Builder.pop();
@@ -203,6 +265,10 @@ public class Config {
         Builder.pop();
         Builder.push("Sapphire");
         durabilitiy_sapphire = Builder.comment("Set the Durability of Sapphire Tools(Default: 1700).").defineInRange("durability_sapphire", 1700, 0, 999999999);
+
+        Builder.pop();
+        Builder.push("Cryorite");
+        durabilitiy_cryorite = Builder.comment("Set the Durability of Cryorite Tools(Default: 400).").defineInRange("durability_cryorite", 400, 0, 999999999);
 
         Builder.pop();
         Builder.push("Topaz");
@@ -234,6 +300,10 @@ public class Config {
         attackdamage_sapphire = Builder.comment("Sapphire base attack damage").defineInRange("attackdamage_sapphire",3.5,0.0, 999999999);
         Builder.pop();
 
+        Builder.push("Cryorite");
+        attackdamage_cryorite = Builder.comment("Cryorite base attack damage").defineInRange("attackdamage_cryorite",2.5,0.0, 999999999);
+        Builder.pop();
+
         Builder.push("Topaz");
         attackdamage_topaz = Builder.comment("Topaz base attack damage").defineInRange("attackdamage_topaz",4,0.0, 999999999);
         Builder.pop();
@@ -245,14 +315,15 @@ public class Config {
 
         Builder.push("Horse Armor");
         Builder.push("Overworld");
-        ruby_horse_armor = Builder.comment("Set the protection value of the ruby horse armor").defineInRange("ruby_horse_armor", 11, 0,999999999);
-        sapphire_horse_armor = Builder.comment("Set the protection value of the sapphire horse armor").defineInRange("sapphire_horse_armor", 11, 0,999999999);
+        ruby_horse_armor = Builder.comment("Set the protection value of the Ruby horse armor").defineInRange("ruby_horse_armor", 11, 0,999999999);
+        sapphire_horse_armor = Builder.comment("Set the protection value of the Sapphire horse armor").defineInRange("sapphire_horse_armor", 11, 0,999999999);
+        cryorite_horse_armor = Builder.comment("Set the protection value of the Cryorite horse armor").defineInRange("cryorite_horse_armor", 11, 0,999999999);
         Builder.pop();
         Builder.push("Nether");
-        topaz_horse_armor = Builder.comment("Set the protection value of the topaz horse armor").defineInRange("topaz_horse_armor", 13, 0,999999999);
+        topaz_horse_armor = Builder.comment("Set the protection value of the Topaz horse armor").defineInRange("topaz_horse_armor", 13, 0,999999999);
         Builder.pop();
         Builder.push("End");
-        amethyst_horse_armor = Builder.comment("Set the protection value of the amethyst horse armor").defineInRange("amethyst_horse_armor", 18, 0,999999999);
+        amethyst_horse_armor = Builder.comment("Set the protection value of the Amethyst horse armor").defineInRange("amethyst_horse_armor", 18, 0,999999999);
         Builder.pop();
         Builder.pop();
 
@@ -273,6 +344,13 @@ public class Config {
         sapphire_leggings_protection = Builder.comment("Set the protection value of the Sapphire Leggings").defineInRange("sapphire_leggings_protection", 6, 0, 999999999);
         sapphire_boots_protection = Builder.comment("Set the protection value of the Sapphire Boots").defineInRange("sapphire_boots_protection", 3, 0, 999999999);
         sapphire_toughness = Builder.comment("Set the toughness of the Sapphire Armor").defineInRange("sapphire_toughness", 2.0, 0, 999999999);
+        Builder.pop();
+        Builder.push("Cryorite");
+        cryorite_helmet_protection = Builder.comment("Set the protection value of the Cryorite Helmet").defineInRange("cryorite_helmet_protection", 3, 0, 999999999);
+        cryorite_chestplate_protection = Builder.comment("Set the protection value of the Cryorite Chestplate").defineInRange("cryorite_chestplate_protection", 6, 0, 999999999);
+        cryorite_leggings_protection = Builder.comment("Set the protection value of the Cryorite Leggings").defineInRange("cryorite_leggings_protection", 7, 0, 999999999);
+        cryorite_boots_protection = Builder.comment("Set the protection value of the Cryorite Boots").defineInRange("cryorite_boots_protection", 3, 0, 999999999);
+        cryorite_toughness = Builder.comment("Set the toughness of the Cryorite Armor").defineInRange("cryorite_toughness", 0.0, 0, 999999999);
         Builder.pop();
         Builder.push("Topaz");
         topaz_helmet_protection = Builder.comment("Set the protection value of the Topaz Helmet").defineInRange("topaz_helmet_protection", 3, 0, 999999999);

@@ -1,0 +1,90 @@
+{
+  "parent": "moreoresinone:moreoresinone/find_cryorite",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:cryorite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.cryorite_tools.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.cryorite_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+  "cryorite_pickaxe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:cryorite_pickaxe"
+        }
+      ]
+    }
+  },
+  "cryorite_axe": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:cryorite_axe"
+        }
+      ]
+    }
+  },
+  "cryorite_shovel": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:cryorite_shovel"
+        }
+      ]
+    }
+  },
+  "cryorite_sword": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:cryorite_sword"
+        }
+      ]
+    }
+  },
+  "cryorite_hoe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:cryorite_hoe"
+        }
+      ]
+    }
+  },
+  "cryorite_sickle": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:cryorite_sickle"
+        }
+      ]
+    }
+  }
+},
+  "requirements": [
+    [
+      "cryorite_pickaxe",
+      "cryorite_axe",
+      "cryorite_shovel",
+      "cryorite_sword",
+      "cryorite_sickle",
+      "cryorite_hoe"
+    ]
+  ]
+}

@@ -6,7 +6,7 @@ import net.minecraft.item.IItemTier;
 
 public class Hoe extends HoeItem {
 
-    public Hoe(IItemTier material, int p_i231595_2_, float p_i231595_3_, Properties properties) {
-        super(material, p_i231595_2_, p_i231595_3_, properties);
+    public Hoe(IItemTier material, int attackDamage, float attackSpeed, Properties properties) {
+        super(material, attackDamage, attackSpeed, properties);
     }
 }
