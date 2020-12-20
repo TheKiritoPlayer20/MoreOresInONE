@@ -248,9 +248,9 @@ public class Config {
         Builder.push("End");
         Builder.push("Amethyst Generation");
         generate_amethyst = Builder.comment("Enable the Generation of Amethyst Ore (Default: true).").define("generate_amethyst", true);
-        veinsize_amethyst = Builder.comment("Set the Vein Size of the Amethyst Ore(Default: 1).").defineInRange("veinsize_amethyst", 1, 1, 255);
+        veinsize_amethyst = Builder.comment("Set the Vein Size of the Amethyst Ore(Default: 1).").defineInRange("veinsize_amethyst", 4, 1, 255);
         chance_amethyst = Builder.comment("Set the chance of the Amethyst Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).").defineInRange("chance_amethyst", 1, 1, 255);
-        count_amethyst = Builder.comment("Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 1).").defineInRange("count_amethyst", 1,0,999999999);
+        count_amethyst = Builder.comment("Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 1).").defineInRange("count_amethyst", 4,0,999999999);
         minheight_amethyst = Builder.comment("Set the Min Height of the Amethyst Ore (Default: 0).").defineInRange("minheight_amethyst", 0, 0, 128);
         maxheight_amethyst = Builder.comment("Set the Max Height of the Amethyst Ore (Default: 128).").defineInRange("maxheight_amethyst", 128, 0, 128);
         Builder.pop();

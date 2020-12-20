@@ -1,5 +1,6 @@
 package me.KG20.moreoresinone.Init;
 
+import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Items.OreItems;
 import me.KG20.moreoresinone.Main.Constants;
 import net.minecraft.item.Item;
@@ -19,7 +20,6 @@ public class RegisterItems {
     public static final OreItems amethyst = new OreItems(new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
 
 
-
     @SubscribeEvent
     public static void register(Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
@@ -33,8 +33,6 @@ public class RegisterItems {
         registry.register(topaz);
         amethyst.setRegistryName(Constants.modid, "amethyst");
         registry.register(amethyst);
-
-
     }
 
 

@@ -11,9 +11,6 @@ import net.minecraft.world.gen.placement.TopSolidRangeConfig;
 
 public class WorldGenerator {
 
-    private static final int sapphireOreVeinSize = Config.veinsize_sapphire.get();
-    private static final int topazOreVeinSize = Config.veinsize_topaz.get();
-
 
     public static ConfiguredFeature<?,?> OVERWORLD_EXPIERENCE_ORE = OverworldOres(RegisterBlocks.overworldEXPOre.getDefaultState(), Config.veinsize_overworld_experience.get(), Config.minheight_overworld_experience.get(), Config.maxheight_overworld_experience.get(), Config.chance_overworld_experience.get());
     public static ConfiguredFeature<?,?> NETHER_EXPIERENCE_ORE = NetherOres(RegisterBlocks.netherEXPOre.getDefaultState(), Config.veinsize_nether_experience.get(), Config.minheight_nether_experience.get(), Config.maxheight_nether_experience.get(), Config.chance_nether_experience.get());

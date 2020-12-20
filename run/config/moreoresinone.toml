@@ -125,7 +125,7 @@
 		["Ore Generation".Experience.Nether]
 			#Set the maximum ammount of the Experience Ore veins in the Nether (Default: 4)
 			#Range: 1 ~ 999999999
-			count_nether_experience = 4
+			count_nether_experience = 5
 			#Enable the Generation of the Nether Experience Ore (Default: true).
 			generate_nether_experience = true
 			#Set the Max Height of the Experience Ore in the Nether (Default: 128).
@@ -146,7 +146,7 @@
 			generate_overworld_experience = true
 			#Set the maximum ammount of the Experience Ore veins in the Overworld (Default: 4)
 			#Range: 1 ~ 999999999
-			count_overworld_experience = 4
+			count_overworld_experience = 5
 			#Set the Max Height of the Experience Ore in the Overworld (Default: 128).
 			#Range: 1 ~ 256
 			max_height_overworld_experience = 128
@@ -168,7 +168,7 @@
 			veinsize_end_experience = 4
 			#Set the maximum ammount of the Experience Ore veins in the End (Default: 4)
 			#Range: 1 ~ 999999999
-			count_end_experience = 4
+			count_end_experience = 5
 			#Set the Min Height of the Experience Ore in  the End (Default: 0).
 			#Range: 0 ~ 128
 			min_height_end_experience = 0
@@ -275,13 +275,13 @@
 		["Ore Generation".End."Amethyst Generation"]
 			#Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 1).
 			#Range: 0 ~ 999999999
-			count_amethyst = 1
+			count_amethyst = 4
 			#Set the Max Height of the Amethyst Ore (Default: 128).
 			#Range: 0 ~ 128
 			maxheight_amethyst = 128
 			#Set the Vein Size of the Amethyst Ore(Default: 1).
 			#Range: 1 ~ 255
-			veinsize_amethyst = 1
+			veinsize_amethyst = 4
 			#Enable the Generation of Amethyst Ore (Default: true).
 			generate_amethyst = true
 			#Set the chance of the Amethyst Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
