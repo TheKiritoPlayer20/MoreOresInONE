@@ -1,8 +1,8 @@
 {
   	"homepage": "https://www.curseforge.com/minecraft/mc-mods/more-ores-in-one/files",
   	"promos": {
-		"1.16.4-latest": "1.0",
-		"1.16.4-recommended": "1.0",
+		"1.16.4-latest": "1.1",
+		"1.16.4-recommended": "1.1",
 		"1.16.1-latest": "1.0",
 		"1.16.1-recommended": "1.0",
 		"1.15.2-latest": "1.1",
@@ -15,7 +15,7 @@
 		"1.14.4-recommended": "1.5"
   	},
 	"1.16.4": {
-		"1.0":"https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/1.16.x/changelog.txt"
+		"1.1":"https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/1.16.x/changelog.txt"
 	},
 	"1.16.1": {
 		"1.0":"https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/1.16.x/changelog.txt"
