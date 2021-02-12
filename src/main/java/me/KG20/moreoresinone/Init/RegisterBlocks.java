@@ -23,6 +23,7 @@ public class RegisterBlocks {
     public static final Block sapphireOre = new OverworldOres();
     public static final Block sapphireBlock = new ItemBlocks(MaterialColor.BLUE);
     public static final Block cryoriteOre = new OverworldOres(AbstractBlock.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).hardnessAndResistance(3F,3F).sound(SoundType.STONE));
+    public static final Block packedcryoriteOre = new OverworldOres(AbstractBlock.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).hardnessAndResistance(3F,3F).sound(SoundType.STONE));
     public static final Block cryoriteBlock = new ItemBlocks(MaterialColor.ICE);
     public static final Block topazOre = new NetherOres();
     public static final Block topazBlock = new ItemBlocks(MaterialColor.ADOBE);
@@ -45,8 +46,9 @@ public class RegisterBlocks {
         registry.registerAll(sapphireOre,sapphireBlock);
 
         cryoriteOre.setRegistryName(Constants.modid, "cryorite_ore");
+        packedcryoriteOre.setRegistryName(Constants.modid, "packed_cryorite_ore");
         cryoriteBlock.setRegistryName(Constants.modid, "cryorite_block");
-        registry.registerAll(cryoriteOre,cryoriteBlock);
+        registry.registerAll(cryoriteOre,cryoriteBlock,packedcryoriteOre);
 
         topazOre.setRegistryName(Constants.modid, "topaz_ore");
         topazBlock.setRegistryName(Constants.modid, "topaz_block");
@@ -74,6 +76,7 @@ public class RegisterBlocks {
         registry.register(new ItemFromBlock(sapphireBlock, new Item.Properties().group(CreativeTabs.overworld)));
 
         registry.register(new ItemFromBlock(cryoriteOre, new Item.Properties().group(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(packedcryoriteOre, new Item.Properties().group(CreativeTabs.overworld)));
         registry.register(new ItemFromBlock(cryoriteBlock, new Item.Properties().group(CreativeTabs.overworld)));
 
         registry.register(new ItemFromBlock(topazOre, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire()));

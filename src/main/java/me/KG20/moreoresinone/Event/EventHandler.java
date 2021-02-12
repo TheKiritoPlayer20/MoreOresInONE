@@ -100,7 +100,6 @@ public class EventHandler {
         }
         else if(event.getCategory() == Biome.Category.THEEND){
             if(Config.generate_amethyst.get()) {
-                System.out.println("Generiere Amethyst");
                 for (int i = 0; i < Config.count_amethyst.get(); i++){
                     event.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, WorldGenerator.AMETHYST_ORE);
                 }
@@ -153,6 +152,7 @@ public class EventHandler {
                 if(Config.generate_cryorite.get()){
                     for (int i = 0; i < Config.count_cryorite.get(); i++){
                         event.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, WorldGenerator.CRYORITE_ORE);
+                        event.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, WorldGenerator.PACKED_CRYORITE_ORE);
                     }
                 }
             }

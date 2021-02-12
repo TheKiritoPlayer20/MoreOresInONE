@@ -21,6 +21,26 @@ public class ItemArmor extends ArmorItem {
     }
 
     @Override
+    public boolean makesPiglinsNeutral(ItemStack stack, LivingEntity wearer) {
+        ItemArmor topaz_Helmet = RegisterArmor.topazHelmet;
+        ItemArmor topaz_Chestplate = RegisterArmor.topazChestplate;
+        ItemArmor topaz_Leggings = RegisterArmor.topazLeggings;
+        ItemArmor topaz_Boots = RegisterArmor.topazBoots;
+        PlayerEntity player;
+        if(wearer instanceof  PlayerEntity){
+            player = (PlayerEntity) wearer;
+        }else{
+            return false;
+        }
+        if (player.getItemStackFromSlot(EquipmentSlotType.FEET).getItem().equals(topaz_Boots) && player.getItemStackFromSlot(EquipmentSlotType.LEGS).getItem().equals(topaz_Leggings) &&
+                player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem().equals(topaz_Chestplate) && player.getItemStackFromSlot(EquipmentSlotType.HEAD).getItem().equals(topaz_Helmet)) {
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    @Override
     public boolean isEnderMask(ItemStack stack, PlayerEntity player, EndermanEntity endermanEntity) {
         return stack.getItem() == RegisterArmor.amethystHelmet ? true : false;
     }

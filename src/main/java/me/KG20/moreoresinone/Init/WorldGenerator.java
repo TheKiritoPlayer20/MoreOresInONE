@@ -17,7 +17,8 @@ public class WorldGenerator {
     public static ConfiguredFeature<?,?> END_EXPIERENCE_ORE = EndOres(RegisterBlocks.endEXPOre.getDefaultState(), Config.veinsize_end_experience.get(), Config.minheight_end_experience.get(), Config.maxheight_end_experience.get(), Config.chance_end_experience.get());
     public static ConfiguredFeature<?,?> RUBY_ORE = OverworldOres(RegisterBlocks.rubyOre.getDefaultState(), Config.veinsize_ruby.get(), Config.minheight_ruby.get(), Config.maxheight_ruby.get(), Config.chance_ruby.get());
     public static ConfiguredFeature<?,?> SAPPHIRE_ORE = OverworldOres(RegisterBlocks.sapphireOre.getDefaultState(), Config.veinsize_sapphire.get(), Config.minheight_sapphire.get(), Config.maxheight_sapphire.get(), Config.chance_sapphire.get());
-    public static ConfiguredFeature<?,?> CRYORITE_ORE = OverworldEmeraldOres(RegisterBlocks.cryoriteOre.getDefaultState(), Config.veinsize_cryorite.get(), Config.minheight_cryorite.get(), Config.maxheight_cryorite.get(), Config.chance_cryorite.get());
+    public static ConfiguredFeature<?,?> CRYORITE_ORE = OverworldCryoriteOres(RegisterBlocks.cryoriteOre.getDefaultState(), Config.veinsize_cryorite.get(), Config.minheight_cryorite.get(), Config.maxheight_cryorite.get(), Config.chance_cryorite.get());
+    public static ConfiguredFeature<?,?> PACKED_CRYORITE_ORE = OverworldPackedCryoriteOres(RegisterBlocks.packedcryoriteOre.getDefaultState(), Config.veinsize_cryorite.get(), Config.minheight_cryorite.get(), Config.maxheight_cryorite.get(), Config.chance_cryorite.get());
     public static ConfiguredFeature<?,?> TOPAZ_ORE = NetherOres(RegisterBlocks.topazOre.getDefaultState(), Config.veinsize_topaz.get(), Config.minheight_topaz.get(), Config.maxheight_topaz.get(), Config.chance_topaz.get());
     public static ConfiguredFeature<?,?> AMETHYST_ORE = EndOres(RegisterBlocks.amethystOre.getDefaultState(), Config.veinsize_amethyst.get(), Config.minheight_amethyst.get(), Config.maxheight_amethyst.get(), Config.chance_amethyst.get());
 
@@ -27,8 +28,12 @@ public class WorldGenerator {
         return Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, blockState, oreVeinSize)).withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(minHeight,0,maxHeight))).square().chance(chance);
     }
 
-    public static ConfiguredFeature<?,?> OverworldEmeraldOres(BlockState blockState, int oreVeinSize, int minHeight, int maxHeight, int chance){
-        return Feature.EMERALD_ORE.withConfiguration(new ReplaceBlockConfig(Blocks.BLUE_ICE.getDefaultState(), blockState)).withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(minHeight, 0, maxHeight))).square().chance(chance);
+    public static ConfiguredFeature<?,?> OverworldCryoriteOres(BlockState blockState, int oreVeinSize, int minHeight, int maxHeight, int chance){
+        return Feature.ORE.withConfiguration(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.BLUE_ICE), blockState, oreVeinSize)).withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(minHeight, 0, maxHeight))).square().chance(chance);
+    }
+
+    public static ConfiguredFeature<?,?> OverworldPackedCryoriteOres(BlockState blockState, int oreVeinSize, int minHeight, int maxHeight, int chance){
+        return Feature.ORE.withConfiguration(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.PACKED_ICE), blockState, oreVeinSize)).withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(minHeight, 0, maxHeight))).square().chance(chance);
     }
 
     public static ConfiguredFeature<?,?> NetherOres(BlockState blockState, int count, int minHeight, int maxHeight, int chance){

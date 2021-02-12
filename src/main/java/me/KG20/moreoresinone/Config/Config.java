@@ -230,7 +230,7 @@ public class Config {
         count_cryorite = Builder.comment("Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 1).").defineInRange("count_cryorite", 1,0,999999999);
         minheight_cryorite = Builder.comment("Set the Min Height of the Cryorite Ore (Default: 40).").defineInRange("minheight_cryorite", 40, 0, 256);
         maxheight_cryorite = Builder.comment("Set the Max  Height of the Cryorite Ore (Default: 100).").defineInRange("maxheight_cryorite", 100, 0, 256);
-        cryorite_temperature = Builder.comment("Set the Temperature of the biome in which the Cryorite Ore should generate(The temperature of the biome is equal and below)(Default: 1.0F)").defineInRange("cryorite_temperature", 0.5D, -999999999D, 999999999);
+        cryorite_temperature = Builder.comment("Set the Temperature of the biome in which the Cryorite Ore should generate(The temperature of the biome is equal and below)(Default: 0.5F)").defineInRange("cryorite_temperature", 0.5D, -999999999D, 999999999);
         Builder.pop();
 
         Builder.pop();
