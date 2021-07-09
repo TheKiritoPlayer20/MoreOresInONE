@@ -3,7 +3,7 @@ name: Translation
 about: Translate More Ores in ONE
 title: "[TRANSLATION]"
 labels: Translation
-assignees: ''
+assignees: realKG20
 
 ---
 
