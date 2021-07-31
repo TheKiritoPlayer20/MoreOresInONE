@@ -5,47 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aef52d25-c552-4324-8110-87dbfff2a0db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_atJar_5/accesstransform.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/_atJar_5/accesstransform.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_atJar_5/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/_atJar_5/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_atJar_5/parent_at.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/build/_atJar_5/parent_at.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_renameJarInPlace_6/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/_renameJarInPlace_6/output.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/BasisArmorMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/BasisArmorMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/ItemArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Armor/ItemArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndOres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/ItemBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/ItemBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherEXPOre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherOres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldEXPOre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldOres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabNether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabNether.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabOverworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/CreativeTabs/CreativeTabOverworld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/WorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/WorldGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/ItemFromBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/ItemFromBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/OreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/OreItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/BasisToolMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/BasisToolMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Hoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Hoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Pickaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Pickaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Shovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Shovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sickle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sickle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloadMCMeta/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMCMeta/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloadMcpConfig/output.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMcpConfig/output.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extractSrg/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/extractSrg/output.srg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/META-INF/INDEX.LIST" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/META-INF/INDEX.LIST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/OpenAL.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/OpenAL.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/OpenAL32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/OpenAL32.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/glfw.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/glfw.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/glfw32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/glfw32.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/jemalloc.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/jemalloc.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/jemalloc32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/jemalloc32.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl.dll.git" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl.dll.git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl32.dll.git" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl32.dll.git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl32.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl_opengl.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl_opengl.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl_opengl32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl_opengl32.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl_stb.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl_stb.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl_stb32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl_stb32.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl_tinyfd.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl_tinyfd.dll.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/natives/lwjgl_tinyfd32.dll.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/natives/lwjgl_tinyfd32.dll.sha1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +117,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Gradle.MoreOresInONE [genIntellijRuns]">
+  <component name="RunManager" selected="Application.runClient">
     <configuration name="MoreOresInONE [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
