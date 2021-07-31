@@ -3,12 +3,12 @@ package me.KG20.moreoresinone.Init;
 import me.KG20.moreoresinone.Blocks.*;
 import me.KG20.moreoresinone.Items.ItemFromBlock;
 import me.KG20.moreoresinone.Main.Constants;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -19,18 +19,18 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class RegisterBlocks {
 
     public static final Block rubyOre = new OverworldOres();
-    public static final Block rubyBlock = new ItemBlocks(MaterialColor.RED);
+    public static final Block rubyBlock = new ItemBlocks(MaterialColor.COLOR_RED);
     public static final Block sapphireOre = new OverworldOres();
-    public static final Block sapphireBlock = new ItemBlocks(MaterialColor.BLUE);
-    public static final Block cryoriteOre = new OverworldOres(AbstractBlock.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).hardnessAndResistance(3F,3F).sound(SoundType.STONE));
-    public static final Block packedcryoriteOre = new OverworldOres(AbstractBlock.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).hardnessAndResistance(3F,3F).sound(SoundType.STONE));
+    public static final Block sapphireBlock = new ItemBlocks(MaterialColor.COLOR_BLUE);
+    public static final Block cryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS).harvestTool(ToolType.PICKAXE).harvestLevel(2));
+    public static final Block packedcryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS).harvestTool(ToolType.PICKAXE).harvestLevel(2));
     public static final Block cryoriteBlock = new ItemBlocks(MaterialColor.ICE);
     public static final Block topazOre = new NetherOres();
-    public static final Block topazBlock = new ItemBlocks(MaterialColor.ADOBE);
+    public static final Block topazBlock = new ItemBlocks(MaterialColor.TERRACOTTA_ORANGE);
     public static final Block amethystOre = new EndOres();
-    public static final Block amethystBlock = new ItemBlocks(MaterialColor.PURPLE_TERRACOTTA);
+    public static final Block amethystBlock = new ItemBlocks(MaterialColor.TERRACOTTA_PURPLE);
     public static final Block overworldEXPOre = new OverworldEXPOre(MaterialColor.STONE);
-    public static final Block netherEXPOre = new NetherEXPOre(MaterialColor.NETHERRACK);
+    public static final Block netherEXPOre = new NetherEXPOre(MaterialColor.NETHER);
     public static final Block endEXPOre = new EndEXPOre(MaterialColor.SAND);
 
     @SubscribeEvent
@@ -69,25 +69,25 @@ public class RegisterBlocks {
     public static void registerItem(Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
 
-        registry.register(new ItemFromBlock(rubyOre, new Item.Properties().group(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(rubyBlock, new Item.Properties().group(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(rubyOre, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(rubyBlock, new Item.Properties().tab(CreativeTabs.overworld)));
 
-        registry.register(new ItemFromBlock(sapphireOre, new Item.Properties().group(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(sapphireBlock, new Item.Properties().group(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(sapphireOre, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(sapphireBlock, new Item.Properties().tab(CreativeTabs.overworld)));
 
-        registry.register(new ItemFromBlock(cryoriteOre, new Item.Properties().group(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(packedcryoriteOre, new Item.Properties().group(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(cryoriteBlock, new Item.Properties().group(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(cryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(packedcryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(cryoriteBlock, new Item.Properties().tab(CreativeTabs.overworld)));
 
-        registry.register(new ItemFromBlock(topazOre, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire()));
-        registry.register(new ItemFromBlock(topazBlock, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire()));
+        registry.register(new ItemFromBlock(topazOre, new Item.Properties().tab(CreativeTabs.nether).fireResistant()));
+        registry.register(new ItemFromBlock(topazBlock, new Item.Properties().tab(CreativeTabs.nether).fireResistant()));
 
-        registry.register(new ItemFromBlock(amethystOre, new Item.Properties().group(CreativeTabs.end).isImmuneToFire()));
-        registry.register(new ItemFromBlock(amethystBlock, new Item.Properties().group(CreativeTabs.end).isImmuneToFire()));
+        registry.register(new ItemFromBlock(amethystOre, new Item.Properties().tab(CreativeTabs.end).fireResistant()));
+        registry.register(new ItemFromBlock(amethystBlock, new Item.Properties().tab(CreativeTabs.end).fireResistant()));
 
-        registry.register(new ItemFromBlock(overworldEXPOre, new Item.Properties().group(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(netherEXPOre, new Item.Properties().group(CreativeTabs.nether)));
-        registry.register(new ItemFromBlock(endEXPOre, new Item.Properties().group(CreativeTabs.end)));
+        registry.register(new ItemFromBlock(overworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(netherEXPOre, new Item.Properties().tab(CreativeTabs.nether)));
+        registry.register(new ItemFromBlock(endEXPOre, new Item.Properties().tab(CreativeTabs.end)));
     }
 }
 

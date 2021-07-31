@@ -1,7 +1,7 @@
 package me.KG20.moreoresinone.Items;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.level.block.Block;
 
 public class ItemFromBlock extends BlockItem {
 

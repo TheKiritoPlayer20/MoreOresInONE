@@ -1,9 +1,8 @@
 package me.KG20.moreoresinone.Init;
 
-import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Items.OreItems;
 import me.KG20.moreoresinone.Main.Constants;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -13,11 +12,11 @@ import net.minecraftforge.registries.IForgeRegistry;
 @EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterItems {
 
-    public static final OreItems ruby = new OreItems(new Item.Properties().group(CreativeTabs.overworld));
-    public static final OreItems sapphire = new OreItems(new Item.Properties().group(CreativeTabs.overworld));
-    public static final OreItems cryorite = new OreItems(new Item.Properties().group(CreativeTabs.overworld));
-    public static final OreItems topaz = new OreItems(new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final OreItems amethyst = new OreItems(new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final OreItems ruby = new OreItems(new Item.Properties().tab(CreativeTabs.overworld));
+    public static final OreItems sapphire = new OreItems(new Item.Properties().tab(CreativeTabs.overworld));
+    public static final OreItems cryorite = new OreItems(new Item.Properties().tab(CreativeTabs.overworld));
+    public static final OreItems topaz = new OreItems(new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final OreItems amethyst = new OreItems(new Item.Properties().tab(CreativeTabs.end).fireResistant());
 
 
     @SubscribeEvent

@@ -3,12 +3,12 @@ package me.KG20.moreoresinone.Armor;
 import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Init.RegisterItems;
 import me.KG20.moreoresinone.Main.Constants;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.util.LazyValue;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.SoundEvents;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.util.LazyLoadedValue;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
@@ -16,58 +16,58 @@ import java.util.function.Supplier;
 
 public class BasisArmorMaterial {
                                                                                                                         //Boots,Leggings,Chestplate,Helmet
-    public final static IArmorMaterial ruby = new ArmorMaterial(Constants.modid + ":ruby",33, new int[]{Config.ruby_boots_protection.get(), Config.ruby_leggings_protection.get(), Config.ruby_chestplate_protection.get(), Config.ruby_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.ruby_toughness.get(),0.0F, () -> Ingredient.fromItems(RegisterItems.ruby));
-    public final static IArmorMaterial sapphire = new ArmorMaterial(Constants.modid + ":sapphire", 33, new int[]{Config.sapphire_boots_protection.get(), Config.sapphire_leggings_protection.get(), Config.sapphire_chestplate_protection.get(), Config.sapphire_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.sapphire_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.sapphire));
-    public final static IArmorMaterial topaz = new ArmorMaterial(Constants.modid + ":topaz", 35, new int[]{Config.topaz_boots_protection.get(), Config.topaz_leggings_protection.get(), Config.topaz_chestplate_protection.get(), Config.topaz_helmet_protection.get()}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.topaz_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.topaz));
-    public final static IArmorMaterial amethyst = new ArmorMaterial(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),0.1F,() -> Ingredient.fromItems(RegisterItems.amethyst));
-    public final static IArmorMaterial cryorite = new ArmorMaterial(Constants.modid + ":cryorite",17, new int[]{Config.cryorite_boots_protection.get(), Config.cryorite_leggings_protection.get(), Config.cryorite_chestplate_protection.get(), Config.cryorite_helmet_protection.get()}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, Config.cryorite_toughness.get(),0.0F,() -> Ingredient.fromItems(RegisterItems.cryorite));
+    public final static ArmorMaterial ruby = new ArmorMaterialBasis(Constants.modid + ":ruby",33, new int[]{Config.ruby_boots_protection.get(), Config.ruby_leggings_protection.get(), Config.ruby_chestplate_protection.get(), Config.ruby_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.ruby_toughness.get(),0.0F, () -> Ingredient.of(RegisterItems.ruby));
+    public final static ArmorMaterial sapphire = new ArmorMaterialBasis(Constants.modid + ":sapphire", 33, new int[]{Config.sapphire_boots_protection.get(), Config.sapphire_leggings_protection.get(), Config.sapphire_chestplate_protection.get(), Config.sapphire_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.sapphire_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.sapphire));
+    public final static ArmorMaterial topaz = new ArmorMaterialBasis(Constants.modid + ":topaz", 35, new int[]{Config.topaz_boots_protection.get(), Config.topaz_leggings_protection.get(), Config.topaz_chestplate_protection.get(), Config.topaz_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.topaz_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.topaz));
+    public final static ArmorMaterial amethyst = new ArmorMaterialBasis(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),0.1F,() -> Ingredient.of(RegisterItems.amethyst));
+    public final static ArmorMaterial cryorite = new ArmorMaterialBasis(Constants.modid + ":cryorite",17, new int[]{Config.cryorite_boots_protection.get(), Config.cryorite_leggings_protection.get(), Config.cryorite_chestplate_protection.get(), Config.cryorite_helmet_protection.get()}, 15, SoundEvents.ARMOR_EQUIP_IRON, Config.cryorite_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.cryorite));
 
-    private static class ArmorMaterial implements IArmorMaterial{
+    private static class ArmorMaterialBasis implements ArmorMaterial {
 
-        private static final int[] Max_Damage_Array = new int[] {13,15,16,11};
+        private static final int[] HEALTH_PER_SLOT = new int[] {13,15,16,11};
         private final String name;
-        private final int maxDamageFactor;
-        private final int[] damageReductionAmountArray;
-        private final int enchantability;
-        private final SoundEvent soundEvent;
+        private final int durabilityMultiplier;
+        private final int[] slotProtections;
+        private final int enchantmentValue;
+        private final SoundEvent sound;
         private final float toughness;
         private final float knockbackResistance;
-        private final LazyValue<Ingredient> repairMaterial;
+        private final LazyLoadedValue<Ingredient> repairIngredient;
 
-        public ArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
+        public ArmorMaterialBasis(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
             this.name = name;
-            this.maxDamageFactor = maxDamageFactor;
-            this.damageReductionAmountArray = damageReductionAmountArray;
-            this.enchantability = enchantability;
-            this.soundEvent = soundEvent;
+            this.durabilityMultiplier = maxDamageFactor;
+            this.slotProtections = damageReductionAmountArray;
+            this.enchantmentValue = enchantability;
+            this.sound = soundEvent;
             this.toughness = (float)toughness;
             this.knockbackResistance = knockbackResistance;
-            this.repairMaterial = new LazyValue<Ingredient>(supplier);
+            this.repairIngredient = new LazyLoadedValue(supplier);
         }
 
         @Override
-        public int getDurability(EquipmentSlotType slotIn) {
-            return Max_Damage_Array[slotIn.getIndex()] * maxDamageFactor;
+        public int getDurabilityForSlot(EquipmentSlot p_40484_) {
+            return HEALTH_PER_SLOT[p_40484_.getIndex()] * this.durabilityMultiplier;
         }
 
         @Override
-        public int getDamageReductionAmount(EquipmentSlotType slotIn) {
-            return damageReductionAmountArray[slotIn.getIndex()];
+        public int getDefenseForSlot(EquipmentSlot slotIn) {
+            return this.slotProtections[slotIn.getIndex()];
         }
 
         @Override
-        public int getEnchantability() {
-            return enchantability;
+        public int getEnchantmentValue() {
+            return enchantmentValue;
         }
 
         @Override
-        public SoundEvent getSoundEvent() {
-            return soundEvent;
+        public SoundEvent getEquipSound() {
+            return sound;
         }
 
         @Override
-        public Ingredient getRepairMaterial() {
-            return repairMaterial.getValue();
+        public Ingredient getRepairIngredient() {
+            return (Ingredient)this.repairIngredient.get();
         }
 
         @OnlyIn(Dist.CLIENT)
