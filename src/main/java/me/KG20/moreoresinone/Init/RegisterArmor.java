@@ -4,10 +4,10 @@ import me.KG20.moreoresinone.Armor.BasisArmorMaterial;
 import me.KG20.moreoresinone.Armor.ItemArmor;
 import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Main.Constants;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.HorseArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.HorseArmorItem;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -17,36 +17,36 @@ import net.minecraftforge.registries.IForgeRegistry;
 @EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterArmor {
 
-    public static final ItemArmor rubyHelmet = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor rubyChestplate = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor rubyLeggings = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor rubyBoots = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabs.overworld));
+    public static final ItemArmor rubyHelmet = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor rubyChestplate = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor rubyLeggings = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor rubyBoots = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.overworld));
 
-    public static final ItemArmor sapphireHelmet = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor sapphireChestplate = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor sapphireLeggings = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor sapphireBoots = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabs.overworld));
+    public static final ItemArmor sapphireHelmet = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor sapphireChestplate = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor sapphireLeggings = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor sapphireBoots = new ItemArmor(BasisArmorMaterial.sapphire, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.overworld));
 
-    public static final ItemArmor cryoriteHelmet = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor cryoriteChestplate = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor cryoriteLeggings = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabs.overworld));
-    public static final ItemArmor cryoriteBoots = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabs.overworld));
+    public static final ItemArmor cryoriteHelmet = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor cryoriteChestplate = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor cryoriteLeggings = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final ItemArmor cryoriteBoots = new ItemArmor(BasisArmorMaterial.cryorite, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.overworld));
 
-    public static final ItemArmor topazHelmet = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final ItemArmor topazChestplate = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final ItemArmor topazLeggings = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final ItemArmor topazBoots = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
+    public static final ItemArmor topazHelmet = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final ItemArmor topazChestplate = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final ItemArmor topazLeggings = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final ItemArmor topazBoots = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
 
-    public static final ItemArmor amethystHelmet = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final ItemArmor amethystChestplate = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final ItemArmor amethystLeggings = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final ItemArmor amethystBoots = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
+    public static final ItemArmor amethystHelmet = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor amethystChestplate = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor amethystLeggings = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor amethystBoots = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.end).fireResistant());
 
-    public static final HorseArmorItem rubyHorseArmor = new HorseArmorItem(Config.ruby_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/ruby_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.overworld));
-    public static final HorseArmorItem sapphireHorseArmor = new HorseArmorItem(Config.sapphire_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/sapphire_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.overworld));
-    public static final HorseArmorItem cryoriteHorseArmor = new HorseArmorItem(Config.cryorite_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/cryorite_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.overworld));
-    public static final HorseArmorItem topazHorseArmor = new HorseArmorItem(Config.topaz_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/topaz_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.nether).isImmuneToFire());
-    public static final HorseArmorItem amethystHorseArmor = new HorseArmorItem(Config.amethyst_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/amethyst_horse_armor.png"), new Item.Properties().maxStackSize(1).group(CreativeTabs.end).isImmuneToFire());
+    public static final HorseArmorItem rubyHorseArmor = new HorseArmorItem(Config.ruby_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/ruby_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.overworld));
+    public static final HorseArmorItem sapphireHorseArmor = new HorseArmorItem(Config.sapphire_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/sapphire_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.overworld));
+    public static final HorseArmorItem cryoriteHorseArmor = new HorseArmorItem(Config.cryorite_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/cryorite_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.overworld));
+    public static final HorseArmorItem topazHorseArmor = new HorseArmorItem(Config.topaz_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/topaz_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.nether).fireResistant());
+    public static final HorseArmorItem amethystHorseArmor = new HorseArmorItem(Config.amethyst_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/amethyst_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.end).fireResistant());
 
     @SubscribeEvent
     public static void register(Register<Item> event) {

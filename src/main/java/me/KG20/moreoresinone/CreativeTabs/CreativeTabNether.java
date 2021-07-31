@@ -1,12 +1,12 @@
 package me.KG20.moreoresinone.CreativeTabs;
 
 import me.KG20.moreoresinone.Init.RegisterBlocks;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class CreativeTabNether extends ItemGroup {
+public class CreativeTabNether extends CreativeModeTab {
 
     public CreativeTabNether(){
         super("moi_nether");
@@ -14,7 +14,7 @@ public class CreativeTabNether extends ItemGroup {
 
     @OnlyIn(Dist.CLIENT)
     @Override
-    public ItemStack createIcon(){
+    public ItemStack makeIcon(){
         return new ItemStack(RegisterBlocks.topazOre);
     }
 

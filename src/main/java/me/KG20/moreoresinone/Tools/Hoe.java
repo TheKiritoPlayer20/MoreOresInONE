@@ -1,12 +1,12 @@
 package me.KG20.moreoresinone.Tools;
 
-import net.minecraft.item.HoeItem;
-import net.minecraft.item.IItemTier;
+import net.minecraft.world.item.HoeItem;
+import net.minecraft.world.item.Tier;
 
 
 public class Hoe extends HoeItem {
 
-    public Hoe(IItemTier material, int attackDamage, float attackSpeed, Properties properties) {
+    public Hoe(Tier material, int attackDamage, float attackSpeed, Properties properties) {
         super(material, attackDamage, attackSpeed, properties);
     }
 }

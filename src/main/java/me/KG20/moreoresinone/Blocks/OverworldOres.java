@@ -1,14 +1,12 @@
 package me.KG20.moreoresinone.Blocks;
 
-import me.KG20.moreoresinone.Init.RegisterBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.IWorldReader;
-import net.minecraft.world.World;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
@@ -17,11 +15,11 @@ public class OverworldOres extends Block {
 
 
     public OverworldOres(){
-        super(Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3F,3F).sound(SoundType.STONE));
+        super(Properties.of(Material.STONE, MaterialColor.STONE).strength(3.0F,3.0F).sound(SoundType.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops());
     }
 
     public OverworldOres(Properties properties){
-        super(properties);
+        super(properties.requiresCorrectToolForDrops());
     }
 
 
@@ -36,8 +34,9 @@ public class OverworldOres extends Block {
         return 2;
     }
 
+
     @Override
-    public int getExpDrop(BlockState state, IWorldReader world, BlockPos pos, int fortune, int silktouch) {
+    public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {
        return silktouch == 0 ? 7 : 0;
     }
 }

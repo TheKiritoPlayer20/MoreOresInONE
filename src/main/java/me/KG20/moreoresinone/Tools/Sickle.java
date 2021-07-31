@@ -1,12 +1,12 @@
 package me.KG20.moreoresinone.Tools;
 
-import net.minecraft.block.BlockState;
-import net.minecraft.block.material.Material;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Material;
 
 public class Sickle extends Item {
 
@@ -16,33 +16,33 @@ public class Sickle extends Item {
     }
 
     @Override
-    public boolean onBlockDestroyed(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity entityLiving) {
-
+    public boolean mineBlock(ItemStack stack, Level world, BlockState state, BlockPos pos, LivingEntity entityLiving) {
         if(stack.getItem() instanceof Sickle){
             int bx = pos.getX();
             int by = pos.getY();
             int bz = pos.getZ();
 
-            if (world.getBlockState(pos).getMaterial() == Material.PLANTS || world.getBlockState(pos).getMaterial() == Material.TALL_PLANTS || world.getBlockState(pos).getMaterial() == Material.OCEAN_PLANT || world.getBlockState(pos).getMaterial() == Material.SEA_GRASS){
+            if (world.getBlockState(pos).getMaterial() == Material.PLANT || world.getBlockState(pos).getMaterial() == Material.VEGETABLE || world.getBlockState(pos).getMaterial() == Material.WATER_PLANT || world.getBlockState(pos).getMaterial() == Material.REPLACEABLE_PLANT || world.getBlockState(pos).getMaterial() == Material.REPLACEABLE_WATER_PLANT || world.getBlockState(pos).getMaterial() == Material.REPLACEABLE_FIREPROOF_PLANT){
                 for (int x = -1; x < 2; x++) {
                     for (int z = -1; z < 2; z++) {
 
                         BlockPos newBlockPos = new BlockPos(bx + x, by, bz + z);
 
-                        if (world.getBlockState(newBlockPos).getMaterial() == Material.PLANTS || world.getBlockState(newBlockPos).getMaterial() == Material.TALL_PLANTS || world.getBlockState(newBlockPos).getMaterial() == Material.OCEAN_PLANT || world.getBlockState(newBlockPos).getMaterial() == Material.SEA_GRASS) {
+                        if (world.getBlockState(newBlockPos).getMaterial() == Material.PLANT || world.getBlockState(newBlockPos).getMaterial() == Material.VEGETABLE || world.getBlockState(newBlockPos).getMaterial() == Material.WATER_PLANT || world.getBlockState(newBlockPos).getMaterial() == Material.REPLACEABLE_PLANT || world.getBlockState(newBlockPos).getMaterial() == Material.REPLACEABLE_WATER_PLANT || world.getBlockState(newBlockPos).getMaterial() == Material.REPLACEABLE_FIREPROOF_PLANT) {
                             world.destroyBlock(newBlockPos, true);
                         }
 
                     }
                 }
-                stack.setDamage(stack.getDamage() + 1);
-                if(stack.getDamage() >= stack.getMaxDamage()){
+                stack.setDamageValue(stack.getDamageValue() + 1);
+                if(stack.getDamageValue() >= stack.getMaxDamage()){
                     stack.shrink(1);
                 }
             }
 
         }
 
-        return super.onBlockDestroyed(stack, world, state, pos, entityLiving);
+        return super.mineBlock(stack, world, state, pos, entityLiving);
     }
+
 }

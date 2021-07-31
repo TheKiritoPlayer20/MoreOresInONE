@@ -3,7 +3,7 @@ package me.KG20.moreoresinone.Init;
 import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Main.Constants;
 import me.KG20.moreoresinone.Tools.*;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -13,40 +13,40 @@ import net.minecraftforge.registries.IForgeRegistry;
 @EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterTools {
 
-    public static final Hoe rubyHoe = new Hoe(BasisToolMaterial.ruby,-3, 0.0F, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Axe rubyAxe = new Axe(BasisToolMaterial.ruby, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Pickaxe rubyPickaxe = new Pickaxe(BasisToolMaterial.ruby, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Shovel rubyShovel = new Shovel(BasisToolMaterial.ruby, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Sword rubySword = new Sword(BasisToolMaterial.ruby, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Sickle rubySickle = new Sickle(new Item.Properties().group(CreativeTabs.overworld).maxDamage(Config.durabilitiy_ruby.get()));
+    public static final Hoe rubyHoe = new Hoe(BasisToolMaterial.ruby,-3, 0.0F, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Axe rubyAxe = new Axe(BasisToolMaterial.ruby, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Pickaxe rubyPickaxe = new Pickaxe(BasisToolMaterial.ruby, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Shovel rubyShovel = new Shovel(BasisToolMaterial.ruby, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Sword rubySword = new Sword(BasisToolMaterial.ruby, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Sickle rubySickle = new Sickle(new Item.Properties().tab(CreativeTabs.overworld).durability(Config.durabilitiy_ruby.get()));
 
-    public static final Hoe sapphireHoe = new Hoe(BasisToolMaterial.sapphire,-3, 0.0F, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Axe sapphireAxe = new Axe(BasisToolMaterial.sapphire, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Pickaxe sapphirePickaxe = new Pickaxe(BasisToolMaterial.sapphire, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Shovel sapphireShovel = new Shovel(BasisToolMaterial.sapphire, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Sword sapphireSword = new Sword(BasisToolMaterial.sapphire, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Sickle sapphireSickle = new Sickle(new Item.Properties().group(CreativeTabs.overworld).maxDamage(Config.durabilitiy_sapphire.get()));
+    public static final Hoe sapphireHoe = new Hoe(BasisToolMaterial.sapphire,-3, 0.0F, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Axe sapphireAxe = new Axe(BasisToolMaterial.sapphire, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Pickaxe sapphirePickaxe = new Pickaxe(BasisToolMaterial.sapphire, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Shovel sapphireShovel = new Shovel(BasisToolMaterial.sapphire, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Sword sapphireSword = new Sword(BasisToolMaterial.sapphire, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Sickle sapphireSickle = new Sickle(new Item.Properties().tab(CreativeTabs.overworld).durability(Config.durabilitiy_sapphire.get()));
 
-    public static final Hoe cryoriteHoe = new Hoe(BasisToolMaterial.cryorite,-3, 0.0F, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Axe cryoriteAxe = new Axe(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Pickaxe cryoritePickaxe = new Pickaxe(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Shovel cryoriteShovel = new Shovel(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Sword cryoriteSword = new Sword(BasisToolMaterial.cryorite, new Item.Properties().group(CreativeTabs.overworld));
-    public static final Sickle cryoriteSickle = new Sickle(new Item.Properties().group(CreativeTabs.overworld).maxDamage(Config.durabilitiy_sapphire.get()));
+    public static final Hoe cryoriteHoe = new Hoe(BasisToolMaterial.cryorite,-3, 0.0F, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Axe cryoriteAxe = new Axe(BasisToolMaterial.cryorite, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Pickaxe cryoritePickaxe = new Pickaxe(BasisToolMaterial.cryorite, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Shovel cryoriteShovel = new Shovel(BasisToolMaterial.cryorite, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Sword cryoriteSword = new Sword(BasisToolMaterial.cryorite, new Item.Properties().tab(CreativeTabs.overworld));
+    public static final Sickle cryoriteSickle = new Sickle(new Item.Properties().tab(CreativeTabs.overworld).durability(Config.durabilitiy_sapphire.get()));
 
-    public static final Hoe topazHoe = new Hoe(BasisToolMaterial.topaz,-3, 0.0F, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final Axe topazAxe = new Axe(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final Pickaxe topazPickaxe = new Pickaxe(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final Shovel topazShovel = new Shovel(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final Sword topazSword = new Sword(BasisToolMaterial.topaz, new Item.Properties().group(CreativeTabs.nether).isImmuneToFire());
-    public static final Sickle topazSickle = new Sickle(new Item.Properties().group(CreativeTabs.nether).maxDamage(Config.durabilitiy_topaz.get()).isImmuneToFire());
+    public static final Hoe topazHoe = new Hoe(BasisToolMaterial.topaz,-3, 0.0F, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final Axe topazAxe = new Axe(BasisToolMaterial.topaz, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final Pickaxe topazPickaxe = new Pickaxe(BasisToolMaterial.topaz, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final Shovel topazShovel = new Shovel(BasisToolMaterial.topaz, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final Sword topazSword = new Sword(BasisToolMaterial.topaz, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
+    public static final Sickle topazSickle = new Sickle(new Item.Properties().tab(CreativeTabs.nether).durability(Config.durabilitiy_topaz.get()).fireResistant());
 
-    public static final Hoe amethystHoe = new Hoe(BasisToolMaterial.amethyst,-3, 0.0F, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final Axe amethystAxe = new Axe(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final Pickaxe amethystPickaxe = new Pickaxe(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final Shovel amethystShovel = new Shovel(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final Sword amethystSword = new Sword(BasisToolMaterial.amethyst, new Item.Properties().group(CreativeTabs.end).isImmuneToFire());
-    public static final Sickle amethystSickle = new Sickle(new Item.Properties().group(CreativeTabs.end).maxDamage(Config.durabilitiy_amethyst.get()).isImmuneToFire());
+    public static final Hoe amethystHoe = new Hoe(BasisToolMaterial.amethyst,-3, 0.0F, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Axe amethystAxe = new Axe(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Pickaxe amethystPickaxe = new Pickaxe(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Shovel amethystShovel = new Shovel(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Sword amethystSword = new Sword(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Sickle amethystSickle = new Sickle(new Item.Properties().tab(CreativeTabs.end).durability(Config.durabilitiy_amethyst.get()).fireResistant());
 
 
     @SubscribeEvent
