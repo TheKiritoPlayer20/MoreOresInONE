@@ -205,7 +205,7 @@
 		every_biome = false
 
 		["Ore Generation".Overworld."Cryorite Generation"]
-			#Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 1).
+			#Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 10).
 			#Range: 0 ~ 999999999
 			count_cryorite = 20
 			#Set the Max  Height of the Cryorite Ore (Default: 100).

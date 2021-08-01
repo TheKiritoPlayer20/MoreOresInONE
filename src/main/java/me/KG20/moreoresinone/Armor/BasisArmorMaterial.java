@@ -16,13 +16,13 @@ import java.util.function.Supplier;
 
 public class BasisArmorMaterial {
                                                                                                                         //Boots,Leggings,Chestplate,Helmet
-    public final static ArmorMaterial ruby = new ArmorMaterialBasis(Constants.modid + ":ruby",33, new int[]{Config.ruby_boots_protection.get(), Config.ruby_leggings_protection.get(), Config.ruby_chestplate_protection.get(), Config.ruby_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.ruby_toughness.get(),0.0F, () -> Ingredient.of(RegisterItems.ruby));
-    public final static ArmorMaterial sapphire = new ArmorMaterialBasis(Constants.modid + ":sapphire", 33, new int[]{Config.sapphire_boots_protection.get(), Config.sapphire_leggings_protection.get(), Config.sapphire_chestplate_protection.get(), Config.sapphire_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.sapphire_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.sapphire));
-    public final static ArmorMaterial topaz = new ArmorMaterialBasis(Constants.modid + ":topaz", 35, new int[]{Config.topaz_boots_protection.get(), Config.topaz_leggings_protection.get(), Config.topaz_chestplate_protection.get(), Config.topaz_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.topaz_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.topaz));
-    public final static ArmorMaterial amethyst = new ArmorMaterialBasis(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),0.1F,() -> Ingredient.of(RegisterItems.amethyst));
-    public final static ArmorMaterial cryorite = new ArmorMaterialBasis(Constants.modid + ":cryorite",17, new int[]{Config.cryorite_boots_protection.get(), Config.cryorite_leggings_protection.get(), Config.cryorite_chestplate_protection.get(), Config.cryorite_helmet_protection.get()}, 15, SoundEvents.ARMOR_EQUIP_IRON, Config.cryorite_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.cryorite));
+    public final static ArmorMaterial ruby = new MaterialBasis(Constants.modid + ":ruby",33, new int[]{Config.ruby_boots_protection.get(), Config.ruby_leggings_protection.get(), Config.ruby_chestplate_protection.get(), Config.ruby_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.ruby_toughness.get(),0.0F, () -> Ingredient.of(RegisterItems.ruby));
+    public final static ArmorMaterial sapphire = new MaterialBasis(Constants.modid + ":sapphire", 33, new int[]{Config.sapphire_boots_protection.get(), Config.sapphire_leggings_protection.get(), Config.sapphire_chestplate_protection.get(), Config.sapphire_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.sapphire_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.sapphire));
+    public final static ArmorMaterial topaz = new MaterialBasis(Constants.modid + ":topaz", 35, new int[]{Config.topaz_boots_protection.get(), Config.topaz_leggings_protection.get(), Config.topaz_chestplate_protection.get(), Config.topaz_helmet_protection.get()}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.topaz_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.topaz));
+    public final static ArmorMaterial amethyst = new MaterialBasis(Constants.modid + ":amethyst",40, new int[]{Config.amethyst_boots_protection.get(), Config.amethyst_leggings_protection.get(), Config.amethyst_chestplate_protection.get(), Config.amethyst_helmet_protection.get()}, 15, SoundEvents.ARMOR_EQUIP_DIAMOND, Config.amethyst_toughness.get(),0.1F,() -> Ingredient.of(RegisterItems.amethyst));
+    public final static ArmorMaterial cryorite = new MaterialBasis(Constants.modid + ":cryorite",17, new int[]{Config.cryorite_boots_protection.get(), Config.cryorite_leggings_protection.get(), Config.cryorite_chestplate_protection.get(), Config.cryorite_helmet_protection.get()}, 15, SoundEvents.ARMOR_EQUIP_IRON, Config.cryorite_toughness.get(),0.0F,() -> Ingredient.of(RegisterItems.cryorite));
 
-    private static class ArmorMaterialBasis implements ArmorMaterial {
+    private static class MaterialBasis implements ArmorMaterial {
 
         private static final int[] HEALTH_PER_SLOT = new int[] {13,15,16,11};
         private final String name;
@@ -34,7 +34,7 @@ public class BasisArmorMaterial {
         private final float knockbackResistance;
         private final LazyLoadedValue<Ingredient> repairIngredient;
 
-        public ArmorMaterialBasis(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
+        public MaterialBasis(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, double toughness, float knockbackResistance, Supplier<Ingredient> supplier) {
             this.name = name;
             this.durabilityMultiplier = maxDamageFactor;
             this.slotProtections = damageReductionAmountArray;
