@@ -4,6 +4,7 @@ import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Main.Constants;
 import me.KG20.moreoresinone.Tools.*;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.ToolActions;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;

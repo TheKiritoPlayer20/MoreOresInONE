@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "moreoresinone:ruby_ore",
+    "moreoresinone:ruby_block",
+    "moreoresinone:sapphire_ore",
+    "moreoresinone:sapphire_block",
+    "moreoresinone:topaz_ore",
+    "moreoresinone:topaz_block",
+    "moreoresinone:amethyst_ore",
+    "moreoresinone:amethyst_block",
+    "moreoresinone:cryorite_ore",
+    "moreoresinone:packed_cryorite_ore",
+    "moreoresinone:cryorite_block",
+    "moreoresinone:overworld_exp_ore",
+    "moreoresinone:nether_exp_ore",
+    "moreoresinone:end_exp_ore"
+  ]
+}

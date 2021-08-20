@@ -13,4 +13,6 @@
 	selectiveResourceReloadEnabled = true
 	#Set to true to use a combined DEPTH_STENCIL attachment instead of two separate ones.
 	useCombinedDepthStencilAttachment = false
+	#Forces the use of System.nanoTime instead of glfwGetTime, as the main Util time provider
+	forceSystemNanoTime = false
 

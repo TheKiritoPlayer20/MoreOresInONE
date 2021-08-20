@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.common.ToolType;
+import net.minecraftforge.common.TierSortingRegistry;
 
 import javax.annotation.Nullable;
 
@@ -17,10 +17,11 @@ public class EndOres extends Block {
 
 
     public EndOres(){
-        super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).strength(3.0F,3.0F).sound(SoundType.STONE).harvestLevel(4).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops());
+        super(( Properties.of(Material.STONE, MaterialColor.SAND).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
     }
 
 
+    /*
     @Nullable
     @Override
     public ToolType getHarvestTool(BlockState state) {
@@ -31,7 +32,7 @@ public class EndOres extends Block {
     public int getHarvestLevel(BlockState state) {
         return 4;
     }
-
+    */
 
     @Override
     public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {

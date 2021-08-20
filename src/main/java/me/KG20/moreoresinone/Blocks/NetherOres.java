@@ -7,7 +7,6 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
 
@@ -15,10 +14,10 @@ public class NetherOres extends Block {
 
 
     public NetherOres(){
-        super(Properties.of(Material.STONE, MaterialColor.NETHER).strength(3.0F,3.0F).sound(SoundType.STONE).harvestLevel(3).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops());
+        super(Properties.of(Material.STONE, MaterialColor.NETHER).strength(3.0F,3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops());
     }
 
-
+    /*
     @Nullable
     @Override
     public ToolType getHarvestTool(BlockState state) {
@@ -29,7 +28,7 @@ public class NetherOres extends Block {
     public int getHarvestLevel(BlockState state) {
         return 3;
     }
-
+    */
 
     @Override
     public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {

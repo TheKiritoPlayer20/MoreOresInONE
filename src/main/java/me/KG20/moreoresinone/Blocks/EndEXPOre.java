@@ -3,13 +3,16 @@ package me.KG20.moreoresinone.Blocks;
 import me.KG20.moreoresinone.Config.Config;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.Mth;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.common.ToolType;
 
 import javax.annotation.Nullable;
 import java.util.Random;
@@ -17,9 +20,11 @@ import java.util.Random;
 public class EndEXPOre extends Block {
 
     public EndEXPOre(MaterialColor color){
-        super(Properties.of(Material.STONE, color).strength(3.0F,3.0F).sound(SoundType.STONE).harvestLevel(1).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops());
+        super(Properties.of(Material.STONE, color).strength(3.0F,3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops());
     }
 
+
+    /*
     @Nullable
     @Override
     public ToolType getHarvestTool(BlockState state) {
@@ -30,7 +35,7 @@ public class EndEXPOre extends Block {
     public int getHarvestLevel(BlockState state) {
         return 1;
     }
-
+    */
 
     @Override
     public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {

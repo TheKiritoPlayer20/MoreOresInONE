@@ -1,83 +1,101 @@
-Args: "--in-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\libs\MoreOresInONE-1.2.jar", "--out-jar", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar\output.jar", "--srg-in", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\createMcpToSrg\output.tsrg", "--live"
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.0.15_mapped_snapshot_20201028-1.16.3\forge-1.16.5-36.0.15_mapped_snapshot_20201028-1.16.3-recomp.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.0.15_mapped_snapshot_20201028-1.16.3\forge-1.16.5-36.0.15_mapped_snapshot_20201028-1.16.3-launcher.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_repo\versions\1.16.5\client-extra.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\3.0.1\6d23c1b9cb0607fddc38d09730796f68db96f546\accesstransformers-3.0.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\4.0.0\260e34800723e4c098c4e247cf2b900535e01b6d\eventbus-4.0.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\4.0.6\d6d761379c841e2610abebcbf70ed20b65f728f0\coremods-4.0.6.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\3.2.0\c6ca4e4e4a0343701407c760e642537b613b543\forgespi-3.2.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\8.0.9\bb848f57758808692b9108df61c909c0a961ba81\modlauncher-8.0.9.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\8.0.9\476a62d2a2ebd3573134b8bcd8f0bc21bbdf29ac\modlauncher-8.0.9-api.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.9\d1e1ba354a40b5703340b5cb02fdca489cff3646\mergetool-1.0.9-api.jar
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20201028-1.16.3\mcp_snapshot-20201028-1.16.3.zip
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.0\5a34a3a9ac44f362f35d1b27932380b0031a3334\asm-commons-9.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.0\7c059a94ab5eed3347bf954e27fab58e52968848\asm-util-9.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.0\4630afefbb43939c739445dde0af1a5729a0fb4e\asm-analysis-9.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.0\9df939f25c556b0c7efe00701d47e77a49837f24\asm-tree-9.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.0\af582ff60bc567c42d931500c3fdc20e0141ddf9\asm-9.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\cpw.mods\grossjava9hacks\1.3.0\1a922de964d0c19d864fbcba2678c1a1c4602c35\grossjava9hacks-1.3.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.2\3ac4263d06433da39a5eee95e2679f1642d921f0\toml-3.6.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.2\56f6500038861d4a8832072676da7bf7916217d0\core-3.6.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.jline\jline\3.12.1\de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7\jline-3.12.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.6.3\f8ff8032903882376e8d000c51e3e16d20fc7df7\maven-artifact-3.6.3.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.8.3\98f84f353457629e81cc6827224871b1a8faa7af\typetools-0.8.3.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.11.2\6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\log4j-core-2.11.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.11.2\f5e9a2ffca496057d6891a3de65128efc636e26e\log4j-api-2.11.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.2\1cf212283d26f706fd3074318870bebd14d2a9ed\mixin-0.8.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\nashorn-core-compat\15.1.1\2dac3ce16b45e7a020a7e5ab4e5099fde5c79170\nashorn-core-compat-15.1.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\66.1\72c7519b6d91f7a1f993bd44a99fe95d67211b27\icu4j-66.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\javabridge\1.0.22\6aa6453aa99a52a5cd91749da1af6ab70e082ab3\javabridge-1.0.22.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.25.Final\d0626cd3108294d1d58c05859add27b4ef21f83b\netty-all-4.1.25.Final.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.8.1\6505a72a097d9270f7a9e7bf42c4238283247755\commons-lang3-3.8.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.17\c6b7dc51dd44379cc751b7504816006e9be4b1e6\brigadier-1.0.17.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\4.0.26\ebd6690f33871ccee9b6132c6480668ee2e35020\datafixerupper-4.0.26.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\2.1.28\ad54da276bf59983d02d5ed16fc14541354c71fd\authlib-2.1.28.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.2.1\5ad88f325e424f8dbc2be5459e21ea5cab3864e9\fastutil-8.2.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\ee8e57a79300f78294576d87c4a587f8c99402e2\lwjgl-jemalloc-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\338b25b99da3ba5f441f6492f2ce2a9c608860ed\lwjgl-jemalloc-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\2b772a102b0a11ee5f2109a5b136f4dc7c630827\lwjgl-openal-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\ec20a7d42a2438528fca87e60b1705f1e2339ddb\lwjgl-openal-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\6ac5bb88b44c43ea195a570aab059f63da004cd8\lwjgl-opengl-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\d8dcdc91066cae2d2d8279cb4a9f9f05d9525826\lwjgl-opengl-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\d3ad4df38e400b8afba1de63f84338809399df5b\lwjgl-glfw-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\dc6826d636bf796b33a49038c354210e661bfc17\lwjgl-glfw-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f\lwjgl-stb-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\811f705cbb29e8ae8d60bdf8fdd38c0c123ad3ef\lwjgl-stb-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9\lwjgl-tinyfd-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\e9115958773644e863332a6a06488d26f9e1fc9f\lwjgl-tinyfd-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\8ad6294407e15780b43e84929c40e4c5e997972e\lwjgl-3.2.2.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\5359f3aa50d36352815fc662ea73e1c00d22170\lwjgl-3.2.2-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\f378f889797edd7df8d32272c06ca80a1b6b0f58\text2speech-1.11.3.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\c0b242c0091be5acbf303263c7eeeaedd70544c7\text2speech-1.11.3-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.2.1\13b015768e0d04849d2794e4c47eb02d01a0de32\plexus-utils-3.2.1.jar
-Classpath: C:\Users\spam1\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
-WorkDir: H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar
-Main: net.md_5.specialsource.SpecialSource
+Java Launcher: C:\Program Files\AdoptOpenJDK\jdk-16.0.1.9-hotspot\bin\java.exe
+Arguments: '--in-jar, H:\Programme und Spiele\GitHub\MoreOresInONE\build\libs\MoreOresInONE-1.0.jar, --out-jar, H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar\output.jar, --srg-in, H:\Programme und Spiele\GitHub\MoreOresInONE\build\createMcpToSrg\output.tsrg, --live'
+Classpath:
+ - H:\Programme und Spiele\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.10.0\SpecialSource-1.10.0-shaded.jar
+ - H:\Programme und Spiele\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.0.33_mapped_official_1.17.1\forge-1.17.1-37.0.33_mapped_official_1.17.1-recomp.jar
+ - H:\Programme und Spiele\gradle\caches\forge_gradle\minecraft_repo\versions\1.17.1\client-extra.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.3\d7d4b6eac7f49c59255c8ac25190802c29ac9a4a\mergetool-1.1.3-api.jar
+ - H:\Programme und Spiele\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.17.1\mapping-1.17.1-mapping.zip
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\0.9.46\63b520c4dad090d67dbe040bea47567534fe2722\securejarhandler-0.9.46.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.17.1-37.0.33\a762fff81ef5ee5ed409085777b828d2f216250a\fmlloader-1.17.1-37.0.33.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\9.0.7\ebe8650527b513823874449e054db053b686b494\modlauncher-9.0.7.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.1.1\e22ac5309286d33c0eeee8ff36c2cc709f2efec9\nashorn-core-15.1.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.1\8b971b182eb5cf100b9e8d4119152d83e00e0fdd\asm-commons-9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.1\36464a45d871779f3383a8a9aba2b26562a86729\asm-util-9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.1\4f61b83b81d8b659958f4bcc48907e93ecea55a0\asm-analysis-9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.1\c333f2a855069cb8eb17a40a3eb8b1b67755d0eb\asm-tree-9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.1\a99500cf6eea30535eeac6be73899d048f8d12a8\asm-9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.17.1-37.0.33\fc99eafc65cff36782c4277609d22a93858104f\fmlcore-1.17.1-37.0.33.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\5.0.3\f2317ed9d19271be8727a71ae3e5dfeb62715594\eventbus-5.0.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\4.0.9\d96ebb6e3437def178ec646185cd198bd5ebfd4b\forgespi-4.0.9.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.3\2b05b4d606c517da4d1a7b6d2b97d751c92887d7\toml-3.6.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.3\c601bfeaeb2c0abe7aaa901b0bbe6d1beff49281\core-3.6.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.1\114a2dd16c4c568bf0ca57719b83f2685dcc5734\maven-artifact-3.8.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.8.1\6505a72a097d9270f7a9e7bf42c4238283247755\commons-lang3-3.8.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.8.3\98f84f353457629e81cc6827224871b1a8faa7af\typetools-0.8.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.14.1\9141212b8507ab50a45525b545b39d224614528b\log4j-core-2.14.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j18-impl\2.14.1\312b4d91b21160b9fab43600fa787f31e8cab930\log4j-slf4j18-impl-2.14.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.14.1\cd8858fbbde69f46bce8db1152c18a43328aae78\log4j-api-2.14.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\0.1.17\899fb8e3912bb7d14a6f9611de117f77db710ec3\bootstraplauncher-0.1.17.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.17.1-37.0.33\79ab795279cb1f2dafebd951f7bcef53e14d20c0\javafmllanguage-1.17.1-37.0.33.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.17.1-37.0.33\3c0931f925b6124fe3d1553a78dfeef36d8403f9\mclanguage-1.17.1-37.0.33.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.5\9da540f21c9a8d5ed7c029e1f88d1a6dabb0d6ad\blocklist-1.0.5.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.1.6\ce112c16c6275fdfff2d30208533ec906a191f71\patchy-2.1.6.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\5.7.5\725374463734aacde70a3b20f018aca3f922655f\oshi-core-5.7.5.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.8.0\2f12f6d7f7652270d13624cef1b82d8cd9a5398e\jna-platform-5.8.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.8.0\3551d8d827e54858214107541d3aff9c615cb615\jna-5.8.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\66.1\72c7519b6d91f7a1f993bd44a99fe95d67211b27\icu4j-66.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\javabridge\1.1.23\3e5084d916ba393dfd82928ec97663aeb10b2e2c\javabridge-1.1.23.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.25.Final\d0626cd3108294d1d58c05859add27b4ef21f83b\netty-all-4.1.25.Final.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.18\c1ef1234282716483c92183f49bef47b1a89bfa9\brigadier-1.0.18.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\4.0.26\ebd6690f33871ccee9b6132c6480668ee2e35020\datafixerupper-4.0.26.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\authlib\2.3.31\bbd00ca33b052f73a6312254780fc580d2da3535\authlib-2.3.31.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.2.1\5ad88f325e424f8dbc2be5459e21ea5cab3864e9\fastutil-8.2.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\ee8e57a79300f78294576d87c4a587f8c99402e2\lwjgl-jemalloc-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\2b772a102b0a11ee5f2109a5b136f4dc7c630827\lwjgl-openal-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\6ac5bb88b44c43ea195a570aab059f63da004cd8\lwjgl-opengl-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\d3ad4df38e400b8afba1de63f84338809399df5b\lwjgl-glfw-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f\lwjgl-stb-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9\lwjgl-tinyfd-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\8ad6294407e15780b43e84929c40e4c5e997972e\lwjgl-3.2.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\f378f889797edd7df8d32272c06ca80a1b6b0f58\text2speech-1.11.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.2.1\13b015768e0d04849d2794e4c47eb02d01a0de32\plexus-utils-3.2.1.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+ - H:\Programme und Spiele\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+Working directory: H:\Programme und Spiele\GitHub\MoreOresInONE\build\reobfJar
+Main class: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings
-0 packages, 5447 classes, 21481 fields, 38359 methods
+Loading mappings...  0%
+Loading mappings... 10%
+Loading mappings... 20%
+Loading mappings... 30%
+Loading mappings... 40%
+Loading mappings... 50%
+0 packages, 6113 classes, 27728 fields, 50860 methods
 Remapping final jar
+Remapping jar...  0%
+Remapping jar... 10%
+Remapping jar... 20%
+Remapping jar... 30%
+Remapping jar... 40%
+Remapping jar... 50%
+Remapping jar... 60%
+Remapping jar... 70%
+Remapping jar... 80%
+Remapping jar... 90%
+Remapping jar... 100%

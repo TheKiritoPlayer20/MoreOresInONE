@@ -8,7 +8,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -22,8 +21,8 @@ public class RegisterBlocks {
     public static final Block rubyBlock = new ItemBlocks(MaterialColor.COLOR_RED);
     public static final Block sapphireOre = new OverworldOres();
     public static final Block sapphireBlock = new ItemBlocks(MaterialColor.COLOR_BLUE);
-    public static final Block cryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS).harvestTool(ToolType.PICKAXE).harvestLevel(2));
-    public static final Block packedcryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS).harvestTool(ToolType.PICKAXE).harvestLevel(2));
+    public static final Block cryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS));
+    public static final Block packedcryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS));
     public static final Block cryoriteBlock = new ItemBlocks(MaterialColor.ICE);
     public static final Block topazOre = new NetherOres();
     public static final Block topazBlock = new ItemBlocks(MaterialColor.TERRACOTTA_ORANGE);
