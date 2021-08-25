@@ -13,6 +13,7 @@ To translate: just replace the old names, e.g to rename the "block.moreoresinone
 
 {
   "block.moreoresinone.ruby_ore" : "Ruby Ore",
+  "block.moreoresinone.deepslate_ruby_ore" : "Deepslate Ruby Ore",
   "block.moreoresinone.ruby_block" : "Block of Ruby",
   "item.moreoresinone.ruby" : "Ruby",
   "item.moreoresinone.ruby_axe" : "Ruby Axe",
@@ -26,6 +27,7 @@ To translate: just replace the old names, e.g to rename the "block.moreoresinone
   "item.moreoresinone.ruby_leggings" : "Ruby Leggings",
   "item.moreoresinone.ruby_boots" : "Ruby Boots",
   "block.moreoresinone.sapphire_ore" : "Sapphire Ore",
+  "block.moreoresinone.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
   "block.moreoresinone.sapphire_block" : "Block of Sapphire",
   "item.moreoresinone.sapphire" : "Sapphire",
   "item.moreoresinone.sapphire_axe" : "Sapphire Axe",
@@ -39,6 +41,7 @@ To translate: just replace the old names, e.g to rename the "block.moreoresinone
   "item.moreoresinone.sapphire_leggings" : "Sapphire Leggings",
   "item.moreoresinone.sapphire_boots" : "Sapphire Boots",
   "block.moreoresinone.cryorite_ore" : "Cryorite Ore",
+  "block.moreoresinone.packed_cryorite_ore" : "Cryorite Ore",
   "block.moreoresinone.cryorite_block" : "Block of Cryorite",
   "item.moreoresinone.cryorite" : "Cryorite",
   "item.moreoresinone.cryorite_axe" : "Cryorite Axe",
@@ -78,6 +81,7 @@ To translate: just replace the old names, e.g to rename the "block.moreoresinone
   "item.moreoresinone.amethyst_leggings" : "Amethyst Leggings",
   "item.moreoresinone.amethyst_boots" : "Amethyst Boots",
   "block.moreoresinone.overworld_exp_ore" : "Experience Ore",
+  "block.moreoresinone.deepslate_overworld_exp_ore" : "Deepslate Experience Ore",
   "block.moreoresinone.nether_exp_ore" : "Experience Ore",
   "block.moreoresinone.end_exp_ore" : "Experience Ore",
   "itemGroup.moi_overworld" : "MOI Overworld",
