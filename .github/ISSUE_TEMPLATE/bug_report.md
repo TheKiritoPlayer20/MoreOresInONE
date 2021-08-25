@@ -11,7 +11,7 @@ assignees: realKG20
 A clear and concise description of what the bug is.
 
 **Versions**
-Forge version: 32.*.*
+Forge version: 37.*.*
 MoreOresinOne version: 1.*
 
 **To Reproduce**
