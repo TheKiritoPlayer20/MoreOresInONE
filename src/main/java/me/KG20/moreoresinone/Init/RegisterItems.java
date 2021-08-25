@@ -18,7 +18,6 @@ public class RegisterItems {
     public static final OreItems topaz = new OreItems(new Item.Properties().tab(CreativeTabs.nether).fireResistant());
     public static final OreItems amethyst = new OreItems(new Item.Properties().tab(CreativeTabs.end).fireResistant());
 
-
     @SubscribeEvent
     public static void register(Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();

@@ -2,7 +2,8 @@
   "parent": "moreoresinone:recipes/root",
   "rewards": {
     "recipes": [
-      "moreoresinone:cryorite_from_smelting"
+      "moreoresinone:cryorite_from_smelting",
+      "moreoresinone:cryorite_from_smelting_packed"
     ]
   },
   "criteria": {
@@ -11,7 +12,8 @@
       "conditions": {
         "items": [
           {
-            "item": "moreoresinone:cryorite_ore"
+            "item": "moreoresinone:cryorite_ore",
+            "item": "moreoresinone:packed_cryorite_ore"
           }
         ]
       }
@@ -19,7 +21,8 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "moreoresinone:cryorite_from_smelting"
+        "recipe": "moreoresinone:cryorite_from_smelting",
+        "recipe": "moreoresinone:cryorite_from_smelting_packed"
       }
     }
   },

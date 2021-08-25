@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "moreoresinone:overworld_exp_ore",
+    "moreoresinone:deepslate_overworld_exp_ore",
     "moreoresinone:nether_exp_ore",
     "moreoresinone:end_exp_ore"
   ]

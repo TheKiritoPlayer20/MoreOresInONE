@@ -115,11 +115,13 @@ public class EventHandler {
                 if(Config.generate_ruby.get()){
                     for (int i = 0; i < Config.count_ruby.get(); i++){
                         event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.RUBY_ORE);
+                        event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_RUBY_ORE);
                     }
                 }
                 if(Config.generate_sapphire.get()) {
                     for (int i = 0; i < Config.count_sapphhire.get(); i++){
                         event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.SAPPHIRE_ORE);
+                        event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_SAPPHIRE_ORE);
                     }
                 }
             }else{
@@ -128,12 +130,14 @@ public class EventHandler {
                     if((event.getCategory() == Biome.BiomeCategory.SAVANNA || event.getCategory() == Biome.BiomeCategory.DESERT || event.getCategory() == Biome.BiomeCategory.MESA || event.getClimate().temperature > 1D) && Config.generate_ruby.get()){
                         for (int i = 0; i < Config.count_ruby.get(); i++){
                             event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.RUBY_ORE);
+                            event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_RUBY_ORE);
                         }
                     }
                 }else{
                     if(event.getClimate().temperature <= Config.ruby_temperature.get()){
                         for (int i = 0; i < Config.count_ruby.get(); i++){
                             event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.RUBY_ORE);
+                            event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_RUBY_ORE);
                         }
                     }
                 }
@@ -141,12 +145,14 @@ public class EventHandler {
                     if((event.getCategory() == Biome.BiomeCategory.TAIGA || event.getCategory() == Biome.BiomeCategory.OCEAN || event.getCategory() == Biome.BiomeCategory.ICY || event.getClimate().temperature < 0.2D) && Config.generate_sapphire.get()){
                         for (int i = 0; i < Config.count_sapphhire.get(); i++){
                             event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.SAPPHIRE_ORE);
+                            event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_SAPPHIRE_ORE);
                         }
                     }
                 }else{
                     if(event.getClimate().temperature <= Config.sapphire_temperature.get()){
                         for (int i = 0; i < Config.count_sapphhire.get(); i++){
                             event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.SAPPHIRE_ORE);
+                            event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_SAPPHIRE_ORE);
                         }
                     }
                 }
@@ -160,6 +166,7 @@ public class EventHandler {
             if(Config.generate_Overworld_EXP_ORE.get()){
                 for (int i = 0; i < Config.count_overworld_experience.get(); i++){
                     event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.OVERWORLD_EXPIERENCE_ORE);
+                    event.getGeneration().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, WorldGenerator.DEEPSLATE_OVERWORLD_EXPIERENCE_ORE);
                 }
             }
         }

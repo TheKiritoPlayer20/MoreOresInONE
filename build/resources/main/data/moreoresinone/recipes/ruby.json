@@ -11,5 +11,6 @@
     "result": {
         "item": "moreoresinone:ruby",
         "count": 9
-    }
+    },
+    "group" : "ruby"
 }

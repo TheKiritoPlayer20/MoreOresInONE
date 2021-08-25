@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "moreoresinone:deepslate_ruby_ore"
+  },
+  "result": "moreoresinone:ruby",
+  "experience": 1.0,
+  "cookingtime": 200,
+  "group" : "ruby"
+}

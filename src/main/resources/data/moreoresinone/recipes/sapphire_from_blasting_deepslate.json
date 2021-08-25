@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "moreoresinone:deepslate_sapphire_ore"
+  },
+  "result": "moreoresinone:sapphire",
+  "experience": 1.0,
+  "cookingtime": 100,
+  "group" : "sapphire"
+}

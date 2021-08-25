@@ -202,7 +202,7 @@
 
 	["Ore Generation".Overworld]
 		#Enable that Rubies and Sapphire's generate in every biome(Default: false).
-		every_biome = false
+		every_biome = true
 
 		["Ore Generation".Overworld."Cryorite Generation"]
 			#Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 10).
@@ -238,7 +238,7 @@
 			sapphire_temperature = 0.2
 			#Set the maximum ammount of the Sapphire ore veins per Chunk (Default: 1).
 			#Range: 0 ~ 999999999
-			count_sapphire = 1
+			count_sapphire = 5
 			#Set the Vein Size of the Sapphire Ore (Default: 8).
 			#Range: 4 ~ 255
 			veinsize_sapphire = 8
@@ -259,7 +259,7 @@
 			veinsize_ruby = 8
 			#Set the maximum ammount of the Ruby ore veins per Chunk (Default: 1).
 			#Range: 0 ~ 999999999
-			count_ruby = 1
+			count_ruby = 5
 			#Set the Min Height of the Ruby Ore (Default: 0).
 			#Range: 0 ~ 256
 			minheight_ruby = 0

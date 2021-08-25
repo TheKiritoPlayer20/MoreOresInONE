@@ -2,8 +2,10 @@
   "replace": false,
   "values": [
     "moreoresinone:ruby_ore",
+    "moreoresinone:deepslate_ruby_ore",
     "moreoresinone:ruby_block",
     "moreoresinone:sapphire_ore",
+    "moreoresinone:deepslate_sapphire_ore",
     "moreoresinone:sapphire_block",
     "moreoresinone:cryorite_ore",
     "moreoresinone:packed_cryorite_ore",

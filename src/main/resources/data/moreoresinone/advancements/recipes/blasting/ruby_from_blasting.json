@@ -2,7 +2,8 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "moreoresinone:ruby_from_blasting"
+      "moreoresinone:ruby_from_blasting",
+      "moreoresinone:ruby_from_blasting_deepslate"
     ]
   },
   "criteria": {
@@ -11,7 +12,8 @@
       "conditions": {
         "items": [
           {
-            "item": "moreoresinone:ruby_ore"
+            "item": "moreoresinone:ruby_ore",
+            "item": "moreoresinone:deepslate_ruby_ore"
           }
         ]
       }
@@ -19,7 +21,8 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "moreoresinone:ruby_from_blasting"
+        "recipe": "moreoresinone:ruby_from_blasting",
+        "recipe": "moreoresinone:ruby_from_blasting_deepslate"
       }
     }
   },

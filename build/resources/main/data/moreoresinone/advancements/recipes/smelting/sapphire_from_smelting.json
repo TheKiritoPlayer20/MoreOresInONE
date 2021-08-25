@@ -2,7 +2,8 @@
   "parent": "moreoresinone:recipes/root",
   "rewards": {
     "recipes": [
-      "moreoresinone:sapphire_from_smelting"
+      "moreoresinone:sapphire_from_smelting",
+      "moreoresinone:sapphire_from_smelting_deepslate"
     ]
   },
   "criteria": {
@@ -11,7 +12,8 @@
       "conditions": {
         "items": [
           {
-            "item": "moreoresinone:sapphire_ore"
+            "item": "moreoresinone:sapphire_ore",
+            "item": "moreoresinone:deepslate_sapphire_ore"
           }
         ]
       }
@@ -19,7 +21,8 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "moreoresinone:sapphire_from_smelting"
+        "recipe": "moreoresinone:sapphire_from_smelting",
+        "recipe": "moreoresinone:sapphire_from_smelting_deepslate"
       }
     }
   },

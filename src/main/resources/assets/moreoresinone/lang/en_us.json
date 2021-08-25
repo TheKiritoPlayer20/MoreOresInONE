@@ -1,5 +1,6 @@
 {
   "block.moreoresinone.ruby_ore" : "Ruby Ore",
+  "block.moreoresinone.deepslate_ruby_ore" : "Deepslate Ruby Ore",
   "block.moreoresinone.ruby_block" : "Block of Ruby",
   "item.moreoresinone.ruby" : "Ruby",
   "item.moreoresinone.ruby_axe" : "Ruby Axe",
@@ -13,6 +14,7 @@
   "item.moreoresinone.ruby_leggings" : "Ruby Leggings",
   "item.moreoresinone.ruby_boots" : "Ruby Boots",
   "block.moreoresinone.sapphire_ore" : "Sapphire Ore",
+  "block.moreoresinone.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
   "block.moreoresinone.sapphire_block" : "Block of Sapphire",
   "item.moreoresinone.sapphire" : "Sapphire",
   "item.moreoresinone.sapphire_axe" : "Sapphire Axe",
@@ -66,6 +68,7 @@
   "item.moreoresinone.amethyst_leggings" : "Amethyst Leggings",
   "item.moreoresinone.amethyst_boots" : "Amethyst Boots",
   "block.moreoresinone.overworld_exp_ore" : "Experience Ore",
+  "block.moreoresinone.deepslate_overworld_exp_ore" : "Deepslate Experience Ore",
   "block.moreoresinone.nether_exp_ore" : "Experience Ore",
   "block.moreoresinone.end_exp_ore" : "Experience Ore",
   "itemGroup.moi_overworld" : "MOI Overworld",

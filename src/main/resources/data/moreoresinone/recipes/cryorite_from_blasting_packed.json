@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "moreoresinone:packed_cryorite_ore"
+  },
+  "result": "moreoresinone:cryorite",
+  "experience": 1.0,
+  "cookingtime": 100
+}

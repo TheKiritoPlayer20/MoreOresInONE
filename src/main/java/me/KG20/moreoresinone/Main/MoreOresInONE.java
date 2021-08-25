@@ -26,7 +26,7 @@ import java.util.List;
 public class MoreOresInONE
 {
 
-    private static CommonProxy proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
+    private static CommonProxy proxy = DistExecutor.safeRunForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
     public MoreOresInONE(){
         FMLJavaModLoadingContext.get().getModEventBus().register(this);

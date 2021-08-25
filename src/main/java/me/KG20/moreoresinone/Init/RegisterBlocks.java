@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -19,8 +20,10 @@ public class RegisterBlocks {
 
     public static final Block rubyOre = new OverworldOres();
     public static final Block rubyBlock = new ItemBlocks(MaterialColor.COLOR_RED);
+    public static final Block deepslateRubyOre = new OverworldOres();
     public static final Block sapphireOre = new OverworldOres();
     public static final Block sapphireBlock = new ItemBlocks(MaterialColor.COLOR_BLUE);
+    public static final Block deepslateSapphireOre = new OverworldOres();
     public static final Block cryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS));
     public static final Block packedcryoriteOre = new OverworldOres(Block.Properties.of(Material.ICE_SOLID, MaterialColor.ICE).friction(0.98F).strength(3.0F,3.0F).sound(SoundType.GLASS));
     public static final Block cryoriteBlock = new ItemBlocks(MaterialColor.ICE);
@@ -29,6 +32,7 @@ public class RegisterBlocks {
     public static final Block amethystOre = new EndOres();
     public static final Block amethystBlock = new ItemBlocks(MaterialColor.TERRACOTTA_PURPLE);
     public static final Block overworldEXPOre = new OverworldEXPOre(MaterialColor.STONE);
+    public static final Block deepslateOverworldEXPOre = new OverworldEXPOre(MaterialColor.DEEPSLATE);
     public static final Block netherEXPOre = new NetherEXPOre(MaterialColor.NETHER);
     public static final Block endEXPOre = new EndEXPOre(MaterialColor.SAND);
 
@@ -38,11 +42,13 @@ public class RegisterBlocks {
 
         rubyOre.setRegistryName(Constants.modid, "ruby_ore");
         rubyBlock.setRegistryName(Constants.modid, "ruby_block");
-        registry.registerAll(rubyOre,rubyBlock);
+        deepslateRubyOre.setRegistryName(Constants.modid, "deepslate_ruby_ore");
+        registry.registerAll(rubyOre,rubyBlock,deepslateRubyOre);
 
         sapphireOre.setRegistryName(Constants.modid, "sapphire_ore");
         sapphireBlock.setRegistryName(Constants.modid, "sapphire_block");
-        registry.registerAll(sapphireOre,sapphireBlock);
+        deepslateSapphireOre.setRegistryName(Constants.modid, "deepslate_sapphire_ore");
+        registry.registerAll(sapphireOre,sapphireBlock,deepslateSapphireOre);
 
         cryoriteOre.setRegistryName(Constants.modid, "cryorite_ore");
         packedcryoriteOre.setRegistryName(Constants.modid, "packed_cryorite_ore");
@@ -58,9 +64,10 @@ public class RegisterBlocks {
         registry.registerAll(amethystOre,amethystBlock);
 
         overworldEXPOre.setRegistryName(Constants.modid, "overworld_exp_ore");
+        deepslateOverworldEXPOre.setRegistryName(Constants.modid, "deepslate_overworld_exp_ore");
         netherEXPOre.setRegistryName(Constants.modid, "nether_exp_ore");
         endEXPOre.setRegistryName(Constants.modid, "end_exp_ore");
-        registry.registerAll(overworldEXPOre,netherEXPOre,endEXPOre);
+        registry.registerAll(overworldEXPOre,deepslateOverworldEXPOre,netherEXPOre,endEXPOre);
 
     }
 
@@ -70,9 +77,11 @@ public class RegisterBlocks {
 
         registry.register(new ItemFromBlock(rubyOre, new Item.Properties().tab(CreativeTabs.overworld)));
         registry.register(new ItemFromBlock(rubyBlock, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(deepslateRubyOre, new Item.Properties().tab(CreativeTabs.overworld)));
 
         registry.register(new ItemFromBlock(sapphireOre, new Item.Properties().tab(CreativeTabs.overworld)));
         registry.register(new ItemFromBlock(sapphireBlock, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(deepslateSapphireOre, new Item.Properties().tab(CreativeTabs.overworld)));
 
         registry.register(new ItemFromBlock(cryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)));
         registry.register(new ItemFromBlock(packedcryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)));
@@ -85,6 +94,7 @@ public class RegisterBlocks {
         registry.register(new ItemFromBlock(amethystBlock, new Item.Properties().tab(CreativeTabs.end).fireResistant()));
 
         registry.register(new ItemFromBlock(overworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)));
+        registry.register(new ItemFromBlock(deepslateOverworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)));
         registry.register(new ItemFromBlock(netherEXPOre, new Item.Properties().tab(CreativeTabs.nether)));
         registry.register(new ItemFromBlock(endEXPOre, new Item.Properties().tab(CreativeTabs.end)));
     }
