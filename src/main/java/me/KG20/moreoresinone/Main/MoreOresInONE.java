@@ -4,9 +4,11 @@ import me.KG20.moreoresinone.Config.MoreOresInOneConfig;
 import me.KG20.moreoresinone.Event.EventHandler;
 import me.KG20.moreoresinone.Init.RegisterBlocks;
 import me.KG20.moreoresinone.Init.RegisterTier;
+import me.KG20.moreoresinone.Init.WorldGenerator;
 import me.KG20.moreoresinone.Proxy.ClientProxy;
 import me.KG20.moreoresinone.Proxy.CommonProxy;
 import me.KG20.moreoresinone.Tools.BasisToolMaterial;
+import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Blocks;
@@ -36,6 +38,7 @@ public class MoreOresInONE
 
     @SubscribeEvent
     public void setup(FMLCommonSetupEvent event){
+        WorldGenerator.registerOrePlacement();
         proxy.setup();
     }
 

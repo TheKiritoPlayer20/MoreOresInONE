@@ -137,26 +137,20 @@
 			#Set the Vein Size of the Nether Experience Ore(Default: 4).
 			#Range: 1 ~ 255
 			veinsize_nether_experience = 4
-			#Set the chance of the Nether Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 999999999
-			chance_nether_experience = 1
 
 		["Ore Generation".Experience.Overworld]
 			#Enable the Generation of the Overworld Experience Ore(Default: true).
 			generate_overworld_experience = true
-			#Set the maximum ammount of the Experience Ore veins in the Overworld (Default: 4)
+			#Set the maximum ammount of the Experience Ore veins in the Overworld (Default: 8)
 			#Range: 1 ~ 999999999
-			count_overworld_experience = 5
-			#Set the Max Height of the Experience Ore in the Overworld (Default: 128).
-			#Range: 1 ~ 256
-			max_height_overworld_experience = 128
-			#Set the Min Height of the Experience Ore in the Overworld (Default: 0).
-			#Range: 0 ~ 128
-			min_height_overworld_experience = 0
-			#Set the chance of the Overworld Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 999999999
-			chance_overworld_experience = 1
-			#Set the Vein Size of the Overworld Experience Ore(Default: 1).
+			count_overworld_experience = 8
+			#Set the Max Height of the Experience Ore in the Overworld (Default: 320).
+			#Range: -64 ~ 320
+			max_height_overworld_experience = 320
+			#Set the Min Height of the Experience Ore in the Overworld (Default: -64).
+			#Range: -64 ~ 320
+			min_height_overworld_experience = -64
+			#Set the Vein Size of the Overworld Experience Ore(Default: 4).
 			#Range: 1 ~ 255
 			veinsize_overworld_experience = 4
 
@@ -175,9 +169,6 @@
 			#Set the Max Height of the Experience Ore in  the End (Default: 128).
 			#Range: 0 ~ 128
 			max_height_end_experience = 128
-			#Set the chance of the End Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 999999999
-			chance_end_experience = 1
 
 	["Ore Generation".Nether]
 
@@ -193,12 +184,9 @@
 			#Set the Min Height of the Topaz Ore (Default: 0).
 			#Range: 0 ~ 128
 			minheight_topaz = 0
-			#Set the chance of the Topaz Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 255
-			chance_topaz = 1
-			#Set the maximum ammount of the Topaz ore veins per Chunk (Default: 1).
+			#Set the maximum ammount of the Topaz ore veins per Chunk (Default: 2).
 			#Range: 0 ~ 999999999
-			count_topaz = 1
+			count_topaz = 2
 
 	["Ore Generation".Overworld]
 		#Enable that Rubies and Sapphire's generate in every biome(Default: false).
@@ -207,44 +195,38 @@
 		["Ore Generation".Overworld."Cryorite Generation"]
 			#Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 10).
 			#Range: 0 ~ 999999999
-			count_cryorite = 20
+			count_cryorite = 10
 			#Set the Max  Height of the Cryorite Ore (Default: 100).
-			#Range: 0 ~ 256
+			#Range: -64 ~ 320
 			maxheight_cryorite = 100
 			#Set the Vein Size of the Cryorite Ore (Default: 4).
 			#Range: 1 ~ 255
-			veinsize_cryorite = 40
+			veinsize_cryorite = 4
 			#Enable the Generation of Cryorite Ore (Default: true).
 			generate_cryorite = true
 			#Set the Temperature of the biome in which the Cryorite Ore should generate(The temperature of the biome is equal and below)(Default: 0.5F)
 			#Range: -9.99999999E8 ~ 9.99999999E8
 			cryorite_temperature = 0.5
-			#Set the chance of the Cryorite Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 255
-			chance_cryorite = 1
 			#Set the Min Height of the Cryorite Ore (Default: 40).
-			#Range: 0 ~ 256
+			#Range: -64 ~ 320
 			minheight_cryorite = 40
 
 		["Ore Generation".Overworld."Sapphire Generation"]
-			#Set the chance of the Sapphire Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 100
-			chance_sapphire = 1
 			#Set the Max Height of the Sapphire Ore (Default: 16).
-			#Range: 0 ~ 256
+			#Range: -64 ~ 320
 			maxheight_sapphire = 16
 			#Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)
 			#Range: -9.99999999E8 ~ 9.99999999E8
 			sapphire_temperature = 0.2
-			#Set the maximum ammount of the Sapphire ore veins per Chunk (Default: 1).
+			#Set the maximum ammount of the Sapphire ore veins per Chunk (Default: 3).
 			#Range: 0 ~ 999999999
-			count_sapphire = 5
+			count_sapphire = 3
 			#Set the Vein Size of the Sapphire Ore (Default: 8).
 			#Range: 4 ~ 255
 			veinsize_sapphire = 8
 			#Set the Min Height of the Sapphire Ore (Default: 0).
-			#Range: 0 ~ 256
-			minheight_sapphire = 0
+			#Range: -64 ~ 320
+			minheight_sapphire = -64
 			#Enable the Generation of Sapphire Ore (Default: true).
 			generate_sapphire = true
 
@@ -257,36 +239,30 @@
 			#Set the Vein Size of the Ruby Ore (Default: 8).
 			#Range: 4 ~ 255
 			veinsize_ruby = 8
-			#Set the maximum ammount of the Ruby ore veins per Chunk (Default: 1).
+			#Set the maximum ammount of the Ruby ore veins per Chunk (Default: 3).
 			#Range: 0 ~ 999999999
-			count_ruby = 5
+			count_ruby = 3
 			#Set the Min Height of the Ruby Ore (Default: 0).
-			#Range: 0 ~ 256
-			minheight_ruby = 0
-			#Set the chance of the Ruby Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 255
-			chance_ruby = 1
+			#Range: -64 ~ 320
+			minheight_ruby = -64
 			#Set the Max  Height of the Ruby Ore (Default: 16).
-			#Range: 0 ~ 256
+			#Range: -64 ~ 320
 			maxheight_ruby = 16
 
 	["Ore Generation".End]
 
 		["Ore Generation".End."Amethyst Generation"]
-			#Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 1).
+			#Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 4).
 			#Range: 0 ~ 999999999
 			count_amethyst = 4
 			#Set the Max Height of the Amethyst Ore (Default: 128).
 			#Range: 0 ~ 128
 			maxheight_amethyst = 128
-			#Set the Vein Size of the Amethyst Ore(Default: 1).
+			#Set the Vein Size of the Amethyst Ore(Default: 4).
 			#Range: 1 ~ 255
 			veinsize_amethyst = 4
 			#Enable the Generation of Amethyst Ore (Default: true).
 			generate_amethyst = true
-			#Set the chance of the Amethyst Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
-			#Range: 1 ~ 255
-			chance_amethyst = 1
 			#Set the Min Height of the Amethyst Ore (Default: 0).
 			#Range: 0 ~ 128
 			minheight_amethyst = 0
