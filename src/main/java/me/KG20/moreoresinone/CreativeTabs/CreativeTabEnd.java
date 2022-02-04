@@ -15,6 +15,6 @@ public class CreativeTabEnd extends CreativeModeTab {
     @OnlyIn(Dist.CLIENT)
     @Override
     public ItemStack makeIcon(){
-        return new ItemStack(RegisterBlocks.amethystOre);
+        return new ItemStack(RegisterBlocks.corundumOre);
     }
 }

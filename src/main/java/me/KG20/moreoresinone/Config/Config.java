@@ -52,14 +52,14 @@ public class Config {
 
     //End
 
-    //Amethyst
-    public static ForgeConfigSpec.BooleanValue generate_amethyst;
-    public static ForgeConfigSpec.IntValue durabilitiy_amethyst;
-    public static ForgeConfigSpec.DoubleValue attackdamage_amethyst;
-    public static ForgeConfigSpec.IntValue veinsize_amethyst;
-    public static ForgeConfigSpec.IntValue count_amethyst;
-    public static ForgeConfigSpec.IntValue minheight_amethyst;
-    public static ForgeConfigSpec.IntValue maxheight_amethyst;
+    //corundum
+    public static ForgeConfigSpec.BooleanValue generate_corundum;
+    public static ForgeConfigSpec.IntValue durabilitiy_corundum;
+    public static ForgeConfigSpec.DoubleValue attackdamage_corundum;
+    public static ForgeConfigSpec.IntValue veinsize_corundum;
+    public static ForgeConfigSpec.IntValue count_corundum;
+    public static ForgeConfigSpec.IntValue minheight_corundum;
+    public static ForgeConfigSpec.IntValue maxheight_corundum;
 
     //Experience
     public static ForgeConfigSpec.BooleanValue enableFortune;
@@ -128,19 +128,19 @@ public class Config {
     public static ForgeConfigSpec.IntValue topaz_boots_protection;
     public static ForgeConfigSpec.DoubleValue topaz_toughness;
 
-    //Amethyst
-    public static ForgeConfigSpec.IntValue amethyst_helmet_protection;
-    public static ForgeConfigSpec.IntValue amethyst_chestplate_protection;
-    public static ForgeConfigSpec.IntValue amethyst_leggings_protection;
-    public static ForgeConfigSpec.IntValue amethyst_boots_protection;
-    public static ForgeConfigSpec.DoubleValue amethyst_toughness;
+    //corundum
+    public static ForgeConfigSpec.IntValue corundum_helmet_protection;
+    public static ForgeConfigSpec.IntValue corundum_chestplate_protection;
+    public static ForgeConfigSpec.IntValue corundum_leggings_protection;
+    public static ForgeConfigSpec.IntValue corundum_boots_protection;
+    public static ForgeConfigSpec.DoubleValue corundum_toughness;
 
     //Horse Armor
     public static ForgeConfigSpec.IntValue ruby_horse_armor;
     public static ForgeConfigSpec.IntValue sapphire_horse_armor;
     public static ForgeConfigSpec.IntValue cryorite_horse_armor;
     public static ForgeConfigSpec.IntValue topaz_horse_armor;
-    public static ForgeConfigSpec.IntValue amethyst_horse_armor;
+    public static ForgeConfigSpec.IntValue corundum_horse_armor;
 
     public static void init(ForgeConfigSpec.Builder Builder){
 
@@ -231,12 +231,12 @@ public class Config {
 
         Builder.pop();
         Builder.push("End");
-        Builder.push("Amethyst Generation");
-        generate_amethyst = Builder.comment("Enable the Generation of Amethyst Ore (Default: true).").define("generate_amethyst", true);
-        veinsize_amethyst = Builder.comment("Set the Vein Size of the Amethyst Ore(Default: 4).").defineInRange("veinsize_amethyst", 4, 1, 255);
-        count_amethyst = Builder.comment("Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 4).").defineInRange("count_amethyst", 4,0,999999999);
-        minheight_amethyst = Builder.comment("Set the Min Height of the Amethyst Ore (Default: 0).").defineInRange("minheight_amethyst", 0, 0, 128);
-        maxheight_amethyst = Builder.comment("Set the Max Height of the Amethyst Ore (Default: 128).").defineInRange("maxheight_amethyst", 128, 0, 128);
+        Builder.push("corundum Generation");
+        generate_corundum = Builder.comment("Enable the Generation of Corundum Ore (Default: true).").define("generate_corundum", true);
+        veinsize_corundum = Builder.comment("Set the Vein Size of the Corundum Ore(Default: 4).").defineInRange("veinsize_corundum", 4, 1, 255);
+        count_corundum = Builder.comment("Set the maximum ammount of the Corundum ore veins per Chunk (Default: 4).").defineInRange("count_corundum", 4,0,999999999);
+        minheight_corundum = Builder.comment("Set the Min Height of the Corundum Ore (Default: 0).").defineInRange("minheight_corundum", 0, 0, 128);
+        maxheight_corundum = Builder.comment("Set the Max Height of the Corundum Ore (Default: 128).").defineInRange("maxheight_corundum", 128, 0, 128);
         Builder.pop();
 
         Builder.pop();
@@ -259,8 +259,8 @@ public class Config {
         durabilitiy_topaz = Builder.comment("Set the Durability of Topaz Tools(Default: 1800).").defineInRange("durability_topaz", 1800, 0, 999999999);
 
         Builder.pop();
-        Builder.push("Amethyst");
-        durabilitiy_amethyst = Builder.comment("Set the Durability of Amethyst Tools(Default: 2000).").defineInRange("durability_amethyst", 2000, 0, 999999999);
+        Builder.push("corundum");
+        durabilitiy_corundum = Builder.comment("Set the Durability of Corundum Tools(Default: 2000).").defineInRange("durability_corundum", 2000, 0, 999999999);
         Builder.pop();
         Builder.pop();
 
@@ -292,8 +292,8 @@ public class Config {
         attackdamage_topaz = Builder.comment("Topaz base attack damage").defineInRange("attackdamage_topaz",4,0.0, 999999999);
         Builder.pop();
 
-        Builder.push("Amethyst");
-        attackdamage_amethyst = Builder.comment("Amethyst base attack damage").defineInRange("attackdamage_amethyst",4.5,0.0, 999999999);
+        Builder.push("corundum");
+        attackdamage_corundum = Builder.comment("Corundum base attack damage").defineInRange("attackdamage_corundum",4.5,0.0, 999999999);
         Builder.pop();
         Builder.pop();
 
@@ -307,7 +307,7 @@ public class Config {
         topaz_horse_armor = Builder.comment("Set the protection value of the Topaz horse armor").defineInRange("topaz_horse_armor", 13, 0,999999999);
         Builder.pop();
         Builder.push("End");
-        amethyst_horse_armor = Builder.comment("Set the protection value of the Amethyst horse armor").defineInRange("amethyst_horse_armor", 18, 0,999999999);
+        corundum_horse_armor = Builder.comment("Set the protection value of the Corundum horse armor").defineInRange("corundum_horse_armor", 18, 0,999999999);
         Builder.pop();
         Builder.pop();
 
@@ -343,12 +343,12 @@ public class Config {
         topaz_boots_protection = Builder.comment("Set the protection value of the Topaz Boots").defineInRange("topaz_boots_protection", 3, 0, 999999999);
         topaz_toughness = Builder.comment("Set the toughness of the Topaz Armor").defineInRange("topaz_toughness", 2.5, 0, 999999999);
         Builder.pop();
-        Builder.push("Amethyst");
-        amethyst_helmet_protection = Builder.comment("Set the protection value of the Amethyst Helmet").defineInRange("amethyst_helmet_protection", 3, 0, 999999999);
-        amethyst_chestplate_protection = Builder.comment("Set the protection value of the Amethyst Chestplate").defineInRange("amethyst_chestplate_protection", 8, 0, 999999999);
-        amethyst_leggings_protection = Builder.comment("Set the protection value of the Amethyst Leggings").defineInRange("amethyst_leggings_protection", 6, 0, 999999999);
-        amethyst_boots_protection = Builder.comment("Set the protection value of the Amethyst Boots").defineInRange("amethyst_boots_protection", 3, 0, 999999999);
-        amethyst_toughness = Builder.comment("Set the toughness of the Amethyst Armor").defineInRange("amethyst_toughness", 3.0, 0, 999999999);
+        Builder.push("corundum");
+        corundum_helmet_protection = Builder.comment("Set the protection value of the Corundum Helmet").defineInRange("corundum_helmet_protection", 3, 0, 999999999);
+        corundum_chestplate_protection = Builder.comment("Set the protection value of the Corundum Chestplate").defineInRange("corundum_chestplate_protection", 8, 0, 999999999);
+        corundum_leggings_protection = Builder.comment("Set the protection value of the Corundum Leggings").defineInRange("corundum_leggings_protection", 6, 0, 999999999);
+        corundum_boots_protection = Builder.comment("Set the protection value of the Corundum Boots").defineInRange("corundum_boots_protection", 3, 0, 999999999);
+        corundum_toughness = Builder.comment("Set the toughness of the Corundum Armor").defineInRange("corundum_toughness", 3.0, 0, 999999999);
         Builder.pop();
         Builder.pop();
 

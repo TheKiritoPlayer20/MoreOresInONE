@@ -1,0 +1,74 @@
+{
+  "parent": "moreoresinone:moreoresinone/find_corundum",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:corundum_chestplate"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.corundum_armor.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.corundum_armor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "corundum_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:corundum_helmet"
+          }
+        ]
+      }
+    },
+    "corundum_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:corundum_chestplate"
+          }
+        ]
+      }
+    },
+    "corundum_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:corundum_leggings"
+          }
+        ]
+      }
+    },
+    "corundum_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:corundum_boots"
+          }
+        ]
+      }
+    }
+  },
+    "requirements": [
+      [
+        "corundum_helmet"
+      ],
+      [
+        "corundum_chestplate"
+      ],
+      [
+        "corundum_leggings"
+      ],
+      [
+        "corundum_boots"
+      ]
+    ]
+}

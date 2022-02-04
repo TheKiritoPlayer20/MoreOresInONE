@@ -18,18 +18,11 @@ public class OverworldEXPOre extends Block {
     public OverworldEXPOre(MaterialColor color){
         super(Properties.of(Material.STONE, color).strength(3.0F,3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops());
     }
-    /*
-    @Nullable
-    @Override
-    public ToolType getHarvestTool(BlockState state) {
-        return ToolType.PICKAXE;
+
+    public OverworldEXPOre(Properties properties){
+        super(properties.requiresCorrectToolForDrops());
     }
 
-    @Override
-    public int getHarvestLevel(BlockState state) {
-        return 1;
-    }
-    */
     @Override
     public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {
         Random random = new Random();

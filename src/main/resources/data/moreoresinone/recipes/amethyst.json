@@ -5,11 +5,11 @@
     ],
     "key": {
         "#": {
-            "item": "moreoresinone:amethyst_block"
+            "item": "moreoresinone:corundum_block"
         }
     },
     "result": {
-        "item": "moreoresinone:amethyst",
+        "item": "moreoresinone:corundum",
         "count": 9
     }
 }

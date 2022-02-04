@@ -22,6 +22,23 @@
 		#Enable if full Armor sets should give Potion Effects or not(Default: true).
 		enable_statuseffects = true
 
+	[Armor.corundum]
+		#Set the protection value of the Corundum Chestplate
+		#Range: 0 ~ 999999999
+		corundum_chestplate_protection = 8
+		#Set the protection value of the Corundum Leggings
+		#Range: 0 ~ 999999999
+		corundum_leggings_protection = 6
+		#Set the toughness of the Corundum Armor
+		#Range: 0.0 ~ 9.99999999E8
+		corundum_toughness = 3.0
+		#Set the protection value of the Corundum Helmet
+		#Range: 0 ~ 999999999
+		corundum_helmet_protection = 3
+		#Set the protection value of the Corundum Boots
+		#Range: 0 ~ 999999999
+		corundum_boots_protection = 3
+
 	[Armor.Cryorite]
 		#Set the protection value of the Cryorite Leggings
 		#Range: 0 ~ 999999999
@@ -73,23 +90,6 @@
 		#Range: 0 ~ 999999999
 		topaz_leggings_protection = 6
 
-	[Armor.Amethyst]
-		#Set the protection value of the Amethyst Chestplate
-		#Range: 0 ~ 999999999
-		amethyst_chestplate_protection = 8
-		#Set the protection value of the Amethyst Helmet
-		#Range: 0 ~ 999999999
-		amethyst_helmet_protection = 3
-		#Set the toughness of the Amethyst Armor
-		#Range: 0.0 ~ 9.99999999E8
-		amethyst_toughness = 3.0
-		#Set the protection value of the Amethyst Leggings
-		#Range: 0 ~ 999999999
-		amethyst_leggings_protection = 6
-		#Set the protection value of the Amethyst Boots
-		#Range: 0 ~ 999999999
-		amethyst_boots_protection = 3
-
 ["Ore Generation"]
 
 	["Ore Generation".Experience]
@@ -123,7 +123,7 @@
 				max_exp_end = 40
 
 		["Ore Generation".Experience.Nether]
-			#Set the maximum ammount of the Experience Ore veins in the Nether (Default: 4)
+			#Set the maximum ammount of the Experience Ore veins in the Nether (Default: 5)
 			#Range: 1 ~ 999999999
 			count_nether_experience = 5
 			#Enable the Generation of the Nether Experience Ore (Default: true).
@@ -184,7 +184,7 @@
 			#Set the Min Height of the Topaz Ore (Default: 0).
 			#Range: 0 ~ 128
 			minheight_topaz = 0
-			#Set the maximum ammount of the Topaz ore veins per Chunk (Default: 2).
+			#Set the maximum ammount of the Topaz ore veins per Chunk (Default: 4).
 			#Range: 0 ~ 999999999
 			count_topaz = 2
 
@@ -251,21 +251,21 @@
 
 	["Ore Generation".End]
 
-		["Ore Generation".End."Amethyst Generation"]
-			#Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 4).
+		["Ore Generation".End."corundum Generation"]
+			#Set the maximum ammount of the Corundum ore veins per Chunk (Default: 4).
 			#Range: 0 ~ 999999999
-			count_amethyst = 4
-			#Set the Max Height of the Amethyst Ore (Default: 128).
+			count_corundum = 4
+			#Set the Min Height of the Corundum Ore (Default: 0).
 			#Range: 0 ~ 128
-			maxheight_amethyst = 128
-			#Set the Vein Size of the Amethyst Ore(Default: 4).
+			minheight_corundum = 0
+			#Set the Vein Size of the Corundum Ore(Default: 4).
 			#Range: 1 ~ 255
-			veinsize_amethyst = 4
-			#Enable the Generation of Amethyst Ore (Default: true).
-			generate_amethyst = true
-			#Set the Min Height of the Amethyst Ore (Default: 0).
+			veinsize_corundum = 4
+			#Enable the Generation of Corundum Ore (Default: true).
+			generate_corundum = true
+			#Set the Max Height of the Corundum Ore (Default: 128).
 			#Range: 0 ~ 128
-			minheight_amethyst = 0
+			maxheight_corundum = 128
 
 ["Horse Armor"]
 
@@ -286,9 +286,9 @@
 		cryorite_horse_armor = 11
 
 	["Horse Armor".End]
-		#Set the protection value of the Amethyst horse armor
+		#Set the protection value of the Corundum horse armor
 		#Range: 0 ~ 999999999
-		amethyst_horse_armor = 18
+		corundum_horse_armor = 18
 
 #Config File of the More Ores In ONE mod.
 ["Tool Attack Damages"]
@@ -297,6 +297,11 @@
 		#Sapphire base attack damage
 		#Range: 0.0 ~ 9.99999999E8
 		attackdamage_sapphire = 3.5
+
+	["Tool Attack Damages".corundum]
+		#Corundum base attack damage
+		#Range: 0.0 ~ 9.99999999E8
+		attackdamage_corundum = 4.5
 
 	["Tool Attack Damages".Cryorite]
 		#Cryorite base attack damage
@@ -312,11 +317,6 @@
 		#Topaz base attack damage
 		#Range: 0.0 ~ 9.99999999E8
 		attackdamage_topaz = 4.0
-
-	["Tool Attack Damages".Amethyst]
-		#Amethyst base attack damage
-		#Range: 0.0 ~ 9.99999999E8
-		attackdamage_amethyst = 4.5
 
 	["Tool Attack Damages"."DONT CHANGE THE STRINGS!"]
 		dontchange = "Base Axe damage: 6"
@@ -334,6 +334,11 @@
 		#Range: 0 ~ 999999999
 		durability_sapphire = 1700
 
+	["Tool Durabilities".corundum]
+		#Set the Durability of Corundum Tools(Default: 2000).
+		#Range: 0 ~ 999999999
+		durability_corundum = 2000
+
 	["Tool Durabilities".Cryorite]
 		#Set the Durability of Cryorite Tools(Default: 400).
 		#Range: 0 ~ 999999999
@@ -348,9 +353,4 @@
 		#Set the Durability of Topaz Tools(Default: 1800).
 		#Range: 0 ~ 999999999
 		durability_topaz = 1800
-
-	["Tool Durabilities".Amethyst]
-		#Set the Durability of Amethyst Tools(Default: 2000).
-		#Range: 0 ~ 999999999
-		durability_amethyst = 2000
 

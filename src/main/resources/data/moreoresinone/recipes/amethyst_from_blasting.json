@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "moreoresinone:amethyst_ore"
+    "item": "moreoresinone:corundum_ore"
   },
-  "result": "moreoresinone:amethyst",
+  "result": "moreoresinone:corundum",
   "experience": 1.0,
   "cookingtime": 100
 }

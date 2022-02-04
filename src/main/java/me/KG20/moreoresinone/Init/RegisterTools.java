@@ -42,12 +42,12 @@ public class RegisterTools {
     public static final Sword topazSword = new Sword(BasisToolMaterial.topaz, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
     public static final Sickle topazSickle = new Sickle(new Item.Properties().tab(CreativeTabs.nether).durability(Config.durabilitiy_topaz.get()).fireResistant());
 
-    public static final Hoe amethystHoe = new Hoe(BasisToolMaterial.amethyst,-3, 0.0F, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final Axe amethystAxe = new Axe(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final Pickaxe amethystPickaxe = new Pickaxe(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final Shovel amethystShovel = new Shovel(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final Sword amethystSword = new Sword(BasisToolMaterial.amethyst, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final Sickle amethystSickle = new Sickle(new Item.Properties().tab(CreativeTabs.end).durability(Config.durabilitiy_amethyst.get()).fireResistant());
+    public static final Hoe corundumHoe = new Hoe(BasisToolMaterial.corundum,-3, 0.0F, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Axe corundumAxe = new Axe(BasisToolMaterial.corundum, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Pickaxe corundumPickaxe = new Pickaxe(BasisToolMaterial.corundum, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Shovel corundumShovel = new Shovel(BasisToolMaterial.corundum, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Sword corundumSword = new Sword(BasisToolMaterial.corundum, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final Sickle corundumSickle = new Sickle(new Item.Properties().tab(CreativeTabs.end).durability(Config.durabilitiy_corundum.get()).fireResistant());
 
 
     @SubscribeEvent
@@ -86,13 +86,13 @@ public class RegisterTools {
         topazSickle.setRegistryName(Constants.modid, "topaz_sickle");
         registry.registerAll(topazHoe,topazAxe,topazPickaxe,topazShovel,topazSword,topazSickle);
 
-        amethystHoe.setRegistryName(Constants.modid, "amethyst_hoe");
-        amethystAxe.setRegistryName(Constants.modid, "amethyst_axe");
-        amethystPickaxe.setRegistryName(Constants.modid, "amethyst_pickaxe");
-        amethystShovel.setRegistryName(Constants.modid, "amethyst_shovel");
-        amethystSword.setRegistryName(Constants.modid, "amethyst_sword");
-        amethystSickle.setRegistryName(Constants.modid, "amethyst_sickle");
-        registry.registerAll(amethystHoe,amethystAxe,amethystPickaxe,amethystShovel,amethystSword,amethystSickle);
+        corundumHoe.setRegistryName(Constants.modid, "corundum_hoe");
+        corundumAxe.setRegistryName(Constants.modid, "corundum_axe");
+        corundumPickaxe.setRegistryName(Constants.modid, "corundum_pickaxe");
+        corundumShovel.setRegistryName(Constants.modid, "corundum_shovel");
+        corundumSword.setRegistryName(Constants.modid, "corundum_sword");
+        corundumSickle.setRegistryName(Constants.modid, "corundum_sickle");
+        registry.registerAll(corundumHoe,corundumAxe,corundumPickaxe,corundumShovel,corundumSword,corundumSickle);
     }
 
 

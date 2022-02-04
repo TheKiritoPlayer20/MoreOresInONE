@@ -30,7 +30,7 @@ public class WorldGenerator {
     public static PlacedFeature CRYORITE_ORE = OverworldCryoriteOres("cryorite_ore", RegisterBlocks.cryoriteOre.defaultBlockState(), Config.veinsize_cryorite.get(), Config.minheight_cryorite.get(), Config.maxheight_cryorite.get(), Config.count_cryorite.get());
     public static PlacedFeature PACKED_CRYORITE_ORE = OverworldPackedCryoriteOres("packed_cryorite_ore", RegisterBlocks.packedcryoriteOre.defaultBlockState(), Config.veinsize_cryorite.get(), Config.minheight_cryorite.get(), Config.maxheight_cryorite.get(), Config.count_cryorite.get());
     public static PlacedFeature TOPAZ_ORE = NetherOres("topaz_ore", RegisterBlocks.topazOre.defaultBlockState(), Config.veinsize_topaz.get(), Config.minheight_topaz.get(), Config.maxheight_topaz.get(), Config.count_topaz.get());
-    public static PlacedFeature AMETHYST_ORE = EndOres("amethyst_ore", RegisterBlocks.amethystOre.defaultBlockState(), Config.veinsize_amethyst.get(), Config.minheight_amethyst.get(), Config.maxheight_amethyst.get(), Config.count_amethyst.get());
+    public static PlacedFeature CORUNDUM_ORE = EndOres("corundum_ore", RegisterBlocks.corundumOre.defaultBlockState(), Config.veinsize_corundum.get(), Config.minheight_corundum.get(), Config.maxheight_corundum.get(), Config.count_corundum.get());
 
     public static void registerOrePlacement(){
         registerPlacedFeature("overworld_exp_ore", OVERWORLD_EXPIERENCE_ORE);
@@ -44,7 +44,7 @@ public class WorldGenerator {
         registerPlacedFeature("cryorite_ore", CRYORITE_ORE);
         registerPlacedFeature("packed_cryorite_ore", PACKED_CRYORITE_ORE);
         registerPlacedFeature("topaz_ore", TOPAZ_ORE);
-        registerPlacedFeature("amethyst_ore", AMETHYST_ORE);
+        registerPlacedFeature("corundum_ore", CORUNDUM_ORE);
     }
 
     //countIn, minHeightIn, maxHeightBaseIn, maxHeightIn

@@ -94,8 +94,8 @@ public class EventHandler {
                 event.getGeneration().addFeature(oreDecoration, WorldGenerator.NETHER_EXPIERENCE_ORE);
             }
         }else if(biome.equals(Biome.BiomeCategory.THEEND)){
-            if(Config.generate_amethyst.get()){
-                event.getGeneration().addFeature(oreDecoration, WorldGenerator.AMETHYST_ORE);
+            if(Config.generate_corundum.get()){
+                event.getGeneration().addFeature(oreDecoration, WorldGenerator.CORUNDUM_ORE);
             }
             if(Config.generate_End_EXP_ORE.get()){
                 event.getGeneration().addFeature(oreDecoration, WorldGenerator.END_EXPIERENCE_ORE);

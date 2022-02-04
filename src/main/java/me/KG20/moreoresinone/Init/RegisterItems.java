@@ -16,7 +16,7 @@ public class RegisterItems {
     public static final OreItems sapphire = new OreItems(new Item.Properties().tab(CreativeTabs.overworld));
     public static final OreItems cryorite = new OreItems(new Item.Properties().tab(CreativeTabs.overworld));
     public static final OreItems topaz = new OreItems(new Item.Properties().tab(CreativeTabs.nether).fireResistant());
-    public static final OreItems amethyst = new OreItems(new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final OreItems corundum = new OreItems(new Item.Properties().tab(CreativeTabs.end).fireResistant());
 
     @SubscribeEvent
     public static void register(Register<Item> event) {
@@ -29,8 +29,8 @@ public class RegisterItems {
         registry.register(cryorite);
         topaz.setRegistryName(Constants.modid, "topaz");
         registry.register(topaz);
-        amethyst.setRegistryName(Constants.modid, "amethyst");
-        registry.register(amethyst);
+        corundum.setRegistryName(Constants.modid, "corundum");
+        registry.register(corundum);
     }
 
 

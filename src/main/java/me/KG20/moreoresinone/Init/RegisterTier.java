@@ -21,14 +21,14 @@ public class RegisterTier {
         var ruby = new ResourceLocation("ruby");
         var sapphire = new ResourceLocation("sapphire");
         var topaz = new ResourceLocation("topaz");
-        var amethyst = new ResourceLocation("amethyst");
+        var corundum = new ResourceLocation("corundum");
 
 
         TierSortingRegistry.registerTier(BasisToolMaterial.cryorite, cryorite, List.of(stone), List.of(ruby, sapphire));
         TierSortingRegistry.registerTier(BasisToolMaterial.ruby, ruby, List.of(cryorite, iron), List.of(topaz));
         TierSortingRegistry.registerTier(BasisToolMaterial.sapphire, sapphire, List.of(cryorite, iron), List.of(topaz));
         TierSortingRegistry.registerTier(BasisToolMaterial.topaz, topaz, List.of(sapphire, ruby, diamond), List.of());
-        TierSortingRegistry.registerTier(BasisToolMaterial.amethyst, amethyst, List.of(sapphire, ruby, diamond), List.of());
+        TierSortingRegistry.registerTier(BasisToolMaterial.corundum, corundum, List.of(sapphire, ruby, diamond), List.of());
     }
 
 }

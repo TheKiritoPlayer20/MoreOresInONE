@@ -13,7 +13,7 @@ public class BasisToolMaterial {
     public static final Tier sapphire = new ToolMaterial(3, Config.durabilitiy_sapphire.get(), 9.5F, Config.attackdamage_sapphire.get(), 10, () -> Ingredient.of(RegisterItems.sapphire));
     public static final Tier cryorite = new ToolMaterial(2, Config.durabilitiy_cryorite.get(), 7.0F, Config.attackdamage_cryorite.get(), 15, () -> Ingredient.of(RegisterItems.cryorite));
     public static final Tier topaz = new ToolMaterial(4, Config.durabilitiy_topaz.get(),10F, Config.attackdamage_topaz.get(), 12, () -> Ingredient.of(RegisterItems.topaz));
-    public static final Tier amethyst = new ToolMaterial(4, Config.durabilitiy_amethyst.get(), 24F, Config.attackdamage_amethyst.get(), 15, () -> Ingredient.of(RegisterItems.amethyst));
+    public static final Tier corundum = new ToolMaterial(4, Config.durabilitiy_corundum.get(), 24F, Config.attackdamage_corundum.get(), 15, () -> Ingredient.of(RegisterItems.corundum));
 
 
     private static class ToolMaterial implements Tier {

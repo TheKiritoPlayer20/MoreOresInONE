@@ -1,0 +1,90 @@
+{
+  "parent": "moreoresinone:moreoresinone/find_corundum",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:corundum_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.corundum_tools.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.corundum_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+  "corundum_pickaxe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:corundum_pickaxe"
+        }
+      ]
+    }
+  },
+  "corundum_axe": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:corundum_axe"
+        }
+      ]
+    }
+  },
+  "corundum_shovel": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:corundum_shovel"
+        }
+      ]
+    }
+  },
+  "corundum_sword": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:corundum_sword"
+        }
+      ]
+    }
+  },
+  "corundum_hoe": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "moreoresinone:corundum_hoe"
+        }
+      ]
+    }
+  },
+  "corundum_sickle": {
+    "trigger" : "minecraft:inventory_changed",
+    "conditions" : {
+      "items": [
+        {
+          "item" : "moreoresinone:corundum_sickle"
+        }
+      ]
+    }
+  }
+},
+  "requirements": [
+    [
+      "corundum_pickaxe",
+      "corundum_axe",
+      "corundum_shovel",
+      "corundum_sword",
+      "corundum_sickle",
+      "corundum_hoe"
+    ]
+  ]
+}

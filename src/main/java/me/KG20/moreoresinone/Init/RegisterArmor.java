@@ -37,16 +37,16 @@ public class RegisterArmor {
     public static final ItemArmor topazLeggings = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
     public static final ItemArmor topazBoots = new ItemArmor(BasisArmorMaterial.topaz, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.nether).fireResistant());
 
-    public static final ItemArmor amethystHelmet = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final ItemArmor amethystChestplate = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final ItemArmor amethystLeggings = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.end).fireResistant());
-    public static final ItemArmor amethystBoots = new ItemArmor(BasisArmorMaterial.amethyst, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor corundumHelmet = new ItemArmor(BasisArmorMaterial.corundum, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor corundumChestplate = new ItemArmor(BasisArmorMaterial.corundum, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor corundumLeggings = new ItemArmor(BasisArmorMaterial.corundum, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeTabs.end).fireResistant());
+    public static final ItemArmor corundumBoots = new ItemArmor(BasisArmorMaterial.corundum, EquipmentSlot.FEET, new Item.Properties().tab(CreativeTabs.end).fireResistant());
 
     public static final HorseArmorItem rubyHorseArmor = new HorseArmorItem(Config.ruby_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/ruby_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.overworld));
     public static final HorseArmorItem sapphireHorseArmor = new HorseArmorItem(Config.sapphire_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/sapphire_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.overworld));
     public static final HorseArmorItem cryoriteHorseArmor = new HorseArmorItem(Config.cryorite_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/cryorite_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.overworld));
     public static final HorseArmorItem topazHorseArmor = new HorseArmorItem(Config.topaz_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/topaz_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.nether).fireResistant());
-    public static final HorseArmorItem amethystHorseArmor = new HorseArmorItem(Config.amethyst_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/amethyst_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.end).fireResistant());
+    public static final HorseArmorItem corundumHorseArmor = new HorseArmorItem(Config.corundum_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/corundum_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.end).fireResistant());
 
     @SubscribeEvent
     public static void register(Register<Item> event) {
@@ -76,18 +76,18 @@ public class RegisterArmor {
         topazBoots.setRegistryName(Constants.modid, "topaz_boots");
         registry.registerAll(topazHelmet,topazChestplate,topazLeggings,topazBoots);
 
-        amethystHelmet.setRegistryName(Constants.modid, "amethyst_helmet");
-        amethystChestplate.setRegistryName(Constants.modid, "amethyst_chestplate");
-        amethystLeggings.setRegistryName(Constants.modid, "amethyst_leggings");
-        amethystBoots.setRegistryName(Constants.modid, "amethyst_boots");
-        registry.registerAll(amethystHelmet,amethystChestplate,amethystLeggings,amethystBoots);
+        corundumHelmet.setRegistryName(Constants.modid, "corundum_helmet");
+        corundumChestplate.setRegistryName(Constants.modid, "corundum_chestplate");
+        corundumLeggings.setRegistryName(Constants.modid, "corundum_leggings");
+        corundumBoots.setRegistryName(Constants.modid, "corundum_boots");
+        registry.registerAll(corundumHelmet,corundumChestplate,corundumLeggings,corundumBoots);
 
         rubyHorseArmor.setRegistryName(Constants.modid, "ruby_horse_armor");
         sapphireHorseArmor.setRegistryName(Constants.modid, "sapphire_horse_armor");
         cryoriteHorseArmor.setRegistryName(Constants.modid, "cryorite_horse_armor");
         topazHorseArmor.setRegistryName(Constants.modid, "topaz_horse_armor");
-        amethystHorseArmor.setRegistryName(Constants.modid, "amethyst_horse_armor");
-        registry.registerAll(rubyHorseArmor,sapphireHorseArmor,cryoriteHorseArmor,topazHorseArmor,amethystHorseArmor);
+        corundumHorseArmor.setRegistryName(Constants.modid, "corundum_horse_armor");
+        registry.registerAll(rubyHorseArmor,sapphireHorseArmor,cryoriteHorseArmor,topazHorseArmor,corundumHorseArmor);
 
     }
 

@@ -1,0 +1,35 @@
+{
+  "parent": "moreoresinone:moreoresinone/topaz_pickaxe",
+  "display": {
+    "icon": {
+      "item": "moreoresinone:corundum"
+    },
+    "title": {
+      "translate": "advancements.moreoresinone.find_corundum.title"
+    },
+    "description": {
+      "translate": "advancements.moreoresinone.find_corundum.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+"criteria": {
+    "corundum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moreoresinone:corundum"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "corundum"
+    ]
+  ]
+}

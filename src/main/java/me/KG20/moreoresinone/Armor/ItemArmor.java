@@ -45,15 +45,15 @@ public class ItemArmor extends ArmorItem {
 
     @Override
     public boolean isEnderMask(ItemStack stack, Player player, EnderMan endermanEntity) {
-        return stack.getItem() == RegisterArmor.amethystHelmet ? true : false;
+        return stack.getItem() == RegisterArmor.corundumHelmet;
     }
 
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {
-        ItemArmor amethyst_Helmet = RegisterArmor.amethystHelmet;
-        ItemArmor amethyst_Chestplate = RegisterArmor.amethystChestplate;
-        ItemArmor amethyst_Leggings = RegisterArmor.amethystLeggings;
-        ItemArmor amethyst_Boots = RegisterArmor.amethystBoots;
+        ItemArmor corundum_Helmet = RegisterArmor.corundumHelmet;
+        ItemArmor corundum_Chestplate = RegisterArmor.corundumChestplate;
+        ItemArmor corundum_Leggings = RegisterArmor.corundumLeggings;
+        ItemArmor corundum_Boots = RegisterArmor.corundumBoots;
 
         ItemArmor topaz_Helmet = RegisterArmor.topazHelmet;
         ItemArmor topaz_Chestplate = RegisterArmor.topazChestplate;
@@ -61,8 +61,8 @@ public class ItemArmor extends ArmorItem {
         ItemArmor topaz_Boots = RegisterArmor.topazBoots;
 
         if(Config.enable_statuseffects.get()) {
-            if (player.getItemBySlot(EquipmentSlot.FEET).getItem().equals(amethyst_Boots) && player.getItemBySlot(EquipmentSlot.LEGS).getItem().equals(amethyst_Leggings) &&
-                    player.getItemBySlot(EquipmentSlot.CHEST).getItem().equals(amethyst_Chestplate) && player.getItemBySlot(EquipmentSlot.HEAD).getItem().equals(amethyst_Helmet)) {
+            if (player.getItemBySlot(EquipmentSlot.FEET).getItem().equals(corundum_Boots) && player.getItemBySlot(EquipmentSlot.LEGS).getItem().equals(corundum_Leggings) &&
+                    player.getItemBySlot(EquipmentSlot.CHEST).getItem().equals(corundum_Chestplate) && player.getItemBySlot(EquipmentSlot.HEAD).getItem().equals(corundum_Helmet)) {
                 player.addEffect(new MobEffectInstance(MobEffect.byId(12), 20, 0));
                 player.addEffect(new MobEffectInstance(MobEffect.byId(11), 20, 0));
             }
