@@ -22,7 +22,7 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = Constants.modid, bus = Mod.EventBusSubscriber.Bus.FORGE)
+//@Mod.EventBusSubscriber(modid = Constants.modid, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class EventHandler {
 
 
@@ -81,6 +81,7 @@ public class EventHandler {
             }
         }
     }
+
 
     @SubscribeEvent(priority = EventPriority.HIGH)
     public static void BiomeLoadingEvent(BiomeLoadingEvent event){
@@ -144,5 +145,6 @@ public class EventHandler {
             }
         }
     }
+
 }
 

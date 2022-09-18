@@ -7,15 +7,15 @@
     ],
     "key": {
         "a": {
-            "item": "moreoresinone:amethyst"
+            "item": "moreoresinone:corundum"
         },
         "s": {
             "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "moreoresinone:amethyst_hoe",
+        "item": "moreoresinone:corundum_hoe",
         "count": 1
     },
-    "group": "amethyst_tools"
+    "group": "corundum_tools"
 }

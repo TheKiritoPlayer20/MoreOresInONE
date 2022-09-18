@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.IForgeRegistry;
 
-@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
+//@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterTools {
 
     public static final Hoe rubyHoe = new Hoe(BasisToolMaterial.ruby,-3, 0.0F, new Item.Properties().tab(CreativeTabs.overworld));

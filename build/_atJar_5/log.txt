@@ -1,5 +1,7 @@
-Args: "--inJar", "C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.0.15\forge-1.16.5-36.0.15-injected.jar", "--outJar", "C:\Users\spam1\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.0.15_mapped_snapshot_20201028-1.16.3\forge-1.16.5-36.0.15_mapped_snapshot_20201028-1.16.3.jar", "--logFile", "accesstransform.log", "--atFile", "H:\Programme und Spiele\GitHub\MoreOresInONE\build\_atJar_5\parent_at.cfg"
-Classpath: C:\Users\spam1\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\1.0.5\accesstransformers-1.0.5-fatjar.jar
-WorkDir: H:\Programme und Spiele\GitHub\MoreOresInONE\build\_atJar_5
-Main: net.minecraftforge.accesstransformer.TransformerProcessor
+Java Launcher: /home/lars/.jdks/corretto-17.0.3/bin/java
+Arguments: '--inJar, /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19/forge-1.18.2-40.1.19-injected.jar, --outJar, /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19_mapped_official_1.18.2/forge-1.18.2-40.1.19_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/_atJar_5/parent_at.cfg'
+Classpath:
+ - /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

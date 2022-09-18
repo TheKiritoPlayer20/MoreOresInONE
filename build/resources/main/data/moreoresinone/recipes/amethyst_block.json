@@ -7,12 +7,12 @@
     ],
     "key": {
         "#": {
-            "item": "moreoresinone:amethyst"
+            "item": "moreoresinone:corundum"
         }
     },
     "result": {
-        "item": "moreoresinone:amethyst_block",
+        "item": "moreoresinone:corundum_block",
         "count": 1
     },
-    "group": "amethystblocks"
+    "group": "corundumblocks"
 }

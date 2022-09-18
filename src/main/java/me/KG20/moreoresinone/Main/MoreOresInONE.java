@@ -2,9 +2,7 @@ package me.KG20.moreoresinone.Main;
 
 import me.KG20.moreoresinone.Config.MoreOresInOneConfig;
 import me.KG20.moreoresinone.Event.EventHandler;
-import me.KG20.moreoresinone.Init.RegisterBlocks;
-import me.KG20.moreoresinone.Init.RegisterTier;
-import me.KG20.moreoresinone.Init.WorldGenerator;
+import me.KG20.moreoresinone.Init.*;
 import me.KG20.moreoresinone.Proxy.ClientProxy;
 import me.KG20.moreoresinone.Proxy.CommonProxy;
 import me.KG20.moreoresinone.Tools.BasisToolMaterial;
@@ -32,13 +30,20 @@ public class MoreOresInONE
 
     public MoreOresInONE(){
         FMLJavaModLoadingContext.get().getModEventBus().register(this);
+        MinecraftForge.EVENT_BUS.register(this);
+        FMLJavaModLoadingContext.get().getModEventBus().register(RegisterArmor.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(RegisterBlocks.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(RegisterItems.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(RegisterTier.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(RegisterTools.class);
+        MinecraftForge.EVENT_BUS.register(EventHandler.class);
         proxy.construct();
         MoreOresInOneConfig.loadConfig(MoreOresInOneConfig.Server_Config, FMLPaths.CONFIGDIR.get().resolve("moreoresinone.toml"));
     }
 
     @SubscribeEvent
     public void setup(FMLCommonSetupEvent event){
-        WorldGenerator.registerOrePlacement();
+        //WorldGenerator.registerOrePlacement();
         proxy.setup();
     }
 

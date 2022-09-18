@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.IForgeRegistry;
 
-@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
+//@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterArmor {
 
     public static final ItemArmor rubyHelmet = new ItemArmor(BasisArmorMaterial.ruby, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeTabs.overworld));

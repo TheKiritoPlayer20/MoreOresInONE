@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "moreoresinone:amethyst"
+            "item": "moreoresinone:corundum"
         }
     },
     "result": {
-        "item": "moreoresinone:amethyst_boots"
+        "item": "moreoresinone:corundum_boots"
     },
-    "group": "amethyst_armor"
+    "group": "corundum_armor"
 }

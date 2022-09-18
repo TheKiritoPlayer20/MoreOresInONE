@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.IForgeRegistry;
 
-@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
+//@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterBlocks {
 
     public static final Block rubyOre = new OverworldOres();
