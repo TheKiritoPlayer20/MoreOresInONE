@@ -15,17 +15,4 @@ public class ItemBlocks extends Block {
         super(Properties.of(Material.STONE, color).strength(5F,6F).sound(SoundType.METAL).requiresCorrectToolForDrops());
     }
 
-    /*
-    @Nullable
-    @Override
-    public ToolType getHarvestTool(BlockState state) {
-        return ToolType.PICKAXE;
-    }
-
-    @Override
-    public int getHarvestLevel(BlockState state) {
-        return 2;
-    }
-    */
-
 }

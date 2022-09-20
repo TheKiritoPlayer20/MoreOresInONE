@@ -8,11 +8,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.HorseArmorItem;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
-import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegisterEvent;
 
 //@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterArmor {
@@ -49,46 +47,43 @@ public class RegisterArmor {
     public static final HorseArmorItem corundumHorseArmor = new HorseArmorItem(Config.corundum_horse_armor.get(), new ResourceLocation("moreoresinone:textures/entity/horse/armor/corundum_horse_armor.png"), new Item.Properties().stacksTo(1).tab(CreativeTabs.end).fireResistant());
 
     @SubscribeEvent
-    public static void register(Register<Item> event) {
-        IForgeRegistry<Item> registry = event.getRegistry();
+    public static void register(RegisterEvent event) {
+        event.register(ForgeRegistries.Keys.ITEMS, helper ->{
+            registerArmor(rubyHelmet, "ruby_helmet", helper);
+            registerArmor(rubyChestplate, "ruby_chestplate", helper);
+            registerArmor(rubyLeggings, "ruby_leggings", helper);
+            registerArmor(rubyBoots, "ruby_boots", helper);
 
-        rubyHelmet.setRegistryName(Constants.modid, "ruby_helmet");
-        rubyChestplate.setRegistryName(Constants.modid, "ruby_chestplate");
-        rubyLeggings.setRegistryName(Constants.modid, "ruby_leggings");
-        rubyBoots.setRegistryName(Constants.modid, "ruby_boots");
-        registry.registerAll(rubyHelmet,rubyChestplate,rubyLeggings,rubyBoots);
+            registerArmor(sapphireHelmet, "sapphire_helmet", helper);
+            registerArmor(sapphireChestplate, "sapphire_chestplate", helper);
+            registerArmor(sapphireLeggings, "sapphire_leggings", helper);
+            registerArmor(sapphireBoots, "sapphire_boots", helper);
 
-        sapphireHelmet.setRegistryName(Constants.modid, "sapphire_helmet");
-        sapphireChestplate.setRegistryName(Constants.modid, "sapphire_chestplate");
-        sapphireLeggings.setRegistryName(Constants.modid, "sapphire_leggings");
-        sapphireBoots.setRegistryName(Constants.modid, "sapphire_boots");
-        registry.registerAll(sapphireHelmet,sapphireChestplate,sapphireLeggings,sapphireBoots);
+            registerArmor(cryoriteHelmet, "cryorite_helmet", helper);
+            registerArmor(cryoriteChestplate, "cryorite_chestplate", helper);
+            registerArmor(cryoriteLeggings, "cryorite_leggings", helper);
+            registerArmor(cryoriteBoots, "cryorite_boots", helper);
 
-        cryoriteHelmet.setRegistryName(Constants.modid, "cryorite_helmet");
-        cryoriteChestplate.setRegistryName(Constants.modid, "cryorite_chestplate");
-        cryoriteLeggings.setRegistryName(Constants.modid, "cryorite_leggings");
-        cryoriteBoots.setRegistryName(Constants.modid, "cryorite_boots");
-        registry.registerAll(cryoriteHelmet,cryoriteChestplate,cryoriteLeggings,cryoriteBoots);
+            registerArmor(topazHelmet, "topaz_helmet", helper);
+            registerArmor(topazChestplate, "topaz_chestplate", helper);
+            registerArmor(topazLeggings, "topaz_leggings", helper);
+            registerArmor(topazBoots, "topaz_boots", helper);
 
-        topazHelmet.setRegistryName(Constants.modid, "topaz_helmet");
-        topazChestplate.setRegistryName(Constants.modid, "topaz_chestplate");
-        topazLeggings.setRegistryName(Constants.modid, "topaz_leggings");
-        topazBoots.setRegistryName(Constants.modid, "topaz_boots");
-        registry.registerAll(topazHelmet,topazChestplate,topazLeggings,topazBoots);
+            registerArmor(corundumHelmet, "corundum_helmet", helper);
+            registerArmor(corundumChestplate, "corundum_chestplate", helper);
+            registerArmor(corundumLeggings, "corundum_leggings", helper);
+            registerArmor(corundumBoots, "corundum_boots", helper);
 
-        corundumHelmet.setRegistryName(Constants.modid, "corundum_helmet");
-        corundumChestplate.setRegistryName(Constants.modid, "corundum_chestplate");
-        corundumLeggings.setRegistryName(Constants.modid, "corundum_leggings");
-        corundumBoots.setRegistryName(Constants.modid, "corundum_boots");
-        registry.registerAll(corundumHelmet,corundumChestplate,corundumLeggings,corundumBoots);
+            registerArmor(rubyHorseArmor, "ruby_horse_armor", helper);
+            registerArmor(sapphireHorseArmor, "sapphire_horse_armor", helper);
+            registerArmor(cryoriteHorseArmor, "cryorite_horse_armor", helper);
+            registerArmor(topazHorseArmor, "topaz_horse_armor", helper);
+            registerArmor(corundumHorseArmor, "corundum_horse_armor", helper);
+        });
+    }
 
-        rubyHorseArmor.setRegistryName(Constants.modid, "ruby_horse_armor");
-        sapphireHorseArmor.setRegistryName(Constants.modid, "sapphire_horse_armor");
-        cryoriteHorseArmor.setRegistryName(Constants.modid, "cryorite_horse_armor");
-        topazHorseArmor.setRegistryName(Constants.modid, "topaz_horse_armor");
-        corundumHorseArmor.setRegistryName(Constants.modid, "corundum_horse_armor");
-        registry.registerAll(rubyHorseArmor,sapphireHorseArmor,cryoriteHorseArmor,topazHorseArmor,corundumHorseArmor);
-
+    private static void registerArmor(Item armorToRegister, String armorName, RegisterEvent.RegisterHelper<Item> registry){
+        registry.register(new ResourceLocation(Constants.modid, armorName), armorToRegister);
     }
 
 

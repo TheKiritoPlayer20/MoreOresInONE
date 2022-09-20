@@ -3,6 +3,7 @@ package me.KG20.moreoresinone.Blocks;
 import me.KG20.moreoresinone.Config.Config;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.Mth;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
@@ -23,40 +24,26 @@ public class EndEXPOre extends Block {
         super(Properties.of(Material.STONE, color).strength(3.0F,3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops());
     }
 
-
-    /*
-    @Nullable
     @Override
-    public ToolType getHarvestTool(BlockState state) {
-        return ToolType.PICKAXE;
-    }
-
-    @Override
-    public int getHarvestLevel(BlockState state) {
-        return 1;
-    }
-    */
-
-    @Override
-    public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {
-            Random random = new Random();
-            if(silktouch == 0){
-                if(fortune != 0 && Config.enableFortune.get()) {
-                    if (random.nextInt(101) >= 50) {
-                        int experience = Mth.nextInt(random, Config.min_exp_end.get(),Config.max_exp_end.get());
-                        return experience + (experience * fortune / 2);
-                    }else{
-                        return 1;
-                    }
+    public int getExpDrop(BlockState state, LevelReader level, RandomSource randomSource, BlockPos pos, int fortune, int silktouch) {
+        Random random = new Random();
+        if(silktouch == 0){
+            if(fortune != 0 && Config.enableFortune.get()) {
+                if (random.nextInt(101) >= 50) {
+                    int experience = Mth.nextInt(randomSource, Config.min_exp_end.get(),Config.max_exp_end.get());
+                    return experience + (experience * fortune / 2);
                 }else{
-                    if (random.nextInt(101) >= 50) {
-                        return Mth.nextInt(random, Config.min_exp_end.get(),Config.max_exp_end.get());
-                    }else{
-                        return 1;
-                    }
+                    return 1;
                 }
             }else{
-                return 0;
+                if (random.nextInt(101) >= 50) {
+                    return Mth.nextInt(randomSource, Config.min_exp_end.get(),Config.max_exp_end.get());
+                }else{
+                    return 1;
+                }
             }
+        }else{
+            return 0;
         }
+    }
 }

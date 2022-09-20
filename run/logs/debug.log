@@ -1,205 +1,234 @@
-[18Sept.2022 14:56:59.822] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 40.1.19, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[18Sept.2022 14:56:59.827] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.3 by Amazon.com Inc.
-[18Sept.2022 14:56:59.840] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[18Sept.2022 14:56:59.855] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[18Sept.2022 14:56:59.871] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[18Sept.2022 14:56:59.885] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[18Sept.2022 14:56:59.890] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@6622fc65
-[18Sept.2022 14:56:59.905] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
-[18Sept.2022 14:56:59.906] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[18Sept.2022 14:56:59.907] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[18Sept.2022 14:56:59.908] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[18Sept.2022 14:56:59.908] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[18Sept.2022 14:56:59.910] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[18Sept.2022 14:56:59.911] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[18Sept.2022 14:56:59.911] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
-[18Sept.2022 14:56:59.912] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[18Sept.2022 14:56:59.912] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.7+5.0.7+master.6d3407cc
-[18Sept.2022 14:56:59.913] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[18Sept.2022 14:56:59.916] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.2+5.0.2+master.303343f8
-[18Sept.2022 14:56:59.917] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
-[18Sept.2022 14:56:59.917] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
-[18Sept.2022 14:56:59.919] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[18Sept.2022 14:56:59.921] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[18Sept.2022 14:56:59.927] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[18Sept.2022 14:56:59.927] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[18Sept.2022 14:56:59.948] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@757942a1
-[18Sept.2022 14:56:59.968] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/mnt/Boot/Programme%20und%20Spiele/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
-[18Sept.2022 14:56:59.973] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[18Sept.2022 14:56:59.973] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Sept.2022 14:56:59.974] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Sept.2022 14:56:59.975] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Sept.2022 14:56:59.976] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Sept.2022 14:56:59.977] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Sept.2022 14:56:59.980] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[18Sept.2022 14:56:59.980] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[18Sept.2022 14:56:59.980] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[18Sept.2022 14:56:59.982] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run
-[18Sept.2022 14:56:59.983] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run
-[18Sept.2022 14:56:59.984] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/mods
-[18Sept.2022 14:56:59.984] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/mods
-[18Sept.2022 14:56:59.985] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config
-[18Sept.2022 14:56:59.985] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config
-[18Sept.2022 14:56:59.986] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/fml.toml
-[18Sept.2022 14:56:59.986] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[18Sept.2022 14:57:00.024] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/defaultconfigs
-[18Sept.2022 14:57:00.024] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[18Sept.2022 14:57:00.026] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[18Sept.2022 14:57:00.027] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
-[18Sept.2022 14:57:00.045] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.1.19, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
-[18Sept.2022 14:57:00.047] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[18Sept.2022 14:57:00.048] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
-[18Sept.2022 14:57:00.050] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
-[18Sept.2022 14:57:00.051] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[18Sept.2022 14:57:00.052] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[18Sept.2022 14:57:00.053] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[18Sept.2022 14:57:00.053] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[18Sept.2022 14:57:00.054] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[18Sept.2022 14:57:00.064] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[18Sept.2022 14:57:00.067] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[18Sept.2022 14:57:00.074] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates moreoresinone%%/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main:moreoresinone%%/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/classes/java/main from env
-[18Sept.2022 14:57:00.076] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{moreoresinone=[/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main, /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/classes/java/main]}]
-[18Sept.2022 14:57:00.419] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar with {minecraft} mods - versions {1.18.2}
-[18Sept.2022 14:57:00.423] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19_mapped_official_1.18.2/forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[18Sept.2022 14:57:00.424] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
-[18Sept.2022 14:57:00.435] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moreoresinone} mods - versions {0.0NONE}
-[18Sept.2022 14:57:00.435] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
-[18Sept.2022 14:57:00.436] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
-[18Sept.2022 14:57:00.438] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.1.19}
-[18Sept.2022 14:57:00.438] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-[18Sept.2022 14:57:00.472] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-[18Sept.2022 14:57:00.472] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-[18Sept.2022 14:57:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-[18Sept.2022 14:57:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
-[18Sept.2022 14:57:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
-[18Sept.2022 14:57:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
-[18Sept.2022 14:57:00.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
-[18Sept.2022 14:57:00.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
-[18Sept.2022 14:57:00.476] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[18Sept.2022 14:57:00.487] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
-[18Sept.2022 14:57:00.488] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
-[18Sept.2022 14:57:00.490] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
-[18Sept.2022 14:57:00.495] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
-[18Sept.2022 14:57:00.495] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
-[18Sept.2022 14:57:00.495] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
-[18Sept.2022 14:57:00.499] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
-[18Sept.2022 14:57:00.500] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[18Sept.2022 14:57:00.998] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28190 method mappings from methods.csv
-[18Sept.2022 14:57:01.029] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 27073 field mappings from fields.csv
-[18Sept.2022 14:57:01.080] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[18Sept.2022 14:57:01.082] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
-[18Sept.2022 14:57:01.083] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
-[18Sept.2022 14:57:01.083] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[18Sept.2022 14:57:01.083] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[18Sept.2022 14:57:01.084] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
-[18Sept.2022 14:57:01.245] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Sept.2022 14:57:01.246] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
-[18Sept.2022 14:57:01.309] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Sept.2022 14:57:01.309] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
-[18Sept.2022 14:57:01.347] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Sept.2022 14:57:01.348] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
-[18Sept.2022 14:57:01.367] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Sept.2022 14:57:01.378] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3d37203b to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-[18Sept.2022 14:57:01.379] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@52169758 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
-[18Sept.2022 14:57:01.379] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3eda0aeb to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
-[18Sept.2022 14:57:01.380] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@459b187a to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-[18Sept.2022 14:57:01.380] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6b4283c4 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-[18Sept.2022 14:57:01.380] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@d0865a3 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-[18Sept.2022 14:57:01.380] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@636bbbbb to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-[18Sept.2022 14:57:01.381] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7eae3764 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
-[18Sept.2022 14:57:01.381] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[18Sept.2022 14:57:02.028] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[18Sept.2022 14:57:02.029] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[18Sept.2022 14:57:02.029] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
-[18Sept.2022 14:57:02.029] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-[18Sept.2022 14:57:02.030] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-[18Sept.2022 14:57:02.030] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-[18Sept.2022 14:57:02.030] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-[18Sept.2022 14:57:02.032] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[18Sept.2022 14:57:02.033] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moreoresinone)
-[18Sept.2022 14:57:02.033] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moreoresinone)
-[18Sept.2022 14:57:02.033] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moreoresinone)
-[18Sept.2022 14:57:02.034] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moreoresinone)
-[18Sept.2022 14:57:02.035] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moreoresinone)
-[18Sept.2022 14:57:02.035] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moreoresinone)]
-[18Sept.2022 14:57:02.036] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
-[18Sept.2022 14:57:02.037] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-[18Sept.2022 14:57:02.038] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-[18Sept.2022 14:57:02.038] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-[18Sept.2022 14:57:02.039] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-[18Sept.2022 14:57:02.039] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[18Sept.2022 14:57:02.040] [main/DEBUG] [mixin/]: inject() running with 4 agents
-[18Sept.2022 14:57:02.040] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[18Sept.2022 14:57:02.041] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[18Sept.2022 14:57:02.041] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moreoresinone)]
-[18Sept.2022 14:57:02.041] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[18Sept.2022 14:57:02.057] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/assets, --assetIndex, 1.18]
-[18Sept.2022 14:57:02.101] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out/class: failed to delete one or more files; see suppressed exceptions for details
-[18Sept.2022 14:57:02.108] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[18Sept.2022 14:57:02.147] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[18Sept.2022 14:57:02.151] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[18Sept.2022 14:57:02.153] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[18Sept.2022 14:57:02.673] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@9aa2002
-[18Sept.2022 14:57:02.701] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
-[18Sept.2022 14:57:02.702] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
-[18Sept.2022 14:57:02.753] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@9aa2002
-[18Sept.2022 14:57:02.934] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
-[18Sept.2022 14:57:02.936] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
-[18Sept.2022 14:57:03.352] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
-[18Sept.2022 14:57:03.426] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
-[18Sept.2022 14:57:03.537] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
-[18Sept.2022 14:57:04.476] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
-[18Sept.2022 14:57:07.216] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
-[18Sept.2022 14:57:07.489] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
-[18Sept.2022 14:57:09.524] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/mnt/Boot/Programme%20und%20Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19_mapped_official_1.18.2/forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
-[18Sept.2022 14:57:09.528] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/mnt/Boot/Programme%20und%20Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19_mapped_official_1.18.2/forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
-[18Sept.2022 14:57:09.549] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Sept.2022 14:57:09.565] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[18Sept.2022 14:57:09.871] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[18Sept.2022 14:57:11.221] [Render thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
-[18Sept.2022 14:57:11.223] [Render thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
-[18Sept.2022 14:57:11.379] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5350
-[18Sept.2022 14:57:11.468] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
-[18Sept.2022 14:57:11.492] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@9aa2002 - got cpw.mods.cl.ModuleClassLoader@1fc793c2
-[18Sept.2022 14:57:11.493] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-[18Sept.2022 14:57:11.517] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@9aa2002 - got cpw.mods.cl.ModuleClassLoader@1fc793c2
-[18Sept.2022 14:57:11.518] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for me.KG20.moreoresinone.Main.MoreOresInONE
-[18Sept.2022 14:57:11.592] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraftforge/registries/RegistryObject
-[18Sept.2022 14:57:11.695] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for moreoresinone
-[18Sept.2022 14:57:11.962] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 40.1 from cpw.mods.modlauncher.TransformingClassLoader@9aa2002
-[18Sept.2022 14:57:11.965] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 40.1.19
-[18Sept.2022 14:57:11.969] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 40.1
-[18Sept.2022 14:57:11.970] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
-[18Sept.2022 14:57:11.974] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@9aa2002
-[18Sept.2022 14:57:11.974] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.18.2
-[18Sept.2022 14:57:11.975] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220404.173914
-[18Sept.2022 14:57:11.976] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.19, for MC 1.18.2 with MCP 20220404.173914
-[18Sept.2022 14:57:11.988] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.19 Initialized
-[18Sept.2022 14:57:12.156] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[18Sept.2022 14:57:12.157] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
-[18Sept.2022 14:57:12.158] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[18Sept.2022 14:57:12.158] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
-[18Sept.2022 14:57:12.169] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[18Sept.2022 14:57:12.170] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+[19Sept.2022 18:52:12.606] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 43.1.25, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[19Sept.2022 18:52:12.609] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Amazon.com Inc.; OS Linux arch amd64 version 5.19.9-201.fsync.fc36.x86_64
+[19Sept.2022 18:52:12.632] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[19Sept.2022 18:52:12.645] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[19Sept.2022 18:52:12.660] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[19Sept.2022 18:52:12.671] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[19Sept.2022 18:52:12.683] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[19Sept.2022 18:52:12.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[19Sept.2022 18:52:12.694] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[19Sept.2022 18:52:12.695] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[19Sept.2022 18:52:12.696] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[19Sept.2022 18:52:12.697] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[19Sept.2022 18:52:12.700] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[19Sept.2022 18:52:12.701] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[19Sept.2022 18:52:12.702] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.8+10.0.8+main.0ef7e830
+[19Sept.2022 18:52:12.703] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[19Sept.2022 18:52:12.704] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[19Sept.2022 18:52:12.705] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[19Sept.2022 18:52:12.708] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[19Sept.2022 18:52:12.708] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[19Sept.2022 18:52:12.709] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[19Sept.2022 18:52:12.710] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[19Sept.2022 18:52:12.712] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[19Sept.2022 18:52:12.721] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[19Sept.2022 18:52:12.723] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[19Sept.2022 18:52:12.741] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@709ba3fb
+[19Sept.2022 18:52:12.765] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/mnt/Boot/Programme%20und%20Spiele/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23115!/ Service=ModLauncher Env=CLIENT
+[19Sept.2022 18:52:12.770] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[19Sept.2022 18:52:12.771] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[19Sept.2022 18:52:12.772] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[19Sept.2022 18:52:12.773] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[19Sept.2022 18:52:12.774] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[19Sept.2022 18:52:12.774] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[19Sept.2022 18:52:12.776] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[19Sept.2022 18:52:12.777] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[19Sept.2022 18:52:12.777] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[19Sept.2022 18:52:12.778] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run
+[19Sept.2022 18:52:12.778] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run
+[19Sept.2022 18:52:12.779] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/mods
+[19Sept.2022 18:52:12.779] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/mods
+[19Sept.2022 18:52:12.781] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config
+[19Sept.2022 18:52:12.781] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config
+[19Sept.2022 18:52:12.782] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/fml.toml
+[19Sept.2022 18:52:12.782] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[19Sept.2022 18:52:12.816] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/defaultconfigs
+[19Sept.2022 18:52:12.816] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[19Sept.2022 18:52:12.819] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[19Sept.2022 18:52:12.820] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[19Sept.2022 18:52:12.838] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.1.25, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[19Sept.2022 18:52:12.841] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[19Sept.2022 18:52:12.842] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[19Sept.2022 18:52:12.843] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[19Sept.2022 18:52:12.844] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[19Sept.2022 18:52:12.845] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[19Sept.2022 18:52:12.845] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[19Sept.2022 18:52:12.845] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[19Sept.2022 18:52:12.846] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[19Sept.2022 18:52:12.857] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[19Sept.2022 18:52:12.861] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[19Sept.2022 18:52:12.861] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[19Sept.2022 18:52:12.868] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates moreoresinone%%/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main:moreoresinone%%/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/classes/java/main from env
+[19Sept.2022 18:52:12.870] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{moreoresinone=[/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main, /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/classes/java/main]}]
+[19Sept.2022 18:52:13.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[19Sept.2022 18:52:13.131] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.2-43.1.25/a1fbef6eacf8677dbdc2f463d7b2c47c8a371b02/javafmllanguage-1.19.2-43.1.25.jar
+[19Sept.2022 18:52:13.132] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.2-43.1.25/a1fbef6eacf8677dbdc2f463d7b2c47c8a371b02/javafmllanguage-1.19.2-43.1.25.jar is missing mods.toml file
+[19Sept.2022 18:52:13.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.2-43.1.25/3b7e0223837367cddcf29aaca7cb3d7e4b628b5c/lowcodelanguage-1.19.2-43.1.25.jar
+[19Sept.2022 18:52:13.135] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.2-43.1.25/3b7e0223837367cddcf29aaca7cb3d7e4b628b5c/lowcodelanguage-1.19.2-43.1.25.jar is missing mods.toml file
+[19Sept.2022 18:52:13.137] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.2-43.1.25/b86163b1e6cc1dda5607fbf9d3e2e776f99683fa/mclanguage-1.19.2-43.1.25.jar
+[19Sept.2022 18:52:13.137] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.2-43.1.25/b86163b1e6cc1dda5607fbf9d3e2e776f99683fa/mclanguage-1.19.2-43.1.25.jar is missing mods.toml file
+[19Sept.2022 18:52:13.139] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.2-43.1.25/de5cf5b7c931cea68cd63e4ea511ce5b779f6c02/fmlcore-1.19.2-43.1.25.jar
+[19Sept.2022 18:52:13.140] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.2-43.1.25/de5cf5b7c931cea68cd63e4ea511ce5b779f6c02/fmlcore-1.19.2-43.1.25.jar is missing mods.toml file
+[19Sept.2022 18:52:13.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
+[19Sept.2022 18:52:13.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moreoresinone} mods - versions {0.0NONE}
+[19Sept.2022 18:52:13.161] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[19Sept.2022 18:52:13.163] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.1.25}
+[19Sept.2022 18:52:13.199] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.25_mapped_official_1.19.2/forge-1.19.2-43.1.25_mapped_official_1.19.2.jar
+[19Sept.2022 18:52:13.201] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.1.25_mapped_official_1.19.2.jar with {forge} mods - versions {43.1.25}
+[19Sept.2022 18:52:13.209] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.25_mapped_official_1.19.2/forge-1.19.2-43.1.25_mapped_official_1.19.2.jar
+[19Sept.2022 18:52:13.210] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.1.25_mapped_official_1.19.2.jar with {forge} mods - versions {43.1.25}
+[19Sept.2022 18:52:13.225] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 3 mods for first modid forge, selecting most recent based on version data
+[19Sept.2022 18:52:13.226] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file  for modid forge with version 43.1.25
+[19Sept.2022 18:52:13.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar, it does not contain dependency information.
+[19Sept.2022 18:52:13.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from , it does not contain dependency information.
+[19Sept.2022 18:52:13.236] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from main, it does not contain dependency information.
+[19Sept.2022 18:52:13.236] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.19.2-43.1.25.jar, it does not contain dependency information.
+[19Sept.2022 18:52:13.236] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.19.2-43.1.25.jar, it does not contain dependency information.
+[19Sept.2022 18:52:13.237] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.19.2-43.1.25.jar, it does not contain dependency information.
+[19Sept.2022 18:52:13.238] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.19.2-43.1.25.jar, it does not contain dependency information.
+[19Sept.2022 18:52:13.269] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[19Sept.2022 18:52:13.272] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[19Sept.2022 18:52:13.276] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.25_mapped_official_1.19.2/forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[19Sept.2022 18:52:13.277] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[19Sept.2022 18:52:13.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.1.25}
+[19Sept.2022 18:52:13.279] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[19Sept.2022 18:52:13.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[19Sept.2022 18:52:13.314] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[19Sept.2022 18:52:13.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[19Sept.2022 18:52:13.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[19Sept.2022 18:52:13.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[19Sept.2022 18:52:13.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[19Sept.2022 18:52:13.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
+[19Sept.2022 18:52:13.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moreoresinone} mods - versions {0.0NONE}
+[19Sept.2022 18:52:13.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[19Sept.2022 18:52:13.321] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[19Sept.2022 18:52:13.336] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[19Sept.2022 18:52:13.337] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[19Sept.2022 18:52:13.341] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
+[19Sept.2022 18:52:13.342] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
+[19Sept.2022 18:52:13.347] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[19Sept.2022 18:52:13.348] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[19Sept.2022 18:52:13.348] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[19Sept.2022 18:52:13.351] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[19Sept.2022 18:52:13.352] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[19Sept.2022 18:52:13.822] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
+[19Sept.2022 18:52:13.858] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
+[19Sept.2022 18:52:13.922] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[19Sept.2022 18:52:13.923] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[19Sept.2022 18:52:13.924] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[19Sept.2022 18:52:13.924] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[19Sept.2022 18:52:13.924] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[19Sept.2022 18:52:13.925] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[19Sept.2022 18:52:14.100] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[19Sept.2022 18:52:14.100] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[19Sept.2022 18:52:14.165] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[19Sept.2022 18:52:14.166] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[19Sept.2022 18:52:14.209] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[19Sept.2022 18:52:14.219] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@27d33393 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[19Sept.2022 18:52:14.221] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3d4e405e to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[19Sept.2022 18:52:14.221] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@54e2fe to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[19Sept.2022 18:52:14.221] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@70972170 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[19Sept.2022 18:52:14.222] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@119aa36 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[19Sept.2022 18:52:14.222] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4e1a46fb to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[19Sept.2022 18:52:14.222] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@69fe0ed4 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[19Sept.2022 18:52:14.222] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@20ab3e3a to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[19Sept.2022 18:52:14.223] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6caf7803 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[19Sept.2022 18:52:14.223] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[19Sept.2022 18:52:14.696] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[19Sept.2022 18:52:14.697] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[19Sept.2022 18:52:14.698] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[19Sept.2022 18:52:14.698] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[19Sept.2022 18:52:14.699] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[19Sept.2022 18:52:14.700] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[19Sept.2022 18:52:14.700] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[19Sept.2022 18:52:14.701] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[19Sept.2022 18:52:14.701] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[19Sept.2022 18:52:14.702] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[19Sept.2022 18:52:14.702] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[19Sept.2022 18:52:14.703] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[19Sept.2022 18:52:14.703] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[19Sept.2022 18:52:14.703] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[19Sept.2022 18:52:14.704] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moreoresinone)
+[19Sept.2022 18:52:14.704] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moreoresinone)
+[19Sept.2022 18:52:14.705] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moreoresinone)
+[19Sept.2022 18:52:14.705] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moreoresinone)
+[19Sept.2022 18:52:14.705] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moreoresinone)
+[19Sept.2022 18:52:14.705] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moreoresinone)]
+[19Sept.2022 18:52:14.706] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[19Sept.2022 18:52:14.706] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[19Sept.2022 18:52:14.706] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[19Sept.2022 18:52:14.706] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[19Sept.2022 18:52:14.707] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moreoresinone)]
+[19Sept.2022 18:52:14.707] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/assets, --assetIndex, 1.19]
+[19Sept.2022 18:52:14.741] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out/class: failed to delete one or more files; see suppressed exceptions for details
+[19Sept.2022 18:52:14.742] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[19Sept.2022 18:52:14.762] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[19Sept.2022 18:52:14.767] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[19Sept.2022 18:52:14.768] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[19Sept.2022 18:52:14.943] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@6a1d3225
+[19Sept.2022 18:52:14.960] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[19Sept.2022 18:52:14.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[19Sept.2022 18:52:14.977] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@6a1d3225
+[19Sept.2022 18:52:15.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[19Sept.2022 18:52:15.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[19Sept.2022 18:52:15.446] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[19Sept.2022 18:52:15.595] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[19Sept.2022 18:52:15.661] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[19Sept.2022 18:52:15.779] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[19Sept.2022 18:52:16.615] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[19Sept.2022 18:52:17.953] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[19Sept.2022 18:52:18.650] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[19Sept.2022 18:52:19.192] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[19Sept.2022 18:52:19.285] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[19Sept.2022 18:52:19.993] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/mnt/Boot/Programme%20und%20Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.25_mapped_official_1.19.2/forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/assets/.mcassetsroot' uses unexpected schema
+[19Sept.2022 18:52:19.994] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/mnt/Boot/Programme%20und%20Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.25_mapped_official_1.19.2/forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/data/.mcassetsroot' uses unexpected schema
+[19Sept.2022 18:52:20.019] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Sept.2022 18:52:20.024] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[19Sept.2022 18:52:20.210] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[19Sept.2022 18:52:20.682] [Render thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[19Sept.2022 18:52:20.683] [Render thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[19Sept.2022 18:52:20.775] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5641
+[19Sept.2022 18:52:20.796] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
+[19Sept.2022 18:52:20.803] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@6a1d3225 - got cpw.mods.cl.ModuleClassLoader@1bd81830
+[19Sept.2022 18:52:20.803] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[19Sept.2022 18:52:20.809] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@6a1d3225 - got cpw.mods.cl.ModuleClassLoader@1bd81830
+[19Sept.2022 18:52:20.810] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for me.KG20.moreoresinone.Main.MoreOresInONE
+[19Sept.2022 18:52:20.849] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.1 from cpw.mods.modlauncher.TransformingClassLoader@6a1d3225
+[19Sept.2022 18:52:20.849] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.1.25
+[19Sept.2022 18:52:20.850] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.1
+[19Sept.2022 18:52:20.850] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[19Sept.2022 18:52:20.851] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@6a1d3225
+[19Sept.2022 18:52:20.851] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
+[19Sept.2022 18:52:20.852] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
+[19Sept.2022 18:52:20.852] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.25, for MC 1.19.2 with MCP 20220805.130853
+[19Sept.2022 18:52:20.852] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.25 Initialized
+[19Sept.2022 18:52:20.938] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for moreoresinone
+[19Sept.2022 18:52:20.980] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[19Sept.2022 18:52:20.980] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[19Sept.2022 18:52:20.981] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[19Sept.2022 18:52:20.982] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[19Sept.2022 18:52:20.982] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[19Sept.2022 18:52:20.982] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[19Sept.2022 18:52:20.984] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
-	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
 	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
-	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:247) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:28) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
-	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:127) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:281) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23179%23186!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:436) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23179%23186!/:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
 	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.1.19.jar%2377!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:106) ~[fmlcore-1.18.2-40.1.19.jar%2379!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.19.2-43.1.25.jar%23181!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19.2-43.1.25.jar%23184!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
@@ -207,29 +236,29 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[18Sept.2022 14:57:12.172] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[18Sept.2022 14:57:12.174] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
-java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.all) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.all
+[19Sept.2022 18:52:20.988] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[19Sept.2022 18:52:20.990] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
-	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:375) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:409) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
 	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
-	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:366) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
-	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:28) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
-	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:127) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:400) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.77.Final.jar%23137!/:4.1.77.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23179%23186!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:436) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23179%23186!/:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
 	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.1.19.jar%2377!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:106) ~[fmlcore-1.18.2-40.1.19.jar%2379!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.19.2-43.1.25.jar%23181!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19.2-43.1.25.jar%23184!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
@@ -237,158 +266,70 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[18Sept.2022 14:57:12.190] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[18Sept.2022 14:57:12.191] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[18Sept.2022 14:57:12.193] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4173332480 bytes (maybe)
-[18Sept.2022 14:57:12.194] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
-[18Sept.2022 14:57:12.194] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[18Sept.2022 14:57:12.195] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[18Sept.2022 14:57:12.196] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[18Sept.2022 14:57:12.200] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[18Sept.2022 14:57:12.201] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[18Sept.2022 14:57:12.284] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML2
-[18Sept.2022 14:57:12.367] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[18Sept.2022 14:57:12.369] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[18Sept.2022 14:57:12.370] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
-[18Sept.2022 14:57:12.535] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[18Sept.2022 14:57:12.541] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-[18Sept.2022 14:57:12.549] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
-[18Sept.2022 14:57:12.562] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
-[18Sept.2022 14:57:12.582] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
-[18Sept.2022 14:57:13.590] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
-[18Sept.2022 14:57:13.596] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:moreoresinone for mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
-[18Sept.2022 14:57:14.855] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[18Sept.2022 14:57:14.856] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[18Sept.2022 14:57:14.857] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0xb168a3d2bd237648
-[18Sept.2022 14:57:15.440] [Render thread/WARN] [com.mojang.text2speech.NarratorLinux/]: ERROR : Couldn't load Narrator library
-java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
-libflite.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
-libflite.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
-Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/classes/java/main:/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main:/mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19_mapped_official_1.18.2/forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar:/mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_repo/versions/1.18.2/client-extra.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.18.2-40.1.19/8ac5f6526a0bb3cb7357d52709841ec4f55c46cd/fmlloader-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.1.3/d7d4b6eac7f49c59255c8ac25190802c29ac9a4a/mergetool-1.1.3-api.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/mcp_repo/net/minecraft/mapping/1.18.2/mapping-1.18.2-mapping.zip:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/cpw.mods/modlauncher/9.1.3/7339d0e87813c366d706c3fdba479455e2283ecd/modlauncher-9.1.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.openjdk.nashorn/nashorn-core/15.3/43977e804697048fc8d81d333a36c17d07a5b3dd/nashorn-core-15.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.2/f4d7f0fc9054386f2893b602454d48e07d4fbead/asm-commons-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.2/fbc178fc5ba3dab50fd7e8a5317b8b647c8e8946/asm-util-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.2/7487dd756daf96cab9986e44b9d7bcb796a61c10/asm-analysis-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.2/d96c99a30f5e1a19b0e609dbb19a44d8518ac01e/asm-tree-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.2/81a03f76019c67362299c40e0ba13405f5467bff/asm-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/8.0.4/272d240aa73f42195b2a68e2ebd8b701ecf41f63/accesstransformers-8.0.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.1/428664f05d2b7f7b7610204b5aa7c1763f62011a/antlr4-runtime-4.9.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.18.2-40.1.19/f67826b1f7fb61e058439ef19066ff4b09533daf/fmlcore-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/5.0.7/5589e7511c4993054e6a80890618b46ed53519a0/eventbus-5.0.7.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/4.0.15-4.x/1d10ffe779684cb20f2b63bdcc030152e47116bb/forgespi-4.0.15-4.x.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/5.0.2/ca04eeee6c3764c151b2a2efa675057a7531acc4/coremods-5.0.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.2.0/54d7a0a5e8fdb71b973025caa46f341ae5904f39/unsafe-0.2.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.electronwill.night-config/toml/3.6.4/51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4/toml-3.6.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.6.4/510f174abbf1c947494db50ef2445683bd52c230/core-3.6.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.8.1/114a2dd16c4c568bf0ca57719b83f2685dcc5734/maven-artifact-3.8.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.8.3/98f84f353457629e81cc6827224871b1a8faa7af/typetools-0.8.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/cpw.mods/bootstraplauncher/1.0.0/f55ddbb35612c6745cefc47d1a0d6dbfb25d3982/bootstraplauncher-1.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.18.2-40.1.19/317cc11a893e2beb814561bffe3139e92d30c1c3/javafmllanguage-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.18.2-40.1.19/bb37b97728b72952ffcbeae0f0b351bff3cf80d3/mclanguage-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-jre/119ea2b2bc205b138974d351777b20f02b92704b/guava-31.0.1-jre.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/logging/1.0.0/f6ca3b2eee0b80b384e8ed93d368faecb82dfb9b/logging-1.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/patchy/2.2.10/da05971b07cbb379d002cf7eaec6a2048211fefc/patchy-2.2.10.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/5.8.5/1d0ec654d820741327f5a9229d513732a4b7ce50/oshi-core-5.8.5.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.10.0/fbed7d9669dba47714ad0d4f4454290a997aee69/jna-platform-5.10.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.10.0/7cf4c87dd802db50721db66947aa237d7ad09418/jna-5.10.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.17.0/bd7f6c0b9224dd214afb4e684957e2349b529a8d/log4j-slf4j18-impl-2.17.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/70.1/dfa3a1fbc55bf5db8c6e79fc0935ac7ab1202950/icu4j-70.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/c876796229b2ef5120f186eab5acc870699d3b9/javabridge-1.2.24.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.68.Final/b8266a3c93c1c051109f71d3449e5dcd5d60b333/netty-all-4.1.68.Final.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/c1ef1234282716483c92183f49bef47b1a89bfa9/brigadier-1.0.18.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.1.27/a02c43824ce57c3f7a7d7e744f0d99a040398b5/datafixerupper-4.1.27.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.3.39/289405e70c0917eaeac017f7fba9adb4427baa36/authlib-3.3.39.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1/httpcore-4.4.14.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.6/76f95700418a68fbc4ac050525261f05dc681ca1/fastutil-8.5.6.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.2/ee8e57a79300f78294576d87c4a587f8c99402e2/lwjgl-jemalloc-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.2/2b772a102b0a11ee5f2109a5b136f4dc7c630827/lwjgl-openal-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.2/6ac5bb88b44c43ea195a570aab059f63da004cd8/lwjgl-opengl-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/d3ad4df38e400b8afba1de63f84338809399df5b/lwjgl-glfw-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f/lwjgl-stb-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9/lwjgl-tinyfd-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.2/8ad6294407e15780b43e84929c40e4c5e997972e/lwjgl-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.12.4/1f618f522dbdd93218c270bcfd8f8dd84be31717/text2speech-1.12.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.9.1/e92af8ab33e428461927b484e90bb155a4f3a052/antlr4-4.9.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.2.1/13b015768e0d04849d2794e4c47eb02d01a0de32/plexus-utils-3.2.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/458d9042f7aa6fa9a634df902b37f544e15aacac/error_prone_annotations-2.7.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.3/92f2c1ad8d84abcbeead6cf7f2c53a04166293c2/ST4-4.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.2/cd9cd41361c155f3af0f653009dcecb08d8b4afd/antlr-runtime-3.5.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.3/457216e8e6578099ae63667bb1e4439235892028/org.abego.treelayout.core-1.0.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.5/b21c073ef6d2bcd50bb0b1b967eac84e99eeb8fd/securejarhandler-1.0.5.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.1/779f60f3844dadc3ef597976fcb1e5127b1f343d/log4j-core-2.17.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.1/d771af8e336e372fb5399c99edabe0919aeaf5b2/log4j-api-2.17.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.2/268c08a150347e04e44ba56e359d62c9b78669df/lwjgl-jemalloc-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.2/364f9f5c3947393083ab5f37a571f5603aadd0b/lwjgl-openal-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.2/338d33387919cb3f4cdba143c2b738a71ccfda60/lwjgl-opengl-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/957733f26a6661d4883da0335f7ef46d3bbbd7d/lwjgl-glfw-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/172c52e586fecf43f759bc4f70a778c01f6fdcc1/lwjgl-stb-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/39e35b161c130635d9c8918ce04e887a30c5b687/lwjgl-tinyfd-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.2/ae7976827ca2a3741f6b9a843a89bacd637af350/lwjgl-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.12.4/9571b1360a268311d7fa625614186965914f0215/text2speech-1.12.4-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/srgutils/0.4.3/84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad/srgutils-0.4.3.jar)
-	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) ~[text2speech-1.12.4.jar%2362!/:?]
-	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) ~[text2speech-1.12.4.jar%2362!/:?]
-	at net.minecraft.client.gui.chat.NarratorChatListener.<init>(NarratorChatListener.java:24) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-	at net.minecraft.client.gui.chat.NarratorChatListener.<clinit>(NarratorChatListener.java:23) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-	at net.minecraft.client.gui.Gui.<init>(Gui.java:154) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-	at net.minecraftforge.client.gui.ForgeIngameGui.<init>(ForgeIngameGui.java:322) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:516) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
+[19Sept.2022 18:52:20.992] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[19Sept.2022 18:52:20.992] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[19Sept.2022 18:52:20.993] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4173332480 bytes (maybe)
+[19Sept.2022 18:52:20.993] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[19Sept.2022 18:52:20.993] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[19Sept.2022 18:52:20.994] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[19Sept.2022 18:52:20.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[19Sept.2022 18:52:20.996] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[19Sept.2022 18:52:20.996] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[19Sept.2022 18:52:21.029] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[19Sept.2022 18:52:21.057] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[19Sept.2022 18:52:21.057] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[19Sept.2022 18:52:21.057] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[19Sept.2022 18:52:21.084] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[19Sept.2022 18:52:21.085] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[19Sept.2022 18:52:21.087] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[19Sept.2022 18:52:21.092] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[19Sept.2022 18:52:21.093] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[19Sept.2022 18:52:21.100] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[19Sept.2022 18:52:21.138] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[19Sept.2022 18:52:21.139] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[19Sept.2022 18:52:21.140] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[19Sept.2022 18:52:21.140] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[19Sept.2022 18:52:21.393] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[19Sept.2022 18:52:21.394] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:moreoresinone for mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
+[19Sept.2022 18:52:21.976] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [moreoresinone]
+[19Sept.2022 18:52:22.097] [Render thread/WARN] [com.mojang.text2speech.NarratorLinux/]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: libflite.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
+	at com.sun.jna.Native.open(Native Method) ~[jna-platform-5.10.0.jar%23120!/:5.10.0 (b0)]
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:277) ~[jna-platform-5.10.0.jar%23120!/:5.10.0 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-platform-5.10.0.jar%23120!/:5.10.0 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-platform-5.10.0.jar%23120!/:5.10.0 (b0)]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) ~[text2speech-1.13.9.jar%23167!/:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) ~[text2speech-1.13.9.jar%23167!/:?]
+	at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:20) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:570) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:176) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.1.19.jar%230!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2310!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
-		at com.sun.jna.Native.open(Native Method) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) ~[text2speech-1.12.4.jar%2362!/:?]
-		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) ~[text2speech-1.12.4.jar%2362!/:?]
-		at net.minecraft.client.gui.chat.NarratorChatListener.<init>(NarratorChatListener.java:24) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.gui.chat.NarratorChatListener.<clinit>(NarratorChatListener.java:23) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.gui.Gui.<init>(Gui.java:154) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraftforge.client.gui.ForgeIngameGui.<init>(ForgeIngameGui.java:322) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
-		at net.minecraft.client.Minecraft.<init>(Minecraft.java:516) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.1.19.jar%230!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
-		at com.sun.jna.Native.open(Native Method) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) ~[text2speech-1.12.4.jar%2362!/:?]
-		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) ~[text2speech-1.12.4.jar%2362!/:?]
-		at net.minecraft.client.gui.chat.NarratorChatListener.<init>(NarratorChatListener.java:24) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.gui.chat.NarratorChatListener.<clinit>(NarratorChatListener.java:23) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.gui.Gui.<init>(Gui.java:154) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraftforge.client.gui.ForgeIngameGui.<init>(ForgeIngameGui.java:322) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
-		at net.minecraft.client.Minecraft.<init>(Minecraft.java:516) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.1.19.jar%230!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/classes/java/main:/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main:/mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.19_mapped_official_1.18.2/forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar:/mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/minecraft_repo/versions/1.18.2/client-extra.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.18.2-40.1.19/8ac5f6526a0bb3cb7357d52709841ec4f55c46cd/fmlloader-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.1.3/d7d4b6eac7f49c59255c8ac25190802c29ac9a4a/mergetool-1.1.3-api.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/forge_gradle/mcp_repo/net/minecraft/mapping/1.18.2/mapping-1.18.2-mapping.zip:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/cpw.mods/modlauncher/9.1.3/7339d0e87813c366d706c3fdba479455e2283ecd/modlauncher-9.1.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.openjdk.nashorn/nashorn-core/15.3/43977e804697048fc8d81d333a36c17d07a5b3dd/nashorn-core-15.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.2/f4d7f0fc9054386f2893b602454d48e07d4fbead/asm-commons-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.2/fbc178fc5ba3dab50fd7e8a5317b8b647c8e8946/asm-util-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.2/7487dd756daf96cab9986e44b9d7bcb796a61c10/asm-analysis-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.2/d96c99a30f5e1a19b0e609dbb19a44d8518ac01e/asm-tree-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.2/81a03f76019c67362299c40e0ba13405f5467bff/asm-9.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/8.0.4/272d240aa73f42195b2a68e2ebd8b701ecf41f63/accesstransformers-8.0.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.1/428664f05d2b7f7b7610204b5aa7c1763f62011a/antlr4-runtime-4.9.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.18.2-40.1.19/f67826b1f7fb61e058439ef19066ff4b09533daf/fmlcore-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/5.0.7/5589e7511c4993054e6a80890618b46ed53519a0/eventbus-5.0.7.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/4.0.15-4.x/1d10ffe779684cb20f2b63bdcc030152e47116bb/forgespi-4.0.15-4.x.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/5.0.2/ca04eeee6c3764c151b2a2efa675057a7531acc4/coremods-5.0.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.2.0/54d7a0a5e8fdb71b973025caa46f341ae5904f39/unsafe-0.2.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.electronwill.night-config/toml/3.6.4/51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4/toml-3.6.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.6.4/510f174abbf1c947494db50ef2445683bd52c230/core-3.6.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.8.1/114a2dd16c4c568bf0ca57719b83f2685dcc5734/maven-artifact-3.8.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.8.3/98f84f353457629e81cc6827224871b1a8faa7af/typetools-0.8.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/cpw.mods/bootstraplauncher/1.0.0/f55ddbb35612c6745cefc47d1a0d6dbfb25d3982/bootstraplauncher-1.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.18.2-40.1.19/317cc11a893e2beb814561bffe3139e92d30c1c3/javafmllanguage-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.18.2-40.1.19/bb37b97728b72952ffcbeae0f0b351bff3cf80d3/mclanguage-1.18.2-40.1.19.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.0.1-jre/119ea2b2bc205b138974d351777b20f02b92704b/guava-31.0.1-jre.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/logging/1.0.0/f6ca3b2eee0b80b384e8ed93d368faecb82dfb9b/logging-1.0.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/patchy/2.2.10/da05971b07cbb379d002cf7eaec6a2048211fefc/patchy-2.2.10.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/5.8.5/1d0ec654d820741327f5a9229d513732a4b7ce50/oshi-core-5.8.5.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.10.0/fbed7d9669dba47714ad0d4f4454290a997aee69/jna-platform-5.10.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.10.0/7cf4c87dd802db50721db66947aa237d7ad09418/jna-5.10.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.17.0/bd7f6c0b9224dd214afb4e684957e2349b529a8d/log4j-slf4j18-impl-2.17.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/70.1/dfa3a1fbc55bf5db8c6e79fc0935ac7ab1202950/icu4j-70.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.2.24/c876796229b2ef5120f186eab5acc870699d3b9/javabridge-1.2.24.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.68.Final/b8266a3c93c1c051109f71d3449e5dcd5d60b333/netty-all-4.1.68.Final.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/c1ef1234282716483c92183f49bef47b1a89bfa9/brigadier-1.0.18.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.1.27/a02c43824ce57c3f7a7d7e744f0d99a040398b5/datafixerupper-4.1.27.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.3.39/289405e70c0917eaeac017f7fba9adb4427baa36/authlib-3.3.39.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.14/9dd1a631c082d92ecd4bd8fd4cf55026c720a8c1/httpcore-4.4.14.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.6/76f95700418a68fbc4ac050525261f05dc681ca1/fastutil-8.5.6.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.2/ee8e57a79300f78294576d87c4a587f8c99402e2/lwjgl-jemalloc-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.2/2b772a102b0a11ee5f2109a5b136f4dc7c630827/lwjgl-openal-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.2/6ac5bb88b44c43ea195a570aab059f63da004cd8/lwjgl-opengl-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/d3ad4df38e400b8afba1de63f84338809399df5b/lwjgl-glfw-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f/lwjgl-stb-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9/lwjgl-tinyfd-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.2/8ad6294407e15780b43e84929c40e4c5e997972e/lwjgl-3.2.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.12.4/1f618f522dbdd93218c270bcfd8f8dd84be31717/text2speech-1.12.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.9.1/e92af8ab33e428461927b484e90bb155a4f3a052/antlr4-4.9.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.2.1/13b015768e0d04849d2794e4c47eb02d01a0de32/plexus-utils-3.2.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.7.1/458d9042f7aa6fa9a634df902b37f544e15aacac/error_prone_annotations-2.7.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.3/92f2c1ad8d84abcbeead6cf7f2c53a04166293c2/ST4-4.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.2/cd9cd41361c155f3af0f653009dcecb08d8b4afd/antlr-runtime-3.5.2.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.3/457216e8e6578099ae63667bb1e4439235892028/org.abego.treelayout.core-1.0.3.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.5/b21c073ef6d2bcd50bb0b1b967eac84e99eeb8fd/securejarhandler-1.0.5.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.1/779f60f3844dadc3ef597976fcb1e5127b1f343d/log4j-core-2.17.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.1/d771af8e336e372fb5399c99edabe0919aeaf5b2/log4j-api-2.17.1.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.2/268c08a150347e04e44ba56e359d62c9b78669df/lwjgl-jemalloc-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.2/364f9f5c3947393083ab5f37a571f5603aadd0b/lwjgl-openal-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.2/338d33387919cb3f4cdba143c2b738a71ccfda60/lwjgl-opengl-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.2/957733f26a6661d4883da0335f7ef46d3bbbd7d/lwjgl-glfw-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.2/172c52e586fecf43f759bc4f70a778c01f6fdcc1/lwjgl-stb-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.2/39e35b161c130635d9c8918ce04e887a30c5b687/lwjgl-tinyfd-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.2/ae7976827ca2a3741f6b9a843a89bacd637af350/lwjgl-3.2.2-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.12.4/9571b1360a268311d7fa625614186965914f0215/text2speech-1.12.4-natives-linux.jar:/mnt/Boot/Programme und Spiele/gradle/caches/modules-2/files-2.1/net.minecraftforge/srgutils/0.4.3/84aecb8fc78bd0dd7299bd9963ac9eb83bd00aad/srgutils-0.4.3.jar)
-		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[java-objc-bridge-1.0.0.jar%2374!/:5.10.0 (b0)]
-		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) ~[text2speech-1.12.4.jar%2362!/:?]
-		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) ~[text2speech-1.12.4.jar%2362!/:?]
-		at net.minecraft.client.gui.chat.NarratorChatListener.<init>(NarratorChatListener.java:24) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.gui.chat.NarratorChatListener.<clinit>(NarratorChatListener.java:23) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.gui.Gui.<init>(Gui.java:154) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraftforge.client.gui.ForgeIngameGui.<init>(ForgeIngameGui.java:322) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2375%2381!/:?]
-		at net.minecraft.client.Minecraft.<init>(Minecraft.java:516) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.18.2-40.1.19_mapped_official_1.18.2-recomp.jar%2376!/:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.1.19.jar%230!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2310!/:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
-[18Sept.2022 14:57:15.508] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[18Sept.2022 14:57:15.817] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[18Sept.2022 14:57:15.843] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[18Sept.2022 14:57:15.847] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-client.toml
-[18Sept.2022 14:57:15.864] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-client.toml
-[18Sept.2022 14:57:15.868] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-client.toml for changes
-[18Sept.2022 14:57:15.874] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
-[18Sept.2022 14:57:15.880] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
-[18Sept.2022 14:57:15.882] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 14:57:15.882] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[18Sept.2022 14:57:15.886] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-common.toml
-[18Sept.2022 14:57:15.896] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
-[18Sept.2022 14:57:15.899] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-common.toml
-[18Sept.2022 14:57:15.900] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 14:57:15.903] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-common.toml for changes
-[18Sept.2022 14:57:15.904] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
-[18Sept.2022 14:57:15.906] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
-[18Sept.2022 14:57:15.908] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 14:57:15.909] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
-[18Sept.2022 14:57:15.910] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 14:57:16.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Sept.2022 14:57:17.993] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.1.25.jar%2390!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[19Sept.2022 18:52:22.117] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[19Sept.2022 18:52:22.154] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[19Sept.2022 18:52:22.155] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-client.toml
+[19Sept.2022 18:52:22.160] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-client.toml
+[19Sept.2022 18:52:22.161] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-client.toml for changes
+[19Sept.2022 18:52:22.161] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[19Sept.2022 18:52:22.162] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[19Sept.2022 18:52:22.162] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-common.toml
+[19Sept.2022 18:52:22.163] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-common.toml
+[19Sept.2022 18:52:22.163] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/run/config/forge-common.toml for changes
+[19Sept.2022 18:52:22.164] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[19Sept.2022 18:52:22.682] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Sept.2022 18:52:23.312] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
   "promos": {
@@ -473,9 +414,9 @@ Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/mn
     "1.19.2-latest": "43.1.25"
   }
 }
-[18Sept.2022 14:57:18.002] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.19 Target: 40.1.80
-[18Sept.2022 14:57:18.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moreoresinone] Starting version check at https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/update/update.json
-[18Sept.2022 14:57:18.338] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [moreoresinone] Received version check data:
+[19Sept.2022 18:52:23.316] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.1.25 Target: null
+[19Sept.2022 18:52:23.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moreoresinone] Starting version check at https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/update/update.json
+[19Sept.2022 18:52:23.423] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [moreoresinone] Received version check data:
 {
   	"homepage": "https://www.curseforge.com/minecraft/mc-mods/more-ores-in-one/files",
   	"promos": {
@@ -529,207 +470,107 @@ Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/mn
 		"1.5": "https://raw.githubusercontent.com/TheKiritoPlayer20/MoreOresInONE/1.14/changelog.txt"
 	}
 }
-[18Sept.2022 14:57:18.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moreoresinone] Found status: BETA Current: 0.0NONE Target: null
-[18Sept.2022 14:57:32.657] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5687
-[18Sept.2022 14:57:33.051] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JACK Default
-[18Sept.2022 14:57:33.054] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[18Sept.2022 14:57:33.337] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[18Sept.2022 14:57:33.365] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[18Sept.2022 14:57:33.366] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[18Sept.2022 14:57:33.369] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[18Sept.2022 14:57:33.371] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[18Sept.2022 14:57:33.373] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[18Sept.2022 14:57:33.381] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18Sept.2022 14:57:35.883] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[18Sept.2022 14:57:35.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18Sept.2022 14:57:35.887] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[18Sept.2022 14:57:36.533] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[18Sept.2022 14:59:46.935] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
-[18Sept.2022 14:59:46.936] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:moreoresinone for mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
-[18Sept.2022 14:59:48.492] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18Sept.2022 14:59:48.494] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18Sept.2022 14:59:48.497] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18Sept.2022 14:59:48.499] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18Sept.2022 14:59:48.500] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18Sept.2022 14:59:51.640] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[18Sept.2022 14:59:53.016] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1224 advancements
-[18Sept.2022 14:59:53.033] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 14:59:53.039] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 14:59:53.455] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Sept.2022 14:59:53.479] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[18Sept.2022 14:59:53.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Sept.2022 14:59:53.554] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./saves/New World (4)/serverconfig
-[18Sept.2022 14:59:53.554] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[18Sept.2022 14:59:53.554] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./saves/New World (4)/serverconfig/forge-server.toml
-[18Sept.2022 14:59:53.555] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./saves/New World (4)/serverconfig/forge-server.toml
-[18Sept.2022 14:59:53.556] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./saves/New World (4)/serverconfig/forge-server.toml for changes
-[18Sept.2022 14:59:53.556] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
-[18Sept.2022 14:59:53.558] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
-[18Sept.2022 14:59:53.558] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 14:59:53.561] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
-[18Sept.2022 14:59:53.561] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 14:59:53.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Sept.2022 14:59:54.848] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:54.881] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:54.882] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:55.229] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:55.732] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:58.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:58.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:58.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:58.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:58.895] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:58.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Sept.2022 14:59:59.238] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[18Sept.2022 14:59:59.746] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[18Sept.2022 15:00:00.220] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[18Sept.2022 15:00:00.747] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[18Sept.2022 15:00:00.832] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Sept.2022 15:00:00.845] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7130 ms
-[18Sept.2022 15:00:00.929] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 14, from 10
-[18Sept.2022 15:00:00.932] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[18Sept.2022 15:00:00.979] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 16
-[18Sept.2022 15:00:01.004] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[18Sept.2022 15:00:01.005] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[18Sept.2022 15:00:01.012] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[18Sept.2022 15:00:01.025] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 41854 (auto-detected)
-[18Sept.2022 15:00:01.030] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
-[18Sept.2022 15:00:01.030] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
-[18Sept.2022 15:00:01.033] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
-[18Sept.2022 15:00:01.034] [Render thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
-[18Sept.2022 15:00:01.035] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 9c:5c:8e:ff:fe:71:93:d5 (auto-detected)
-[18Sept.2022 15:00:01.068] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 16
-[18Sept.2022 15:00:01.069] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 16
-[18Sept.2022 15:00:01.069] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[18Sept.2022 15:00:01.069] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 11
-[18Sept.2022 15:00:01.069] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 16777216
-[18Sept.2022 15:00:01.071] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[18Sept.2022 15:00:01.071] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[18Sept.2022 15:00:01.071] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[18Sept.2022 15:00:01.071] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[18Sept.2022 15:00:01.072] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[18Sept.2022 15:00:01.072] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: true
-[18Sept.2022 15:00:01.072] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[18Sept.2022 15:00:01.084] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[18Sept.2022 15:00:01.085] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[18Sept.2022 15:00:01.085] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[18Sept.2022 15:00:01.113] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
-[18Sept.2022 15:00:01.263] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[18Sept.2022 15:00:01.263] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxSharedCapacityFactor: 2
-[18Sept.2022 15:00:01.264] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.linkCapacity: 16
-[18Sept.2022 15:00:01.265] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[18Sept.2022 15:00:01.266] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.delayedQueue.ratio: 8
-[18Sept.2022 15:00:01.284] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[18Sept.2022 15:00:01.284] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[18Sept.2022 15:00:01.285] [Netty Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46014ebb
-[18Sept.2022 15:00:01.294] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
-[18Sept.2022 15:00:01.495] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
-[18Sept.2022 15:00:01.506] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
-[18Sept.2022 15:00:01.511] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, forge, moreoresinone]
-[18Sept.2022 15:00:01.512] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
-[18Sept.2022 15:00:01.512] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
-[18Sept.2022 15:00:01.513] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
-[18Sept.2022 15:00:01.513] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
-[18Sept.2022 15:00:01.513] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
-[18Sept.2022 15:00:01.516] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
-[18Sept.2022 15:00:01.517] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
-[18Sept.2022 15:00:01.517] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
-[18Sept.2022 15:00:01.519] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
-[18Sept.2022 15:00:01.520] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
-[18Sept.2022 15:00:01.520] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
-[18Sept.2022 15:00:01.521] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, moreoresinone]
-[18Sept.2022 15:00:01.521] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
-[18Sept.2022 15:00:01.521] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
-[18Sept.2022 15:00:01.521] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
-[18Sept.2022 15:00:01.522] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
-[18Sept.2022 15:00:01.522] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
-[18Sept.2022 15:00:01.522] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
-[18Sept.2022 15:00:01.522] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
-[18Sept.2022 15:00:01.522] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
-[18Sept.2022 15:00:01.523] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
-[18Sept.2022 15:00:01.523] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
-[18Sept.2022 15:00:01.542] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
-[18Sept.2022 15:00:01.543] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
-[18Sept.2022 15:00:01.544] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
-[18Sept.2022 15:00:01.544] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
-[18Sept.2022 15:00:01.544] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
-[18Sept.2022 15:00:01.545] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
-[18Sept.2022 15:00:01.545] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
-[18Sept.2022 15:00:01.584] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
-[18Sept.2022 15:00:01.625] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[18Sept.2022 15:00:01.685] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@70996895
-[18Sept.2022 15:00:01.712] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:89e20ec1] logged in with entity id 111 at (-24.714292884304463, 43.03779185995797, 30.429750474197338)
-[18Sept.2022 15:00:01.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[18Sept.2022 15:00:03.027] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 114 advancements
-[18Sept.2022 15:00:04.240] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Sept.2022 15:00:04.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Sept.2022 15:00:04.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Sept.2022 15:00:04.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Sept.2022 15:00:04.687] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 15:00:04.693] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 15:00:12.208] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[18Sept.2022 15:00:19.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Changed the block at -20, 37, 20]
-[18Sept.2022 15:00:19.063] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Changed the block at -20, 37, 20
-[18Sept.2022 15:00:19.314] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Sept.2022 15:00:19.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Sept.2022 15:00:19.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Sept.2022 15:00:19.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Sept.2022 15:00:19.338] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 15:00:19.343] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 15:00:27.381] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Sept.2022 15:00:27.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Sept.2022 15:00:27.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Sept.2022 15:00:27.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Sept.2022 15:00:27.411] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 15:00:27.417] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 15:00:33.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[18Sept.2022 15:00:33.591] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Spectator Mode
-[18Sept.2022 15:00:38.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[18Sept.2022 15:00:38.028] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
-[18Sept.2022 15:00:42.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Removed every effect from Dev]
-[18Sept.2022 15:00:42.744] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Removed every effect from Dev
-[18Sept.2022 15:00:48.481] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Sept.2022 15:00:48.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Sept.2022 15:00:48.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Sept.2022 15:00:48.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Sept.2022 15:00:48.500] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 15:00:48.507] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 15:00:55.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Changed the block at -158, 69, 239]
-[18Sept.2022 15:00:55.226] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Changed the block at -158, 69, 239
-[18Sept.2022 15:00:55.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
-[18Sept.2022 15:00:55.687] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev has made the advancement [The End?]
-[18Sept.2022 15:00:55.842] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 120 advancements
-[18Sept.2022 15:00:57.520] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[18Sept.2022 15:00:57.520] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[18Sept.2022 15:00:58.575] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2244ms or 44 ticks behind
-[18Sept.2022 15:01:06.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] [Debug]: Chunk borders: shown
-[18Sept.2022 15:01:10.375] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Unknown or incomplete command, see below for error
-[18Sept.2022 15:01:10.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] ...l 64 61 32<--[HERE]
-[18Sept.2022 15:01:18.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Successfully filled 9917 blocks]
-[18Sept.2022 15:01:18.491] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Successfully filled 9917 blocks
-[18Sept.2022 15:01:22.981] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Sept.2022 15:01:22.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Sept.2022 15:01:22.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Sept.2022 15:01:22.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Sept.2022 15:01:23.007] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 15:01:23.012] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 15:01:23.385] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[18Sept.2022 15:01:23.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[18Sept.2022 15:01:23.389] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[18Sept.2022 15:01:23.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Sept.2022 15:01:23.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Sept.2022 15:01:23.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Sept.2022 15:01:24.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Sept.2022 15:01:25.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Sept.2022 15:01:34.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Sept.2022 15:01:34.318] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[18Sept.2022 15:01:34.324] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[18Sept.2022 15:01:34.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (4)): All chunks are saved
-[18Sept.2022 15:01:34.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18Sept.2022 15:01:34.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18Sept.2022 15:01:34.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18Sept.2022 15:01:35.330] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./saves/New World (4)/serverconfig
-[18Sept.2022 15:01:35.331] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
-[18Sept.2022 15:01:35.336] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
-[18Sept.2022 15:01:35.337] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[18Sept.2022 15:01:58.421] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[19Sept.2022 18:52:23.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moreoresinone] Found status: BETA Current: 0.0NONE Target: null
+[19Sept.2022 18:52:31.149] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5978
+[19Sept.2022 18:52:31.216] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[19Sept.2022 18:52:31.217] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19Sept.2022 18:52:31.282] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JACK Default
+[19Sept.2022 18:52:31.284] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[19Sept.2022 18:52:31.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19Sept.2022 18:52:31.512] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19Sept.2022 18:52:31.513] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19Sept.2022 18:52:31.514] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19Sept.2022 18:52:31.516] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19Sept.2022 18:52:31.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19Sept.2022 18:52:31.518] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19Sept.2022 18:52:32.541] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19Sept.2022 18:52:32.701] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19Sept.2022 18:52:32.703] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19Sept.2022 18:52:32.704] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19Sept.2022 18:52:33.209] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[19Sept.2022 18:52:36.302] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[19Sept.2022 18:52:36.303] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:moreoresinone for mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
+[19Sept.2022 18:52:36.307] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:36.307] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /data/realms
+[19Sept.2022 18:52:36.309] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:36.314] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[19Sept.2022 18:52:36.324] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:36.333] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:36.336] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[19Sept.2022 18:52:38.934] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[19Sept.2022 18:52:39.711] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1262 advancements
+[19Sept.2022 18:52:40.358] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[19Sept.2022 18:52:40.359] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:moreoresinone for mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
+[19Sept.2022 18:52:40.359] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[19Sept.2022 18:52:40.360] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:moreoresinone for mod file /mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/build/resources/main
+[19Sept.2022 18:52:40.361] [Worker-Main-3/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:40.369] [Worker-Main-3/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:40.370] [Worker-Main-2/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:40.370] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[19Sept.2022 18:52:40.381] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[19Sept.2022 18:52:40.384] [Worker-Main-2/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[19Sept.2022 18:52:41.292] [Render thread/WARN] [net.minecraft.client.gui.screens.worldselection.CreateWorldScreen/]: Failed to validate datapack
+java.util.concurrent.CompletionException: com.google.gson.JsonParseException: Error loading registry data: No key features in MapLike[{"type":"forge:add_features","biomes":"#minecraft:is_overworld","feature":"moreoresinone:cryorite_ore","step":"underground_ores","forge:registry_name":"forge:biome_modifier"}]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735) ~[?:?]
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2191) ~[?:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.tryApplyNewDataPacks(CreateWorldScreen.java:472) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:128) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:56) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:32) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:110) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23159!/:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23165!/:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23159!/:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:187) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.1.25.jar%2390!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23103!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+Caused by: com.google.gson.JsonParseException: Error loading registry data: No key features in MapLike[{"type":"forge:add_features","biomes":"#minecraft:is_overworld","feature":"moreoresinone:cryorite_ore","step":"underground_ores","forge:registry_name":"forge:biome_modifier"}]
+	at net.minecraft.core.RegistryAccess.lambda$readRegistry$13(RegistryAccess.java:211) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.core.RegistryAccess.readRegistry(RegistryAccess.java:210) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.core.RegistryAccess.load(RegistryAccess.java:203) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.resources.RegistryOps.createAndLoad(RegistryOps.java:30) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.resources.RegistryOps.createAndLoad(RegistryOps.java:24) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$tryApplyNewDataPacks$18(CreateWorldScreen.java:454) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:22) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.tryApplyNewDataPacks(CreateWorldScreen.java:449) ~[forge-1.19.2-43.1.25_mapped_official_1.19.2-recomp.jar%23180!/:?]
+	... 33 more
+[19Sept.2022 18:52:43.042] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

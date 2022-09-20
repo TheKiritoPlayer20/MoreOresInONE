@@ -3,13 +3,11 @@ package me.KG20.moreoresinone.Init;
 import me.KG20.moreoresinone.Config.Config;
 import me.KG20.moreoresinone.Main.Constants;
 import me.KG20.moreoresinone.Tools.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.common.ToolActions;
-import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
-import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegisterEvent;
 
 //@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterTools {
@@ -51,50 +49,48 @@ public class RegisterTools {
 
 
     @SubscribeEvent
-    public static void register(Register<Item> event) {
-        IForgeRegistry<Item> registry = event.getRegistry();
+    public static void register(RegisterEvent event) {
+        event.register(ForgeRegistries.Keys.ITEMS, helper -> {
+            registerTools(rubyHoe, "ruby_hoe", helper);
+            registerTools(rubyAxe, "ruby_axe", helper);
+            registerTools(rubyPickaxe, "ruby_pickaxe", helper);
+            registerTools(rubyShovel, "ruby_shovel", helper);
+            registerTools(rubySword, "ruby_sword", helper);
+            registerTools(rubySickle, "ruby_sickle", helper);
 
-        rubyHoe.setRegistryName(Constants.modid, "ruby_hoe");
-        rubyAxe.setRegistryName(Constants.modid, "ruby_axe");
-        rubyPickaxe.setRegistryName(Constants.modid, "ruby_pickaxe");
-        rubyShovel.setRegistryName(Constants.modid, "ruby_shovel");
-        rubySword.setRegistryName(Constants.modid, "ruby_sword");
-        rubySickle.setRegistryName(Constants.modid, "ruby_sickle");
-        registry.registerAll(rubyHoe,rubyAxe,rubyPickaxe,rubyShovel,rubySword,rubySickle);
+            registerTools(sapphireHoe, "sapphire_hoe", helper);
+            registerTools(sapphireAxe, "sapphire_axe", helper);
+            registerTools(sapphirePickaxe, "sapphire_pickaxe", helper);
+            registerTools(sapphireShovel, "sapphire_shovel", helper);
+            registerTools(sapphireSword, "sapphire_sword", helper);
+            registerTools(sapphireSickle, "sapphire_sickle", helper);
 
-        sapphireHoe.setRegistryName(Constants.modid, "sapphire_hoe");
-        sapphireAxe.setRegistryName(Constants.modid, "sapphire_axe");
-        sapphirePickaxe.setRegistryName(Constants.modid, "sapphire_pickaxe");
-        sapphireShovel.setRegistryName(Constants.modid, "sapphire_shovel");
-        sapphireSword.setRegistryName(Constants.modid, "sapphire_sword");
-        sapphireSickle.setRegistryName(Constants.modid, "sapphire_sickle");
-        registry.registerAll(sapphireHoe,sapphireAxe,sapphirePickaxe,sapphireShovel,sapphireSword,sapphireSickle);
+            registerTools(cryoriteHoe, "cryorite_hoe", helper);
+            registerTools(cryoriteAxe, "cryorite_axe", helper);
+            registerTools(cryoritePickaxe, "cryorite_pickaxe", helper);
+            registerTools(cryoriteShovel, "cryorite_shovel", helper);
+            registerTools(cryoriteSword, "cryorite_sword", helper);
+            registerTools(cryoriteSickle, "cryorite_sickle", helper);
 
-        cryoriteHoe.setRegistryName(Constants.modid, "cryorite_hoe");
-        cryoriteAxe.setRegistryName(Constants.modid, "cryorite_axe");
-        cryoritePickaxe.setRegistryName(Constants.modid, "cryorite_pickaxe");
-        cryoriteShovel.setRegistryName(Constants.modid, "cryorite_shovel");
-        cryoriteSword.setRegistryName(Constants.modid, "cryorite_sword");
-        cryoriteSickle.setRegistryName(Constants.modid, "cryorite_sickle");
-        registry.registerAll(cryoriteHoe,cryoriteAxe,cryoritePickaxe,cryoriteShovel,cryoriteSword,cryoriteSickle);
+            registerTools(topazHoe, "topaz_hoe", helper);
+            registerTools(topazAxe, "topaz_axe", helper);
+            registerTools(topazPickaxe, "topaz_pickaxe", helper);
+            registerTools(topazShovel, "topaz_shovel", helper);
+            registerTools(topazSword, "topaz_sword", helper);
+            registerTools(topazSickle, "topaz_sickle", helper);
 
-        topazHoe.setRegistryName(Constants.modid, "topaz_hoe");
-        topazAxe.setRegistryName(Constants.modid, "topaz_axe");
-        topazPickaxe.setRegistryName(Constants.modid, "topaz_pickaxe");
-        topazShovel.setRegistryName(Constants.modid, "topaz_shovel");
-        topazSword.setRegistryName(Constants.modid, "topaz_sword");
-        topazSickle.setRegistryName(Constants.modid, "topaz_sickle");
-        registry.registerAll(topazHoe,topazAxe,topazPickaxe,topazShovel,topazSword,topazSickle);
-
-        corundumHoe.setRegistryName(Constants.modid, "corundum_hoe");
-        corundumAxe.setRegistryName(Constants.modid, "corundum_axe");
-        corundumPickaxe.setRegistryName(Constants.modid, "corundum_pickaxe");
-        corundumShovel.setRegistryName(Constants.modid, "corundum_shovel");
-        corundumSword.setRegistryName(Constants.modid, "corundum_sword");
-        corundumSickle.setRegistryName(Constants.modid, "corundum_sickle");
-        registry.registerAll(corundumHoe,corundumAxe,corundumPickaxe,corundumShovel,corundumSword,corundumSickle);
+            registerTools(corundumHoe, "corundum_hoe", helper);
+            registerTools(corundumAxe, "corundum_axe", helper);
+            registerTools(corundumPickaxe, "corundum_pickaxe", helper);
+            registerTools(corundumShovel, "corundum_shovel", helper);
+            registerTools(corundumSword, "corundum_sword", helper);
+            registerTools(corundumSickle, "corundum_sickle", helper);
+        });
     }
 
+    private static void registerTools(Item toolToRegister, String toolName, RegisterEvent.RegisterHelper<Item> registry){
+        registry.register(new ResourceLocation(Constants.modid, toolName), toolToRegister);
+    }
 
 
     }

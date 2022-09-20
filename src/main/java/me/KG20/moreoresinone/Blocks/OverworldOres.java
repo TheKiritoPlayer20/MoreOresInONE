@@ -1,6 +1,7 @@
 package me.KG20.moreoresinone.Blocks;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -22,7 +23,7 @@ public class OverworldOres extends Block {
     }
 
     @Override
-    public int getExpDrop(BlockState state, LevelReader world, BlockPos pos, int fortune, int silktouch) {
-       return silktouch == 0 ? 7 : 0;
+    public int getExpDrop(BlockState state, LevelReader level, RandomSource randomSource, BlockPos pos, int fortuneLevel, int silkTouchLevel) {
+        return silkTouchLevel == 0 ? 7 : 0;
     }
 }

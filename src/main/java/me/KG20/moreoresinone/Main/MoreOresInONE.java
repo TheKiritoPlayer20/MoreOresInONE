@@ -6,12 +6,15 @@ import me.KG20.moreoresinone.Init.*;
 import me.KG20.moreoresinone.Proxy.ClientProxy;
 import me.KG20.moreoresinone.Proxy.CommonProxy;
 import me.KG20.moreoresinone.Tools.BasisToolMaterial;
+import me.KG20.moreoresinone.world.feature.PlacedFeatures;
+import me.KG20.moreoresinone.world.gen.BiomeModifiers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.TierSortingRegistry;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -29,6 +32,7 @@ public class MoreOresInONE
     private static CommonProxy proxy = DistExecutor.safeRunForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
     public MoreOresInONE(){
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         FMLJavaModLoadingContext.get().getModEventBus().register(this);
         MinecraftForge.EVENT_BUS.register(this);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterArmor.class);
@@ -36,14 +40,18 @@ public class MoreOresInONE
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterItems.class);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterTier.class);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterTools.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(BiomeModifiers.class);
+        FMLJavaModLoadingContext.get().getModEventBus().register(PlacedFeatures.class);
+
+
         MinecraftForge.EVENT_BUS.register(EventHandler.class);
         proxy.construct();
         MoreOresInOneConfig.loadConfig(MoreOresInOneConfig.Server_Config, FMLPaths.CONFIGDIR.get().resolve("moreoresinone.toml"));
+
     }
 
     @SubscribeEvent
     public void setup(FMLCommonSetupEvent event){
-        //WorldGenerator.registerOrePlacement();
         proxy.setup();
     }
 

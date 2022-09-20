@@ -3,17 +3,18 @@ package me.KG20.moreoresinone.Init;
 import me.KG20.moreoresinone.Blocks.*;
 import me.KG20.moreoresinone.Items.ItemFromBlock;
 import me.KG20.moreoresinone.Main.Constants;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.client.event.ColorHandlerEvent;
-import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.registries.RegisterEvent;
 
 //@EventBusSubscriber(modid = Constants.modid, bus = Bus.MOD)
 public class RegisterBlocks {
@@ -37,66 +38,68 @@ public class RegisterBlocks {
     public static final Block endEXPOre = new EndEXPOre(MaterialColor.SAND);
 
     @SubscribeEvent
-    public static void register(Register<Block> event) {
-        IForgeRegistry<Block> registry = event.getRegistry();
+    public static void register(RegisterEvent event) {
+        event.register(ForgeRegistries.Keys.BLOCKS, helper ->{
+            registerBlockHelper(rubyOre, "ruby_ore", helper);
+            registerBlockHelper(rubyBlock, "ruby_block", helper);
+            registerBlockHelper(deepslateRubyOre, "deepslate_ruby_ore", helper);
 
-        rubyOre.setRegistryName(Constants.modid, "ruby_ore");
-        rubyBlock.setRegistryName(Constants.modid, "ruby_block");
-        deepslateRubyOre.setRegistryName(Constants.modid, "deepslate_ruby_ore");
-        registry.registerAll(rubyOre,rubyBlock,deepslateRubyOre);
+            registerBlockHelper(sapphireOre, "sapphire_ore", helper);
+            registerBlockHelper(sapphireBlock, "sapphire_block", helper);
+            registerBlockHelper(deepslateSapphireOre, "deepslate_sapphire_ore", helper);
 
-        sapphireOre.setRegistryName(Constants.modid, "sapphire_ore");
-        sapphireBlock.setRegistryName(Constants.modid, "sapphire_block");
-        deepslateSapphireOre.setRegistryName(Constants.modid, "deepslate_sapphire_ore");
-        registry.registerAll(sapphireOre,sapphireBlock,deepslateSapphireOre);
+            registerBlockHelper(cryoriteOre, "cryorite_ore", helper);
+            registerBlockHelper(packedcryoriteOre, "packed_cryorite_ore", helper);
+            registerBlockHelper(cryoriteBlock, "cryorite_block", helper);
 
-        cryoriteOre.setRegistryName(Constants.modid, "cryorite_ore");
-        packedcryoriteOre.setRegistryName(Constants.modid, "packed_cryorite_ore");
-        cryoriteBlock.setRegistryName(Constants.modid, "cryorite_block");
-        registry.registerAll(cryoriteOre,cryoriteBlock,packedcryoriteOre);
+            registerBlockHelper(topazOre, "topaz_ore", helper);
+            registerBlockHelper(topazBlock, "topaz_block", helper);
 
-        topazOre.setRegistryName(Constants.modid, "topaz_ore");
-        topazBlock.setRegistryName(Constants.modid, "topaz_block");
-        registry.registerAll(topazOre,topazBlock);
+            registerBlockHelper(corundumOre, "corundum_ore", helper);
+            registerBlockHelper(corundumBlock, "corundum_block", helper);
 
-        corundumOre.setRegistryName(Constants.modid, "corundum_ore");
-        corundumBlock.setRegistryName(Constants.modid, "corundum_block");
-        registry.registerAll(corundumOre,corundumBlock);
-
-        overworldEXPOre.setRegistryName(Constants.modid, "overworld_exp_ore");
-        deepslateOverworldEXPOre.setRegistryName(Constants.modid, "deepslate_overworld_exp_ore");
-        netherEXPOre.setRegistryName(Constants.modid, "nether_exp_ore");
-        endEXPOre.setRegistryName(Constants.modid, "end_exp_ore");
-        registry.registerAll(overworldEXPOre,deepslateOverworldEXPOre,netherEXPOre,endEXPOre);
+            registerBlockHelper(overworldEXPOre, "overworld_exp_ore", helper);
+            registerBlockHelper(deepslateOverworldEXPOre, "deepslate_overworld_exp_ore", helper);
+            registerBlockHelper(netherEXPOre, "nether_exp_ore", helper);
+            registerBlockHelper(endEXPOre, "end_exp_ore", helper);
+        });
 
     }
 
     @SubscribeEvent
-    public static void registerItem(Register<Item> event) {
-        IForgeRegistry<Item> registry = event.getRegistry();
+    public static void registerItem(RegisterEvent event) {
+        event.register(ForgeRegistries.Keys.ITEMS, helper ->{
+            registerItemHelper(new ItemFromBlock(rubyOre, new Item.Properties().tab(CreativeTabs.overworld)), "ruby_ore", helper);
+            registerItemHelper(new ItemFromBlock(rubyBlock, new Item.Properties().tab(CreativeTabs.overworld)), "ruby_block", helper);
+            registerItemHelper(new ItemFromBlock(deepslateRubyOre, new Item.Properties().tab(CreativeTabs.overworld)), "deepslate_ruby_ore", helper);
 
-        registry.register(new ItemFromBlock(rubyOre, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(rubyBlock, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(deepslateRubyOre, new Item.Properties().tab(CreativeTabs.overworld)));
+            registerItemHelper(new ItemFromBlock(sapphireOre, new Item.Properties().tab(CreativeTabs.overworld)), "sapphire_ore", helper);
+            registerItemHelper(new ItemFromBlock(sapphireBlock, new Item.Properties().tab(CreativeTabs.overworld)), "sapphire_block", helper);
+            registerItemHelper(new ItemFromBlock(deepslateSapphireOre, new Item.Properties().tab(CreativeTabs.overworld)), "deepslate_sapphire_ore", helper);
 
-        registry.register(new ItemFromBlock(sapphireOre, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(sapphireBlock, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(deepslateSapphireOre, new Item.Properties().tab(CreativeTabs.overworld)));
+            registerItemHelper(new ItemFromBlock(cryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)), "cryorite_ore", helper);
+            registerItemHelper(new ItemFromBlock(packedcryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)), "packed_cryorite_ore", helper);
+            registerItemHelper(new ItemFromBlock(cryoriteBlock, new Item.Properties().tab(CreativeTabs.overworld)), "cryorite_block", helper);
 
-        registry.register(new ItemFromBlock(cryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(packedcryoriteOre, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(cryoriteBlock, new Item.Properties().tab(CreativeTabs.overworld)));
+            registerItemHelper(new ItemFromBlock(topazOre, new Item.Properties().tab(CreativeTabs.nether).fireResistant()), "topaz_ore", helper);
+            registerItemHelper(new ItemFromBlock(topazBlock, new Item.Properties().tab(CreativeTabs.nether).fireResistant()), "topaz_block", helper);
 
-        registry.register(new ItemFromBlock(topazOre, new Item.Properties().tab(CreativeTabs.nether).fireResistant()));
-        registry.register(new ItemFromBlock(topazBlock, new Item.Properties().tab(CreativeTabs.nether).fireResistant()));
+            registerItemHelper(new ItemFromBlock(corundumOre, new Item.Properties().tab(CreativeTabs.end).fireResistant()), "corundum_ore", helper);
+            registerItemHelper(new ItemFromBlock(corundumBlock, new Item.Properties().tab(CreativeTabs.end).fireResistant()), "corundum_block", helper);
 
-        registry.register(new ItemFromBlock(corundumOre, new Item.Properties().tab(CreativeTabs.end).fireResistant()));
-        registry.register(new ItemFromBlock(corundumBlock, new Item.Properties().tab(CreativeTabs.end).fireResistant()));
+            registerItemHelper(new ItemFromBlock(overworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)), "overworld_exp_ore", helper);
+            registerItemHelper(new ItemFromBlock(deepslateOverworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)), "deepslate_overworld_exp_ore", helper);
+            registerItemHelper(new ItemFromBlock(netherEXPOre, new Item.Properties().tab(CreativeTabs.nether)), "nether_exp_ore", helper);
+            registerItemHelper(new ItemFromBlock(endEXPOre, new Item.Properties().tab(CreativeTabs.end)), "end_exp_ore", helper);
+        });
+    }
 
-        registry.register(new ItemFromBlock(overworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(deepslateOverworldEXPOre, new Item.Properties().tab(CreativeTabs.overworld)));
-        registry.register(new ItemFromBlock(netherEXPOre, new Item.Properties().tab(CreativeTabs.nether)));
-        registry.register(new ItemFromBlock(endEXPOre, new Item.Properties().tab(CreativeTabs.end)));
+    private static void registerBlockHelper(Block blockToRegister, String itemName, RegisterEvent.RegisterHelper<Block> registry){
+        registry.register(new ResourceLocation(Constants.modid, itemName), blockToRegister);
+    }
+
+    private static void registerItemHelper(Item itemToRegister, String itemName, RegisterEvent.RegisterHelper<Item> registry){
+        registry.register(new ResourceLocation(Constants.modid, itemName), itemToRegister);
     }
 }
 

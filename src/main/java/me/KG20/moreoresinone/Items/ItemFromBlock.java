@@ -7,6 +7,5 @@ public class ItemFromBlock extends BlockItem {
 
     public ItemFromBlock(Block block, Properties properties){
         super(block, properties);
-        setRegistryName(block.getRegistryName());
     }
 }

@@ -45,15 +45,15 @@ Details:
 	Exception message: java.lang.UnsupportedOperationException
 Stacktrace:
 	at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:218) ~[guava-21.0.jar:?] {}
-	at me.KG20.moreoresinone.Init.WorldGenerator.addFeaturesToBiome(WorldGenerator.java:167) ~[classes/:?] {re:classloading}
-	at me.KG20.moreoresinone.Init.WorldGenerator.lambda$setup$0(WorldGenerator.java:65) ~[classes/:?] {re:classloading}
+	at me.KG20.moreoresinone.world.feature.OrePlacement.addFeaturesToBiome(WorldGenerator.java:167) ~[classes/:?] {re:classloading}
+	at me.KG20.moreoresinone.world.feature.OrePlacement.lambda$setup$0(WorldGenerator.java:65) ~[classes/:?] {re:classloading}
 	at com.google.common.collect.Maps$KeySet.lambda$forEach$0(Maps.java:3822) ~[guava-21.0.jar:?] {}
 	at com.google.common.collect.HashBiMap$Inverse.lambda$forEach$0(HashBiMap.java:693) ~[guava-21.0.jar:?] {}
 	at com.google.common.collect.HashBiMap.forEach(HashBiMap.java:528) ~[guava-21.0.jar:?] {}
 	at com.google.common.collect.HashBiMap$Inverse.forEach(HashBiMap.java:693) ~[guava-21.0.jar:?] {}
 	at com.google.common.collect.Maps$KeySet.forEach(Maps.java:3822) ~[guava-21.0.jar:?] {}
 	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080) ~[?:1.8.0_211] {}
-	at me.KG20.moreoresinone.Init.WorldGenerator.setup(WorldGenerator.java:54) ~[classes/:?] {re:classloading}
+	at me.KG20.moreoresinone.world.feature.OrePlacement.setup(WorldGenerator.java:54) ~[classes/:?] {re:classloading}
 	at me.KG20.moreoresinone.Proxy.CommonProxy.setup(CommonProxy.java:12) ~[classes/:?] {re:classloading}
 	at me.KG20.moreoresinone.Proxy.ClientProxy.setup(ClientProxy.java:10) ~[classes/:?] {re:classloading}
 	at me.KG20.moreoresinone.Main.MoreOresInONE.setup(MoreOresInONE.java:30) ~[classes/:?] {re:classloading}

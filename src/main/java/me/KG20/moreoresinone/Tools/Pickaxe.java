@@ -1,7 +1,6 @@
 package me.KG20.moreoresinone.Tools;
 
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.Tag;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PickaxeItem;
