@@ -1,5 +1,2 @@
-Build: 1.0 - WED Aug 25 22:33:11 GMT 2021
-	Initial Update to 1.17.1
-	Fixed that Blocks could be destroyed by anything and still drop the correct item
-	Added deepslate variants of ruby, sapphire and experience ores.
-	Updated several textures.
+Build: 1.0 - THU Aug 17 17:21:15 GMT 2023
+	Initial Update to 1.18.2
