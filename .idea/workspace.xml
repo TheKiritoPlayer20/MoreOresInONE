@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ac0b6d-f6b8-4a05-820f-445a962c513f" name="Default Changelist" comment="1.18.2 Ore Generation fixed">
+    <list default="true" id="f5ac0b6d-f6b8-4a05-820f-445a962c513f" name="Default Changelist" comment="1.18.2 Update">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/createMcpToSrg/output.tsrg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createMcpToSrg/output.tsrg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +68,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "1.18.x",
     "last_opened_file_path": "/mnt/Boot/Programme und Spiele/GitHub/GDP-Labor",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -226,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1663505469621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.18.2 Update">
+      <option name="closed" value="true" />
+      <created>1692292909940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692292909940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +244,7 @@
     <MESSAGE value="1.18.2 Ore Generation fixed" />
     <MESSAGE value="1.19.2 Ore Generation Fixed" />
     <MESSAGE value="Config update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config update" />
+    <MESSAGE value="1.18.2 Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.18.2 Update" />
   </component>
 </project>
