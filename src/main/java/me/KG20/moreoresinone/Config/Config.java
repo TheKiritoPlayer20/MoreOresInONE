@@ -6,9 +6,6 @@ public class Config {
 
     public  static ForgeConfigSpec.ConfigValue<String> string;
 
-    //Overworld
-    public static ForgeConfigSpec.BooleanValue every_biome;
-
     //Ruby
     public static ForgeConfigSpec.BooleanValue generate_ruby;
     public static ForgeConfigSpec.IntValue durabilitiy_ruby;
@@ -191,7 +188,6 @@ public class Config {
 
         Builder.pop();
         Builder.push("Overworld");
-        every_biome = Builder.comment("Enable that Rubies and Sapphire's generate in every biome(Default: false).").define("every_biome", false);
         Builder.push("Sapphire Generation");
         generate_sapphire = Builder.comment("Enable the Generation of Sapphire Ore (Default: true).").define("generate_sapphire", true);
         veinsize_sapphire = Builder.comment("Set the Vein Size of the Sapphire Ore (Default: 8).").defineInRange("veinsize_sapphire", 8, 4, 255);

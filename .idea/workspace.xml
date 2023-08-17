@@ -5,59 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5ac0b6d-f6b8-4a05-820f-445a962c513f" name="Default Changelist" comment="1.18.2 Ore Generation fixed">
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/feature/PlacedFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/gen/BiomeModifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/gen/OreBiomeModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_corundum_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_cryorite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_end_experience_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_nether_experience_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_overworld_experience_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_ruby_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_sapphire_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_topaz_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/tags/blocks/replacetest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/tags/worldgen/biome/is_coldbiome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/tags/worldgen/biome/is_cryorite.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/tags/worldgen/biome/is_hotbiome.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/_applyBinpatches_2/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/EndEXPOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/EndEXPOre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/EndOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/EndOres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/NetherEXPOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/NetherEXPOre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/NetherOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/NetherOres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/OverworldEXPOre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/OverworldEXPOre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/OverworldOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Blocks/OverworldOres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Event/EventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Event/EventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterArmor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterArmor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterBlocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/RegisterTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Init/WorldGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Items/ItemFromBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Items/ItemFromBlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Main/MoreOresInONE.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Main/MoreOresInONE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Tools/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Tools/Axe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Tools/Pickaxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Tools/Pickaxe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Tools/Shovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/KG20/moreoresinone/Tools/Shovel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/createMcpToSrg/output.tsrg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createMcpToSrg/output.tsrg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/downloadMCMeta/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMCMeta/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/downloadMcpConfig/output.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMcpConfig/output.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extractSrg/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/extractSrg/output.srg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moreoresinone/lang/fr_fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fml.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/forge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forge-client.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/forge-common.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/forge-common.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2020-09-15_20.01.12-fml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2020-09-15_20.01.12-fml.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2020-09-21_22.29.40-fml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2020-09-21_22.29.40-fml.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2020-09-21_22.40.36-fml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2020-09-21_22.40.36-fml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -65,26 +31,23 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndEXPOre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/EndOres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/ItemBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/ItemBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherEXPOre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/NetherOres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldEXPOre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldEXPOre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Blocks/OverworldOres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Config/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Event/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/RegisterTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Init/WorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/feature/OrePlacement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/ItemFromBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Items/ItemFromBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Main/MoreOresInONE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Main/MoreOresInONE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Pickaxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Pickaxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Shovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/Tools/Shovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/feature/OrePlacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/feature/OrePlacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/feature/PlacedFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/feature/PlacedFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/gen/BiomeModifiers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/KG20/moreoresinone/world/gen/OreBiomeModifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_corundum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_corundum_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_cryorite_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_cryorite_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_end_experience_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_end_experience_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_nether_experience_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_nether_experience_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_overworld_experience_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_overworld_experience_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_ruby_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_ruby_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_sapphire_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_sapphire_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_topaz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/moreoresinone/forge/biome_modifier/add_topaz_ore.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +92,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="1w83uGfE94JtYzukp60sE6ZgQlL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,12 +108,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/src/main/resources/data/moreoresinone/forge/biome_modifier&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1.19.x&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/Boot/Programme und Spiele/GitHub/SuperTools&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/src/main/resources/data/moreoresinone/worldgen/biome/is_cold.json&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/mnt/Boot/Programme und Spiele/GitHub/MoreOresInONE/src/main/resources/data/moreoresinone/worldgen/biome/is_cold.json&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -163,7 +135,7 @@
       <recent name="H:\Programme und Spiele\GitHub\MoreOresInONE\src\main\resources\data\minecraft\tags\blocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.runClient">
+  <component name="RunManager" selected="Gradle.MoreOresInONE [build]">
     <configuration name="MoreOresInONE [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,6 +155,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="MoreOresInONE [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -204,6 +177,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="MoreOresInONE [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -225,6 +199,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <list>
@@ -237,8 +212,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoreOresInONE [genIntellijRuns]" />
         <item itemvalue="Gradle.MoreOresInONE [build]" />
+        <item itemvalue="Gradle.MoreOresInONE [genIntellijRuns]" />
         <item itemvalue="Gradle.MoreOresInONE [runClient]" />
       </list>
     </recent_temporary>
@@ -286,6 +261,12 @@
       <workItem from="1663582319475" duration="1364000" />
       <workItem from="1663605335993" duration="1158000" />
       <workItem from="1663606548352" duration="240000" />
+      <workItem from="1663860690121" duration="48000" />
+      <workItem from="1691535520943" duration="22000" />
+      <workItem from="1691536009682" duration="184000" />
+      <workItem from="1692233782597" duration="4067000" />
+      <workItem from="1692290870188" duration="200000" />
+      <workItem from="1692291073906" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="1.18.2 Ore Generation fixed">
       <created>1663505469621</created>
@@ -305,7 +286,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="1.19.x" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

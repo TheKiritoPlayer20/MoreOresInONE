@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:gravel",
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:granite",
+    "minecraft:dirt",
+    "minecraft:lava",
+    "minecraft:water",
+    "minecraft:obsidian",
+    "minecraft:cobblestone",
+    "minecraft:tuff"
+  ]
+}

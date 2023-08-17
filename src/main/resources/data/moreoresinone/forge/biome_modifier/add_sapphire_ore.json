@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "feature": "moreoresinone:sapphire_ore",
+  "biomes": "#moreoresinone:is_coldbiome",
+  "features": "moreoresinone:sapphire_ore",
   "step": "underground_ores"
 }

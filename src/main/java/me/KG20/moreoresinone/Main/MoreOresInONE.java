@@ -6,8 +6,8 @@ import me.KG20.moreoresinone.Init.*;
 import me.KG20.moreoresinone.Proxy.ClientProxy;
 import me.KG20.moreoresinone.Proxy.CommonProxy;
 import me.KG20.moreoresinone.Tools.BasisToolMaterial;
+import me.KG20.moreoresinone.world.feature.OrePlacement;
 import me.KG20.moreoresinone.world.feature.PlacedFeatures;
-import me.KG20.moreoresinone.world.gen.BiomeModifiers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
@@ -33,15 +33,15 @@ public class MoreOresInONE
 
     public MoreOresInONE(){
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        FMLJavaModLoadingContext.get().getModEventBus().register(this);
-        MinecraftForge.EVENT_BUS.register(this);
+        //FMLJavaModLoadingContext.get().getModEventBus().register(this);
+        //MinecraftForge.EVENT_BUS.register(this);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterArmor.class);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterBlocks.class);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterItems.class);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterTier.class);
         FMLJavaModLoadingContext.get().getModEventBus().register(RegisterTools.class);
-        FMLJavaModLoadingContext.get().getModEventBus().register(BiomeModifiers.class);
-        FMLJavaModLoadingContext.get().getModEventBus().register(PlacedFeatures.class);
+        OrePlacement.CONFIGURED_FEATURES.register(eventBus);
+        PlacedFeatures.PLACED_FEATURES.register(eventBus);
 
 
         MinecraftForge.EVENT_BUS.register(EventHandler.class);

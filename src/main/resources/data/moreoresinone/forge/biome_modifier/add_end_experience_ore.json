@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_end",
-  "feature": "moreoresinone:end_exp_ore",
+  "features": "moreoresinone:end_experience_ore",
   "step": "underground_ores"
 }

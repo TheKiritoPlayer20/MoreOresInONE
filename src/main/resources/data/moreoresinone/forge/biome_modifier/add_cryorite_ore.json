@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "feature": "moreoresinone:cryorite_ore",
+  "biomes": "#moreoresinone:is_cryorite",
+  "features": "moreoresinone:cryorite_ore",
   "step": "underground_ores"
 }

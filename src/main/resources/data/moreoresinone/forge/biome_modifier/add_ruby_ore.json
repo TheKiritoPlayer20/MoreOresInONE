@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "feature": "moreoresinone:ruby_ore",
+  "biomes": "#moreoresinone:is_hotbiome",
+  "features": "moreoresinone:ruby_ore",
   "step": "underground_ores"
 }

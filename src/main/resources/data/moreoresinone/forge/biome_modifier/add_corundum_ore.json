@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_end",
-  "feature": "moreoresinone:corundum_ore",
+  "features": "moreoresinone:corundum_ore",
   "step": "underground_ores"
 }

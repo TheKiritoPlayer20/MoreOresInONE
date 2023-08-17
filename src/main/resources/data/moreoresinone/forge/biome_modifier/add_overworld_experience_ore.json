@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "feature": "moreoresinone:overworld_exp_ore",
+  "features": "moreoresinone:overworld_experience_ore",
   "step": "underground_ores"
 }
